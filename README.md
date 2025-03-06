@@ -13,3 +13,11 @@ A project to get LoCoBot running in 2025 via modified scripts and setup.
 1. Run the `realsense_stream_viewer.py` script to start the Flask server.
 2. Open a web browser and navigate to `http://<your-robot-ip>:5000` to access the RealSense video stream controls.
 3. Use the buttons and slider to change the stream type (RGB, Depth, or Overlay) and adjust the overlay mix.
+
+## Koboki
+This is the "Roomba" part of the robot. I have been able to read the basic data over serial but not control it yet.
+Needs to be finished [Kobuki - User Guide](docs/Kobuki - User Guide.pdf)
+
+### Usage
+1. Run the `koboki.py` script to start the serial connection.
+2. View the sensor data.
