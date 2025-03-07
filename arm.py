@@ -102,6 +102,17 @@ def read_joint_position(joint):
         position, _, _ = packet_handler.read2ByteTxRx(port_handler, JOINT_IDS[joint], ADDR_PRESENT_POSITION)
     return position_to_degrees(position)
 
+def cycle_joint(joint, min_deg, max_deg, start_speed=100, end_speed=1023, cycles=20):
+    """Cycle a joint's position fluidly between min_deg and max_deg 20 times with a speed ramp."""
+    for cycle in range(cycles):
+        # Gradually increase speed
+        current_speed = start_speed + ((end_speed - start_speed) * (cycle / (cycles - 1)))
+        move_joint(joint, min_deg, current_speed)
+        time.sleep(1)  # Optional delay to let it move to the start position
+        move_joint(joint, max_deg, current_speed)
+        time.sleep(1)  # Wait for the joint to reach the max position
+        move_joint(joint, min_deg, current_speed)  # Reverse to the start position
+
 # -------------------- EXECUTION --------------------
 
 if __name__ == "__main__":
@@ -110,6 +121,9 @@ if __name__ == "__main__":
         print("1. Read joint position")
         print("2. Set joint position")
         print("3. Exit")
+        print("4. Get array of angles")
+        print("5. Random")
+        print("6. Cycle Joint")
         choice = input("Select an option: ")
         
         if choice == "1":
@@ -127,6 +141,44 @@ if __name__ == "__main__":
                 print("Invalid joint name.")
         elif choice == "3":
             break
+        elif choice == "4":
+            joints = ["waist", "shoulder", "elbow", "wrist_angle", "wrist_rotate"]
+
+            joint_angles = []
+            for joint in joints:
+                joint_angles.append(read_joint_position(joint))
+            print(joint_angles)
+        elif choice == "5":
+            while True:
+                random_joint_limits = {
+                    "waist": (-90, 90),
+                    "shoulder": (-30, 30),
+                    "elbow": (-20, 20),
+                    "wrist_angle": (0, 123),
+                    "wrist_rotate": (-180, 180),
+                    # "gripper": (-40, 55),  # Gripper in mm
+                }
+
+                joint_name = random.choice(list(random_joint_limits.keys()))
+                joint_range = random_joint_limits[joint_name]
+                random_value = random.uniform(joint_range[0], joint_range[1])
+
+                print(f"Joint: {joint_name}")
+                print(f"Random value: {random_value:.2f}")
+
+                move_joint(joint_name, random_value)
+                time.sleep(0.3)
+        elif choice == "6":
+            joint = input("Enter joint name to cycle: ")
+            if joint in JOINT_IDS:
+                min_deg = int(input("Enter minimum degree: "))
+                max_deg = int(input("Enter maximum degree: "))
+                start_speed = int(input("Enter starting speed (0-1023): "))
+                end_speed = int(input("Enter ending speed (0-1023): "))
+                cycle_joint(joint, min_deg, max_deg, start_speed, end_speed)
+            else:
+                print("Invalid joint name.")
+
         else:
             print("Invalid choice, try again.")
 
