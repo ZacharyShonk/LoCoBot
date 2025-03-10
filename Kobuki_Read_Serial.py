@@ -103,8 +103,18 @@ def decode_payload(payload):
             else:
                 print(f"{key.capitalize()}: {value} ({descriptions.get(key, 'No description available.')})")
 
-    # Call the function to parse and display the sensor data
+    # Check if motors are powered (PWM non-zero means powered)
+    def check_motor_power(left_pwm, right_pwm):
+        if left_pwm != 0 or right_pwm != 0:
+            print("Motors are powered!")
+        else:
+            print("Motors are not powered.")
+
+    # Call the function to parse and display sensor data
     parse_sensor_data(sensor_data)
+
+    # Check if motors are powered
+    check_motor_power(left_pwm, right_pwm)
 
 def read_serial():
     """Read and process serial data."""
@@ -131,6 +141,14 @@ def read_serial():
         if len(packet) >= expected_size:
             payload = parse_packet(packet[:expected_size])
             if payload:
+                # Here we process the motion command
+                if len(payload) == 4:  # Motion command with 2 bytes for linear and 2 bytes for angular velocity
+                    linear_velocity = struct.unpack('<h', payload[:2])[0] / 1000.0  # Convert back from scaled value
+                    angular_velocity = struct.unpack('<h', payload[2:])[0] / 1000.0  # Convert back from scaled value
+
+                    print(f"Motion Command Received:")
+                    print(f"Linear Velocity: {linear_velocity:.2f} m/s")
+                    print(f"Angular Velocity: {angular_velocity:.2f} rad/s")
                 decode_payload(payload)
 
 if __name__ == "__main__":
