@@ -63,7 +63,10 @@ print(f"Serial port opened at {BAUD_RATE} bps.")
 for joint, ids in JOINT_IDS.items():
     if isinstance(ids, tuple):
         for servo_id in ids:
-            packet_handler.write1ByteTxRx(port_handler, servo_id, ADDR_TORQUE_ENABLE, TORQUE_ENABLE)
+            if servo_id == 3:
+                packet_handler.write1ByteTxRx(port_handler, servo_id, ADDR_TORQUE_ENABLE, TORQUE_DISABLE)
+            else:
+                packet_handler.write1ByteTxRx(port_handler, servo_id, ADDR_TORQUE_ENABLE, TORQUE_ENABLE)
     else:
         packet_handler.write1ByteTxRx(port_handler, ids, ADDR_TORQUE_ENABLE, TORQUE_ENABLE)
 print("Arm joints are enabled.")
@@ -76,19 +79,33 @@ def degrees_to_position(degrees):
 def position_to_degrees(position):
     return (position * POSITION_TO_DEGREE) - 180
 
-def move_joint(joint, degrees, speed=100):
+def set_speed(servo_id, speed):
+    print(f"Set servo speed for {servo_id} to {speed}")
+    packet_handler.write4ByteTxRx(port_handler, servo_id, ADDR_GOAL_VELOCITY, int(speed))
+
+def set_position(servo_id, position):
+    print(f"Set servo location for {servo_id} to {position}")
+    packet_handler.write4ByteTxRx(port_handler, servo_id, ADDR_GOAL_POSITION, position)
+
+def move_joint(joint, degrees, speed=500):
     """Move a joint to the specified position in degrees if it's within the allowed range."""
     if joint in JOINT_LIMITS:
         min_deg, max_deg = JOINT_LIMITS[joint]
         if min_deg <= degrees <= max_deg:
             position = degrees_to_position(degrees)
+            speed = max(0, min(speed, 1023))  # Ensure speed is within range
+
             if isinstance(JOINT_IDS[joint], tuple):  # Handle shoulder (dual servo)
                 mirror_position = DYNAMIXEL_MAX - position
-                packet_handler.write4ByteTxRx(port_handler, JOINT_IDS[joint][0], ADDR_GOAL_POSITION, position)
-                packet_handler.write4ByteTxRx(port_handler, JOINT_IDS[joint][1], ADDR_GOAL_POSITION, mirror_position)
+                for servo_id in JOINT_IDS[joint]:
+                    set_speed(servo_id, speed)
+                    set_position(servo_id, position if servo_id == JOINT_IDS[joint][0] else mirror_position)
             else:
-                packet_handler.write4ByteTxRx(port_handler, JOINT_IDS[joint], ADDR_GOAL_POSITION, position)
-            print(f"Joint {joint} moving to {degrees} degrees.")
+                servo_id = JOINT_IDS[joint]
+                set_speed(servo_id, speed)
+                set_position(servo_id, position)
+
+            print(f"Joint {joint} moving to {degrees} degrees at speed {speed}.")
         else:
             print(f"Error: Joint {joint} position {degrees} out of range ({min_deg}-{max_deg}).")
     else:
@@ -103,20 +120,46 @@ def read_joint_position(joint):
     return position_to_degrees(position)
 
 def cycle_joint(joint, min_deg, max_deg, start_speed=100, end_speed=1023, cycles=20):
-    """Cycle a joint's position fluidly between min_deg and max_deg 20 times with a speed ramp."""
+    """Cycle a joint between min_deg and max_deg dynamically, waiting for movement completion."""
     for cycle in range(cycles):
-        # Gradually increase speed
-        current_speed = start_speed + ((end_speed - start_speed) * (cycle / (cycles - 1)))
-        move_joint(joint, min_deg, current_speed)
-        time.sleep(1)  # Optional delay to let it move to the start position
-        move_joint(joint, max_deg, current_speed)
-        time.sleep(1)  # Wait for the joint to reach the max position
-        move_joint(joint, min_deg, current_speed)  # Reverse to the start position
+        current_speed = int(start_speed + ((end_speed - start_speed) * (cycle / (cycles - 1))))
+        min_pos = degrees_to_position(min_deg)
+        max_pos = degrees_to_position(max_deg)
 
+        servo_ids = JOINT_IDS[joint]
+        if isinstance(servo_ids, tuple):  # Handle shoulder (dual servo)
+            for servo_id in servo_ids:
+                packet_handler.write4ByteTxRx(port_handler, servo_id, ADDR_GOAL_VELOCITY, current_speed)
+            packet_handler.write4ByteTxRx(port_handler, servo_ids[0], ADDR_GOAL_POSITION, min_pos)
+            packet_handler.write4ByteTxRx(port_handler, servo_ids[1], ADDR_GOAL_POSITION, DYNAMIXEL_MAX - min_pos)
+            wait_for_movement(servo_ids[0], min_pos)
+        else:
+            packet_handler.write4ByteTxRx(port_handler, servo_ids, ADDR_GOAL_VELOCITY, current_speed)
+            packet_handler.write4ByteTxRx(port_handler, servo_ids, ADDR_GOAL_POSITION, min_pos)
+            wait_for_movement(servo_ids, min_pos)
+
+        packet_handler.write4ByteTxRx(port_handler, servo_ids, ADDR_GOAL_POSITION, max_pos)
+        wait_for_movement(servo_ids, max_pos)
+
+def wait_for_movement(servo_id, target_position, tolerance=10):
+    """Waits until the servo reaches the target position within a tolerance."""
+    while True:
+        current_position, _, _ = packet_handler.read4ByteTxRx(port_handler, servo_id, ADDR_PRESENT_POSITION)
+        if abs(current_position - target_position) <= tolerance:
+            break
+        time.sleep(0.1)  # Check every 50ms
+        
 # -------------------- EXECUTION --------------------
 
 if __name__ == "__main__":
     while True:
+        for servo_id in range(1, 10):  # Adjust range if necessary
+            if True:
+                dxl_model_number, dxl_comm_result, dxl_error = packet_handler.ping(port_handler, servo_id)
+                if dxl_comm_result == COMM_SUCCESS:
+                    print(f"Servo ID {servo_id} is active. Model Number: {dxl_model_number}")
+
+
         print("\nOptions:")
         print("1. Read joint position")
         print("2. Set joint position")
@@ -124,19 +167,21 @@ if __name__ == "__main__":
         print("4. Get array of angles")
         print("5. Random")
         print("6. Cycle Joint")
+        print("7. Zero robot")
         choice = input("Select an option: ")
         
         if choice == "1":
-            joint = input("Enter joint name: ")
+            joint = input("Enter joint name (waist, shoulder, elbow, wrist_angle, wrist_rotate): ")
             if joint in JOINT_IDS:
                 print(f"Joint {joint} position: {read_joint_position(joint)} degrees")
             else:
                 print("Invalid joint name.")
         elif choice == "2":
-            joint = input("Enter joint name: ")
+            joint = input("Enter joint name (waist, shoulder, elbow, wrist_angle, wrist_rotate): ")
             if joint in JOINT_IDS:
                 degrees = int(input("Enter position in degrees: "))
-                move_joint(joint, degrees)
+                speed = int(input("Speed (0-1023) >> "))
+                move_joint(joint, degrees, speed=speed)
             else:
                 print("Invalid joint name.")
         elif choice == "3":
@@ -161,15 +206,17 @@ if __name__ == "__main__":
 
                 joint_name = random.choice(list(random_joint_limits.keys()))
                 joint_range = random_joint_limits[joint_name]
-                random_value = random.uniform(joint_range[0], joint_range[1])
+                random_angle = int(random.uniform(joint_range[0], joint_range[1]))
+                random_speed = int(random.uniform(0, 1023))
 
                 print(f"Joint: {joint_name}")
-                print(f"Random value: {random_value:.2f}")
+                print(f"Random Angle: {random_angle:.2f}")
+                print(f"Random value: {random_speed:.2f}")
 
-                move_joint(joint_name, random_value)
-                time.sleep(0.3)
+                move_joint(joint_name, random_angle, speed=random_speed)
+                time.sleep(1)
         elif choice == "6":
-            joint = input("Enter joint name to cycle: ")
+            joint = input("Enter joint name to cycle (waist, shoulder, elbow, wrist_angle, wrist_rotate): ")
             if joint in JOINT_IDS:
                 min_deg = int(input("Enter minimum degree: "))
                 max_deg = int(input("Enter maximum degree: "))
@@ -178,7 +225,11 @@ if __name__ == "__main__":
                 cycle_joint(joint, min_deg, max_deg, start_speed, end_speed)
             else:
                 print("Invalid joint name.")
+        elif choice == "7":
+            joints = ["waist", "shoulder", "elbow", "wrist_angle", "wrist_rotate"]
 
+            for joint in joints:
+                move_joint(joint, 0)
         else:
             print("Invalid choice, try again.")
 
