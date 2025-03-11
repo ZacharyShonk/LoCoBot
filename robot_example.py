@@ -4,6 +4,8 @@ import cv2
 import time
 from flask import Flask, Response, render_template_string
 import threading
+import pykobuki
+import os
 
 app = Flask(__name__)
 
@@ -29,9 +31,11 @@ with open("coco.names", "r") as f:
 # Detection & Obstacle Avoidance Parameters
 confidence_threshold = 0.5
 nms_threshold = 0.4
-LEFT_THRESHOLD = 0.7
-RIGHT_THRESHOLD = 0.7
-CENTER_THRESHOLD = 0.5
+LEFT_THRESHOLD = 1
+RIGHT_THRESHOLD = 1
+CENTER_THRESHOLD = 0.7
+
+ROBOT_SPEED = 1/4
 
 # Movement control toggle (default OFF)
 movement_enabled = False  
@@ -98,36 +102,47 @@ def get_depth():
     _, depth_encoded = cv2.imencode('.jpg', depth_colored, [cv2.IMWRITE_JPEG_QUALITY, 50])
     return depth_encoded
 
-def obstacle_avoidance(): # ROBOT CODE GOES HERE
+def obstacle_avoidance():
     global movement_enabled
     while True:
         if not movement_enabled:
+            robot.move(0, 0)
             time.sleep(0.1)
             continue
 
         frames = pipeline.wait_for_frames()
         depth_frame = frames.get_depth_frame()
-        depth_data = np.asanyarray(depth_frame.get_data())
+        depth_data = np.asanyarray(depth_frame.get_data()) / 1000.0  # Convert mm to meters
 
         height, width = depth_data.shape
-        left_region = depth_data[:, :width // 3] / 1000.0
-        right_region = depth_data[:, 2 * width // 3:] / 1000.0
-        center_region = depth_data[:, width // 3:2 * width // 3] / 1000.0
+        left_region = depth_data[:, :width // 3]
+        right_region = depth_data[:, 2 * width // 3:]
+        center_region = depth_data[:, width // 3:2 * width // 3]
 
-        left_avg = np.mean(left_region[left_region > 0])
-        right_avg = np.mean(right_region[right_region > 0])
-        center_avg = np.mean(center_region[center_region > 0])
+        def get_filtered_distance(region):
+            valid_values = region[region > 0]  # Remove invalid (zero) depth readings
+            if valid_values.size == 0:
+                return float('inf')  # No valid depth, assume no obstacle
+            return np.percentile(valid_values, 10)  # Use 10th percentile to reduce noise
 
-        print(f"Left: {left_avg:.2f} m, Right: {right_avg:.2f} m, Center: {center_avg:.2f} m")
+        left_dist = get_filtered_distance(left_region)
+        right_dist = get_filtered_distance(right_region)
+        center_dist = get_filtered_distance(center_region)
 
-        if center_avg < CENTER_THRESHOLD:
+        print(f"Left: {left_dist:.2f} m, Right: {right_dist:.2f} m, Center: {center_dist:.2f} m")
+
+        if center_dist < CENTER_THRESHOLD:
             print("Obstacle ahead! Stopping!")
-        elif left_avg < LEFT_THRESHOLD:
+            robot.move(0, 0)
+        elif left_dist < LEFT_THRESHOLD:
             print("Obstacle on left! Turning right!")
-        elif right_avg < RIGHT_THRESHOLD:
+            robot.move(ROBOT_SPEED, -1)
+        elif right_dist < RIGHT_THRESHOLD:
             print("Obstacle on right! Turning left!")
+            robot.move(ROBOT_SPEED, 1)
         else:
             print("Path clear! Moving forward!")
+            robot.move(ROBOT_SPEED, 0)
 
         time.sleep(0.1)
 
@@ -180,5 +195,7 @@ def start_flask():
 flask_thread = threading.Thread(target=start_flask)
 flask_thread.daemon = True
 flask_thread.start()
+
+robot = pykobuki.Kobuki("/dev/kobuki")
 
 obstacle_avoidance()
