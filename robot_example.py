@@ -1,8 +1,8 @@
+from flask import Flask, Response, render_template_string, request
 import pyrealsense2 as rs
 import numpy as np
 import cv2
 import time
-from flask import Flask, Response, render_template_string
 import threading
 import pykobuki
 import os
@@ -29,7 +29,7 @@ with open("coco.names", "r") as f:
     classes = f.read().strip().split("\n")
 
 # Detection & Obstacle Avoidance Parameters
-confidence_threshold = 0.5
+confidence_threshold = 0.3
 nms_threshold = 0.4
 LEFT_THRESHOLD = 1
 RIGHT_THRESHOLD = 1
@@ -39,6 +39,18 @@ ROBOT_SPEED = 1/4
 
 # Movement control toggle (default OFF)
 movement_enabled = False  
+
+def adjust_thresholds_for_speed():
+    global LEFT_THRESHOLD, RIGHT_THRESHOLD, CENTER_THRESHOLD
+    # Increase thresholds as speed increases
+    if ROBOT_SPEED > 0.5:
+        CENTER_THRESHOLD = 1.0  # Increase detection distance
+        LEFT_THRESHOLD = 1.2
+        RIGHT_THRESHOLD = 1.2
+    else:
+        CENTER_THRESHOLD = 0.7  # Default detection distance
+        LEFT_THRESHOLD = 1.0
+        RIGHT_THRESHOLD = 1.0
 
 def get_rgb():
     frames = pipeline.wait_for_frames()
@@ -103,8 +115,10 @@ def get_depth():
     return depth_encoded
 
 def obstacle_avoidance():
-    global movement_enabled
+    global movement_enabled, ROBOT_SPEED
     while True:
+        adjust_thresholds_for_speed()  # Adjust thresholds based on speed
+
         if not movement_enabled:
             robot.move(0, 0)
             time.sleep(0.1)
@@ -115,9 +129,10 @@ def obstacle_avoidance():
         depth_data = np.asanyarray(depth_frame.get_data()) / 1000.0  # Convert mm to meters
 
         height, width = depth_data.shape
-        left_region = depth_data[:, :width // 3]
-        right_region = depth_data[:, 2 * width // 3:]
-        center_region = depth_data[:, width // 3:2 * width // 3]
+        # Adjust the width percentages to focus more on the center
+        left_region = depth_data[:, int(width * 0.1):int(width * 0.3)]  # Smaller left region (10%-30%)
+        right_region = depth_data[:, int(width * 0.7):int(width * 0.9)]  # Smaller right region (70%-90%)
+        center_region = depth_data[:, int(width * 0.3):int(width * 0.7)]  # Center region (30%-70%)
 
         def get_filtered_distance(region):
             valid_values = region[region > 0]  # Remove invalid (zero) depth readings
@@ -133,7 +148,7 @@ def obstacle_avoidance():
 
         if center_dist < CENTER_THRESHOLD:
             print("Obstacle ahead! Stopping!")
-            robot.move(0, 0)
+            robot.move(0, -1)
         elif left_dist < LEFT_THRESHOLD:
             print("Obstacle on left! Turning right!")
             robot.move(ROBOT_SPEED, -1)
@@ -160,6 +175,29 @@ def video_feed():
             yield (b'--frame\r\nContent-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
     return Response(stream_video(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
+@app.route('/set_speed')
+def set_speed():
+    global ROBOT_SPEED
+    try:
+        speed = float(request.args.get('speed'))
+        ROBOT_SPEED = speed
+        return f"Speed set to {ROBOT_SPEED} m/s"
+    except ValueError:
+        return "Invalid speed value", 400
+
+@app.route('/control')
+def control():
+    action = request.args.get('action')
+    if action == "w":
+        robot.move(ROBOT_SPEED, 0)  # Move forward
+    elif action == "a":
+        robot.move(0, 1)  # Turn left
+    elif action == "s":
+        robot.move(-ROBOT_SPEED, 0)  # Move backward
+    elif action == "d":
+        robot.move(0, -1)  # Turn right
+    return f"Robot action {action}"
+
 html_code = """
 <!DOCTYPE html>
 <html>
@@ -169,6 +207,7 @@ html_code = """
         body { font-family: Arial, sans-serif; text-align: center; }
         img { width: 80%; border: 2px solid black; }
         button { margin-top: 20px; padding: 10px 20px; font-size: 18px; }
+        input[type="range"] { width: 60%; }
     </style>
 </head>
 <body>
@@ -176,10 +215,36 @@ html_code = """
     <img src="{{ url_for('video_feed') }}" alt="Video Feed">
     <br>
     <button onclick="toggleMovement()">Toggle Obstacle Avoidance</button>
+    <br><br>
+    <label for="speedSlider">Robot Speed: <span id="speedValue">0.25</span> m/s</label>
+    <input type="range" id="speedSlider" min="0.1" max="1.0" step="0.05" value="0.25" oninput="updateSpeed()">
+    
+    <br><br>
+    <h2>Control Robot</h2>
+    <p>Use the following keys to control the robot:</p>
+    <ul>
+        <li><b>W</b>: Move Forward</li>
+        <li><b>A</b>: Turn Left</li>
+        <li><b>S</b>: Move Backward</li>
+        <li><b>D</b>: Turn Right</li>
+    </ul>
+
     <script>
         function toggleMovement() {
             fetch('/toggle_movement').then(response => response.text()).then(alert);
         }
+
+        function updateSpeed() {
+            const speed = document.getElementById('speedSlider').value;
+            document.getElementById('speedValue').textContent = speed;
+            fetch(`/set_speed?speed=${speed}`);
+        }
+
+        document.addEventListener("keydown", function(event) {
+            if (event.key === "w" || event.key === "a" || event.key === "s" || event.key === "d") {
+                fetch(`/control?action=${event.key}`);
+            }
+        });
     </script>
 </body>
 </html>
