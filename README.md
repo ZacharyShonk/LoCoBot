@@ -5,7 +5,7 @@ A project to get LoCoBot running in 2025 via modified scripts and setup.
 In this repository there is a "setup.py" and "KobukiSetup.sh" file. Both of these files will help with setting up the robot.
 
 ### Step 1:
-  If you are using a standard _LoCobot_ with a camera, the kobuki, and the mini computer make sure that you ahve ubuntu 20.0.4 installed on the computer and setup SSH.
+  If you are using a standard _LoCobot_ with a camera, the kobuki, and the mini computer make sure that you have ubuntu 20.0.4 installed on the computer and setup SSH.
   Refer to [Ubuntu SSH Documentation](https://documentation.ubuntu.com/server/how-to/security/openssh-server/index.html) for the setup process. On your main computer use "Visual Studio Code" and the Microsoft Remote Development extension to remotely connect to your robot.   From here you want to move onto Step 2.
 ### Step 2:
   Install the files (run.txt, setup.py, pykobuki.cpp, KobukiSetup.sh, coco.names, and robot_example.py) from our repo. These files will allow you to interact with the robot, and code your own actions for it. Now that they are installed pull them into a folder in
