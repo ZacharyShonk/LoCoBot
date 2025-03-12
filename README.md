@@ -21,12 +21,3 @@ In this repository there is a "setup.py" and "KobukiSetup.sh" file. Both of thes
     S - Backwards
     D - Turn Right
   If everything is working and there arent errors then you can make your own Python file and make your own robot actions.
-
-## Koboki
-This is the "Roomba" part of the robot. I have been able to read the basic data over serial but not control it yet.
-Needs to be finished [Kobuki - User Guide](docs/Kobuki%20-%20User%20Guide.pdf).
-More information on the protocol found at [Appendix Protocol Specification](https://yujinrobot.github.io/kobuki/enAppendixProtocolSpecification.html)
-
-### Usage
-1. Run the `koboki.py` script to start the serial connection.
-2. View the sensor data.
