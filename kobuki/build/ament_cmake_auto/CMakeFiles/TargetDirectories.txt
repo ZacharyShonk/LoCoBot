@@ -1,0 +1,8 @@
+/home/locobot/Documents/kobuki/build/ament_cmake_auto/CMakeFiles/install/local.dir
+/home/locobot/Documents/kobuki/build/ament_cmake_auto/CMakeFiles/install.dir
+/home/locobot/Documents/kobuki/build/ament_cmake_auto/CMakeFiles/list_install_components.dir
+/home/locobot/Documents/kobuki/build/ament_cmake_auto/CMakeFiles/rebuild_cache.dir
+/home/locobot/Documents/kobuki/build/ament_cmake_auto/CMakeFiles/edit_cache.dir
+/home/locobot/Documents/kobuki/build/ament_cmake_auto/CMakeFiles/test.dir
+/home/locobot/Documents/kobuki/build/ament_cmake_auto/CMakeFiles/ament_cmake_auto_uninstall.dir
+/home/locobot/Documents/kobuki/build/ament_cmake_auto/CMakeFiles/uninstall.dir

@@ -1,0 +1,3 @@
+source;share/ecl_linear_algebra/environment/ament_prefix_path.sh
+source;share/ecl_linear_algebra/environment/library_path.sh
+source;share/ecl_linear_algebra/environment/path.sh

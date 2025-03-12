@@ -1,0 +1,3 @@
+source;share/ecl_filesystem/environment/ament_prefix_path.sh
+source;share/ecl_filesystem/environment/library_path.sh
+source;share/ecl_filesystem/environment/path.sh

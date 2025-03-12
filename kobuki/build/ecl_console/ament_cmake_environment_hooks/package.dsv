@@ -1,0 +1,4 @@
+source;share/ecl_console/local_setup.bash
+source;share/ecl_console/local_setup.dsv
+source;share/ecl_console/local_setup.sh
+source;share/ecl_console/local_setup.zsh

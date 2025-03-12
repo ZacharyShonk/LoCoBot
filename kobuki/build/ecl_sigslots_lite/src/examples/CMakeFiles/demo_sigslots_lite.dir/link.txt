@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/demo_sigslots_lite.dir/sigslots.cpp.o  -o demo_sigslots_lite  -Wl,-rpath,/home/locobot/Documents/kobuki/install/lib: /home/locobot/Documents/kobuki/install/lib/libecl_errors.so.1.1.0 

@@ -1,0 +1,28 @@
+Not searching for unused variables given on the command line.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/sophus
+[100%] Built target HelloSO3
+-- Install configuration: "Release"
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/sophus/cmake/SophusTargets.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/sophus/cmake/SophusConfig.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/sophus/cmake/SophusConfigVersion.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/average.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/common.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/geometry.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/interpolate.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/interpolate_details.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/num_diff.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/rotation_matrix.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/rxso2.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/rxso3.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/se2.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/se3.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/sim2.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/sim3.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/sim_details.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/so2.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/so3.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/types.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/velocities.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/formatstring.hpp

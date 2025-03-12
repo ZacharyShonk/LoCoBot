@@ -1,0 +1,37 @@
+[1.296s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_cppcheck': PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_cppcheck/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/locobot/Documents/kobuki/build/ament_cppcheck/build install --record /home/locobot/Documents/kobuki/build/ament_cppcheck/install.log --single-version-externally-managed install_data
+[1.722s] running egg_info
+[1.724s] creating ../../../build/ament_cppcheck/ament_cppcheck.egg-info
+[1.725s] writing ../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[1.726s] writing dependency_links to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[1.726s] writing entry points to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[1.727s] writing requirements to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[1.728s] writing top-level names to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[1.728s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[1.817s] reading manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[1.817s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[1.817s] running build
+[1.818s] running build_py
+[1.818s] creating /home/locobot/Documents/kobuki/build/ament_cppcheck/build
+[1.818s] creating /home/locobot/Documents/kobuki/build/ament_cppcheck/build/lib
+[1.818s] creating /home/locobot/Documents/kobuki/build/ament_cppcheck/build/lib/ament_cppcheck
+[1.818s] copying ament_cppcheck/__init__.py -> /home/locobot/Documents/kobuki/build/ament_cppcheck/build/lib/ament_cppcheck
+[1.819s] copying ament_cppcheck/main.py -> /home/locobot/Documents/kobuki/build/ament_cppcheck/build/lib/ament_cppcheck
+[1.819s] running install
+[1.819s] running install_lib
+[1.819s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cppcheck
+[1.819s] copying /home/locobot/Documents/kobuki/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cppcheck
+[1.819s] copying /home/locobot/Documents/kobuki/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cppcheck
+[1.819s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cppcheck/__init__.py to __init__.cpython-38.pyc
+[1.822s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cppcheck/main.py to main.cpython-38.pyc
+[1.828s] running install_data
+[1.828s] copying package.xml -> /home/locobot/Documents/kobuki/install/share/ament_cppcheck
+[1.828s] creating /home/locobot/Documents/kobuki/install/share/ament_index
+[1.828s] creating /home/locobot/Documents/kobuki/install/share/ament_index/resource_index
+[1.829s] creating /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages
+[1.829s] copying resource/ament_cppcheck -> /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages
+[1.829s] running install_egg_info
+[1.829s] Copying ../../../build/ament_cppcheck/ament_cppcheck.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cppcheck-0.9.8-py3.8.egg-info
+[1.829s] running install_scripts
+[1.861s] Installing ament_cppcheck script to /home/locobot/Documents/kobuki/install/bin
+[1.862s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_cppcheck/install.log'
+[1.949s] Invoked command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_cppcheck' returned '0': PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_cppcheck/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/locobot/Documents/kobuki/build/ament_cppcheck/build install --record /home/locobot/Documents/kobuki/build/ament_cppcheck/install.log --single-version-externally-managed install_data

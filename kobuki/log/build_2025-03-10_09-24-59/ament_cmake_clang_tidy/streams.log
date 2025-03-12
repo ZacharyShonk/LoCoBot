@@ -1,0 +1,33 @@
+[0.195s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_lint/ament_cmake_clang_tidy -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.211s] Not searching for unused variables given on the command line.
+[0.214s] -- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+[0.267s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.566s] -- Found ament_cmake_test: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake)
+[0.675s] -- Configuring done
+[0.676s] -- Generating done
+[0.678s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy
+[0.682s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_lint/ament_cmake_clang_tidy -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.683s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy -- -j4 -l4
+[0.855s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy -- -j4 -l4
+[0.860s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy
+[0.883s] -- Install configuration: ""
+[0.883s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_clang_tidy
+[0.884s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_clang_tidy
+[0.884s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/environment/ament_prefix_path.sh
+[0.884s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/environment/ament_prefix_path.dsv
+[0.884s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/environment/path.sh
+[0.884s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/environment/path.dsv
+[0.884s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/local_setup.bash
+[0.884s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/local_setup.sh
+[0.884s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/local_setup.zsh
+[0.884s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/local_setup.dsv
+[0.885s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/package.dsv
+[0.914s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_clang_tidy
+[0.914s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidy-extras.cmake
+[0.914s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidyConfig.cmake
+[0.914s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidyConfig-version.cmake
+[0.915s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/package.xml
+[0.915s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/cmake
+[0.915s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidy_lint_hook.cmake
+[0.915s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_clang_tidy.cmake
+[0.915s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_clang_tidy

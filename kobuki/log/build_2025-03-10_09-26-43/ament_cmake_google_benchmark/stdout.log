@@ -1,0 +1,41 @@
+Re-run cmake no build system arguments
+-- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_cmake_python: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_python/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_google_benchmark
+/usr/bin/cmake -S/home/locobot/Documents/kobuki/src/ament_cmake/ament_cmake_google_benchmark -B/home/locobot/Documents/kobuki/build/ament_cmake_google_benchmark --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ament_cmake_google_benchmark/CMakeFiles /home/locobot/Documents/kobuki/build/ament_cmake_google_benchmark/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/locobot/Documents/kobuki/build/ament_cmake_google_benchmark'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/locobot/Documents/kobuki/build/ament_cmake_google_benchmark'
+/usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ament_cmake_google_benchmark/CMakeFiles 0
+-- Install configuration: ""
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/environment/pythonpath.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/environment/pythonpath.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark
+-- Up-to-date: /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark/__init__.py
+Listing '/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark'...
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_google_benchmark
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_google_benchmark
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/environment/path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/environment/path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/local_setup.bash
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/local_setup.sh
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/local_setup.zsh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/local_setup.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/package.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_google_benchmark
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmark-extras.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmarkConfig.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmarkConfig-version.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/package.xml
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/cmake/run_and_convert.py
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark_test.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark_executable.cmake

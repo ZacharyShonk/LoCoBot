@@ -1,0 +1,66 @@
+Re-run cmake no build system arguments
+-- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+-- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+-- Found ecl_converters: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_converters/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_formatters
+/usr/bin/cmake -S/home/locobot/Documents/kobuki/src/ecl_core/ecl_formatters -B/home/locobot/Documents/kobuki/build/ecl_formatters --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ecl_formatters/CMakeFiles /home/locobot/Documents/kobuki/build/ecl_formatters/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+/usr/bin/make -f src/lib/CMakeFiles/ecl_formatters.dir/build.make src/lib/CMakeFiles/ecl_formatters.dir/depend
+make[2]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+cd /home/locobot/Documents/kobuki/build/ecl_formatters && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/locobot/Documents/kobuki/src/ecl_core/ecl_formatters /home/locobot/Documents/kobuki/src/ecl_core/ecl_formatters/src/lib /home/locobot/Documents/kobuki/build/ecl_formatters /home/locobot/Documents/kobuki/build/ecl_formatters/src/lib /home/locobot/Documents/kobuki/build/ecl_formatters/src/lib/CMakeFiles/ecl_formatters.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+/usr/bin/make -f src/lib/CMakeFiles/ecl_formatters.dir/build.make src/lib/CMakeFiles/ecl_formatters.dir/build
+make[2]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+make[2]: Nothing to be done for 'src/lib/CMakeFiles/ecl_formatters.dir/build'.
+make[2]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+[ 50%] Built target ecl_formatters
+/usr/bin/make -f src/examples/CMakeFiles/ecl_demo_formatters.dir/build.make src/examples/CMakeFiles/ecl_demo_formatters.dir/depend
+make[2]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+cd /home/locobot/Documents/kobuki/build/ecl_formatters && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/locobot/Documents/kobuki/src/ecl_core/ecl_formatters /home/locobot/Documents/kobuki/src/ecl_core/ecl_formatters/src/examples /home/locobot/Documents/kobuki/build/ecl_formatters /home/locobot/Documents/kobuki/build/ecl_formatters/src/examples /home/locobot/Documents/kobuki/build/ecl_formatters/src/examples/CMakeFiles/ecl_demo_formatters.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+/usr/bin/make -f src/examples/CMakeFiles/ecl_demo_formatters.dir/build.make src/examples/CMakeFiles/ecl_demo_formatters.dir/build
+make[2]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+make[2]: Nothing to be done for 'src/examples/CMakeFiles/ecl_demo_formatters.dir/build'.
+make[2]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+[100%] Built target ecl_demo_formatters
+make[1]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_formatters'
+/usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ecl_formatters/CMakeFiles 0
+-- Install configuration: ""
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/library_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/library_path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_formatters
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_formatters
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/local_setup.bash
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/local_setup.sh
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/local_setup.zsh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/local_setup.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/package.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_formatters
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ecl_formattersExport.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ecl_formattersExport-noconfig.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ecl_formattersConfig.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ecl_formattersConfig-version.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_formatters/package.xml
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/formatters.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/formatters/common.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/formatters/floats.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/formatters/macros.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/formatters/number.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/formatters/strings.hpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libecl_formatters.so.1.2.1
+-- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libecl_formatters.so
+-- Up-to-date: /home/locobot/Documents/kobuki/install/lib/ecl_formatters/demo_formatters

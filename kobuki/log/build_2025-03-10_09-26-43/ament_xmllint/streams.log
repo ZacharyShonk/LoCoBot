@@ -1,0 +1,21 @@
+[1.804s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_xmllint': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_xmllint/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_xmllint build --build-base /home/locobot/Documents/kobuki/build/ament_xmllint/build install --record /home/locobot/Documents/kobuki/build/ament_xmllint/install.log --single-version-externally-managed install_data
+[2.103s] running egg_info
+[2.104s] writing ../../../build/ament_xmllint/ament_xmllint.egg-info/PKG-INFO
+[2.105s] writing dependency_links to ../../../build/ament_xmllint/ament_xmllint.egg-info/dependency_links.txt
+[2.105s] writing entry points to ../../../build/ament_xmllint/ament_xmllint.egg-info/entry_points.txt
+[2.105s] writing requirements to ../../../build/ament_xmllint/ament_xmllint.egg-info/requires.txt
+[2.105s] writing top-level names to ../../../build/ament_xmllint/ament_xmllint.egg-info/top_level.txt
+[2.155s] reading manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[2.155s] writing manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[2.155s] running build
+[2.156s] running build_py
+[2.156s] running install
+[2.156s] running install_lib
+[2.156s] running install_data
+[2.156s] running install_egg_info
+[2.157s] removing '/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_xmllint-0.9.8-py3.8.egg-info' (and everything under it)
+[2.162s] Copying ../../../build/ament_xmllint/ament_xmllint.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_xmllint-0.9.8-py3.8.egg-info
+[2.168s] running install_scripts
+[2.189s] Installing ament_xmllint script to /home/locobot/Documents/kobuki/install/bin
+[2.189s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_xmllint/install.log'
+[2.303s] Invoked command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_xmllint' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_xmllint/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_xmllint build --build-base /home/locobot/Documents/kobuki/build/ament_xmllint/build install --record /home/locobot/Documents/kobuki/build/ament_xmllint/install.log --single-version-externally-managed install_data

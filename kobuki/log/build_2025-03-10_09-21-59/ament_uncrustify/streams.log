@@ -1,0 +1,21 @@
+[1.364s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_uncrustify': PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_uncrustify/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/locobot/Documents/kobuki/build/ament_uncrustify/build install --record /home/locobot/Documents/kobuki/build/ament_uncrustify/install.log --single-version-externally-managed install_data
+[1.797s] running egg_info
+[1.797s] writing ../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[1.814s] writing dependency_links to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[1.814s] writing entry points to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[1.814s] writing requirements to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[1.814s] writing top-level names to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[1.883s] reading manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[1.885s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[1.885s] running build
+[1.885s] running build_py
+[1.885s] running install
+[1.888s] running install_lib
+[1.889s] running install_data
+[1.889s] running install_egg_info
+[1.906s] removing '/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify-0.9.8-py3.8.egg-info' (and everything under it)
+[1.906s] Copying ../../../build/ament_uncrustify/ament_uncrustify.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify-0.9.8-py3.8.egg-info
+[1.906s] running install_scripts
+[1.928s] Installing ament_uncrustify script to /home/locobot/Documents/kobuki/install/bin
+[1.928s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_uncrustify/install.log'
+[1.983s] Invoked command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_uncrustify' returned '0': PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_uncrustify/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/locobot/Documents/kobuki/build/ament_uncrustify/build install --record /home/locobot/Documents/kobuki/build/ament_uncrustify/install.log --single-version-externally-managed install_data

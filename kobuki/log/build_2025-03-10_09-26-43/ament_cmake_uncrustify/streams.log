@@ -1,0 +1,40 @@
+[0.190s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_uncrustify': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_lint/ament_cmake_uncrustify -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.207s] Re-run cmake no build system arguments
+[0.208s] -- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+[0.226s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.434s] -- Found ament_cmake_test: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake)
+[0.556s] -- Configuring done
+[0.557s] -- Generating done
+[0.558s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_uncrustify
+[0.563s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_lint/ament_cmake_uncrustify -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.564s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_uncrustify': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_uncrustify -- -j4 -l4
+[0.599s] /usr/bin/cmake -S/home/locobot/Documents/kobuki/src/ament_lint/ament_cmake_uncrustify -B/home/locobot/Documents/kobuki/build/ament_cmake_uncrustify --check-build-system CMakeFiles/Makefile.cmake 0
+[0.626s] /usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ament_cmake_uncrustify/CMakeFiles /home/locobot/Documents/kobuki/build/ament_cmake_uncrustify/CMakeFiles/progress.marks
+[0.647s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[0.661s] make[1]: Entering directory '/home/locobot/Documents/kobuki/build/ament_cmake_uncrustify'
+[0.661s] make[1]: Nothing to be done for 'all'.
+[0.661s] make[1]: Leaving directory '/home/locobot/Documents/kobuki/build/ament_cmake_uncrustify'
+[0.662s] /usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ament_cmake_uncrustify/CMakeFiles 0
+[0.712s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_uncrustify -- -j4 -l4
+[0.714s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_uncrustify': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_uncrustify
+[0.744s] -- Install configuration: ""
+[0.744s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_uncrustify
+[0.744s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_uncrustify
+[0.744s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/environment/ament_prefix_path.sh
+[0.744s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/environment/ament_prefix_path.dsv
+[0.745s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/environment/path.sh
+[0.745s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/environment/path.dsv
+[0.745s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/local_setup.bash
+[0.745s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/local_setup.sh
+[0.745s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/local_setup.zsh
+[0.745s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/local_setup.dsv
+[0.745s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/package.dsv
+[0.745s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_uncrustify
+[0.746s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify-extras.cmake
+[0.746s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustifyConfig.cmake
+[0.746s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustifyConfig-version.cmake
+[0.746s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/package.xml
+[0.746s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/cmake
+[0.746s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_uncrustify.cmake
+[0.746s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake
+[0.764s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_uncrustify

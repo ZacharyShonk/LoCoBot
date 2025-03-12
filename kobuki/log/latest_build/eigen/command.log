@@ -1,0 +1,6 @@
+Invoking command in '/home/locobot/Documents/kobuki/build/eigen': /usr/bin/cmake /home/locobot/Documents/kobuki/src/eigen -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=OFF -DEIGEN_TEST_NOQT=ON -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+Invoked command in '/home/locobot/Documents/kobuki/build/eigen' returned '0': /usr/bin/cmake /home/locobot/Documents/kobuki/src/eigen -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=OFF -DEIGEN_TEST_NOQT=ON -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+Invoking command in '/home/locobot/Documents/kobuki/build/eigen': /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/eigen -- -j4 -l4
+Invoked command in '/home/locobot/Documents/kobuki/build/eigen' returned '0': /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/eigen -- -j4 -l4
+Invoking command in '/home/locobot/Documents/kobuki/build/eigen': /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/eigen
+Invoked command in '/home/locobot/Documents/kobuki/build/eigen' returned '0': /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/eigen

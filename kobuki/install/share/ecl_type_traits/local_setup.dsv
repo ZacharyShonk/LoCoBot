@@ -1,0 +1,3 @@
+source;share/ecl_type_traits/environment/ament_prefix_path.sh
+source;share/ecl_type_traits/environment/library_path.sh
+source;share/ecl_type_traits/environment/path.sh

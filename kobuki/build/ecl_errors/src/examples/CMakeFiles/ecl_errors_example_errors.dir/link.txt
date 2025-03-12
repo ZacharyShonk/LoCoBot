@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/ecl_errors_example_errors.dir/errors.cpp.o  -o demo_errors  -Wl,-rpath,/home/locobot/Documents/kobuki/build/ecl_errors/src/lib: ../lib/libecl_errors.so.1.1.0 

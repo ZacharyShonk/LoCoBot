@@ -1,0 +1,12 @@
+CMake Warning (dev) in CMakeLists.txt:
+  A logical block opening on the line
+
+    /home/locobot/Documents/kobuki/src/eigen/CMakeLists.txt:465 (if)
+
+  closes on the line
+
+    /home/locobot/Documents/kobuki/src/eigen/CMakeLists.txt:473 (endif)
+
+  with mis-matching arguments.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

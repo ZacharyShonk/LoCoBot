@@ -1,0 +1,36 @@
+[0.291s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_ros': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_cmake_ros/ament_cmake_ros -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.312s] Not searching for unused variables given on the command line.
+[0.312s] -- Found ament_cmake: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake/cmake)
+[0.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.659s] -- Configuring done
+[0.659s] -- Generating done
+[0.659s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_ros
+[0.659s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_ros' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_cmake_ros/ament_cmake_ros -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.660s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_ros': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_ros -- -j4 -l4
+[0.727s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_ros' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_ros -- -j4 -l4
+[0.731s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_ros': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_ros
+[0.737s] -- Install configuration: ""
+[0.737s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_ros
+[0.737s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_ros
+[0.737s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/environment/ament_prefix_path.sh
+[0.738s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/environment/ament_prefix_path.dsv
+[0.738s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/environment/path.sh
+[0.738s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/environment/path.dsv
+[0.738s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/local_setup.bash
+[0.738s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/local_setup.sh
+[0.738s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/local_setup.zsh
+[0.738s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/local_setup.dsv
+[0.738s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/package.dsv
+[0.738s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_ros
+[0.738s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake/ament_cmake_rosConfig-version.cmake
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/package.xml
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake/ament_add_ros_isolated_pytest.cmake
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake/ament_add_ros_isolated_gtest.cmake
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake/build_shared_libs.cmake
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake/ament_add_ros_isolated_gmock.cmake
+[0.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake/run_test_isolated.py
+[0.747s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_ros' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_ros

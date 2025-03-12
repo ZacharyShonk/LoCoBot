@@ -1,0 +1,34 @@
+[0.019s] Invoking command in '/home/locobot/Documents/kobuki/build/sophus': CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/sophus -DBUILD_TESTING=OFF --no-warn-unused-cli -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.054s] Not searching for unused variables given on the command line.
+[0.106s] -- Configuring done
+[0.107s] -- Generating done
+[0.107s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/sophus
+[0.123s] Invoked command in '/home/locobot/Documents/kobuki/build/sophus' returned '0': CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/sophus -DBUILD_TESTING=OFF --no-warn-unused-cli -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.132s] Invoking command in '/home/locobot/Documents/kobuki/build/sophus': CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/sophus -- -j4 -l4
+[0.293s] [100%] Built target HelloSO3
+[0.381s] Invoked command in '/home/locobot/Documents/kobuki/build/sophus' returned '0': CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/sophus -- -j4 -l4
+[0.384s] Invoking command in '/home/locobot/Documents/kobuki/build/sophus': CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/sophus
+[0.406s] -- Install configuration: "Release"
+[0.406s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/sophus/cmake/SophusTargets.cmake
+[0.406s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/sophus/cmake/SophusConfig.cmake
+[0.406s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/sophus/cmake/SophusConfigVersion.cmake
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/average.hpp
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/common.hpp
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/geometry.hpp
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/interpolate.hpp
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/interpolate_details.hpp
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/num_diff.hpp
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/rotation_matrix.hpp
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/rxso2.hpp
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/rxso3.hpp
+[0.407s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/se2.hpp
+[0.408s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/se3.hpp
+[0.408s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/sim2.hpp
+[0.408s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/sim3.hpp
+[0.408s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/sim_details.hpp
+[0.408s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/so2.hpp
+[0.408s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/so3.hpp
+[0.408s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/types.hpp
+[0.408s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/velocities.hpp
+[0.408s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/sophus/formatstring.hpp
+[0.618s] Invoked command in '/home/locobot/Documents/kobuki/build/sophus' returned '0': CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/sophus

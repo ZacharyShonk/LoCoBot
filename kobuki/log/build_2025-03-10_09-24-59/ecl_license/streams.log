@@ -1,0 +1,35 @@
+[0.354s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_license': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_tools/ecl_license -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.384s] Not searching for unused variables given on the command line.
+[0.404s] -- Found ament_cmake: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake/cmake)
+[0.421s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.915s] -- Configuring done
+[0.918s] -- Generating done
+[0.925s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_license
+[0.976s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_license' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_tools/ecl_license -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.977s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_license': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_license -- -j4 -l4
+[1.095s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_license' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_license -- -j4 -l4
+[1.096s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_license': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_license
+[1.122s] -- Install configuration: ""
+[1.122s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/licenses
+[1.122s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/licenses/AUTHORS
+[1.124s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/licenses/COPYING-PLAIN
+[1.124s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/licenses/COPYING
+[1.125s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/environment/library_path.sh
+[1.125s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_license/environment/library_path.dsv
+[1.131s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_license
+[1.133s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_license
+[1.134s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/environment/ament_prefix_path.sh
+[1.134s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_license/environment/ament_prefix_path.dsv
+[1.134s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/environment/path.sh
+[1.135s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_license/environment/path.dsv
+[1.135s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/local_setup.bash
+[1.135s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/local_setup.sh
+[1.136s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/local_setup.zsh
+[1.136s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_license/local_setup.dsv
+[1.137s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_license/package.dsv
+[1.137s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_license
+[1.137s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/cmake/ament_cmake_export_libraries-extras.cmake
+[1.138s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/cmake/ecl_licenseConfig.cmake
+[1.138s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/cmake/ecl_licenseConfig-version.cmake
+[1.138s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_license/package.xml
+[1.152s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_license' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_license
