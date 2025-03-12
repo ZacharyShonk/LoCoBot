@@ -20,4 +20,5 @@ In this repository there is a "setup.py" and "KobukiSetup.sh" file. Both of thes
     A - Turn Left
     S - Backwards
     D - Turn Right
+    
   If everything is working and there arent errors then you can make your own Python file and make your own robot actions.
