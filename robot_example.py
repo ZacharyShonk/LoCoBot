@@ -44,13 +44,13 @@ def adjust_thresholds_for_speed():
     global LEFT_THRESHOLD, RIGHT_THRESHOLD, CENTER_THRESHOLD
     # Increase thresholds as speed increases
     if ROBOT_SPEED > 0.5:
-        CENTER_THRESHOLD = 1.0  # Increase detection distance
-        LEFT_THRESHOLD = 1.2
-        RIGHT_THRESHOLD = 1.2
+        CENTER_THRESHOLD = 0.7  # Increase detection distance
+        LEFT_THRESHOLD = 1
+        RIGHT_THRESHOLD = 1
     else:
         CENTER_THRESHOLD = 0.7  # Default detection distance
-        LEFT_THRESHOLD = 1.0
-        RIGHT_THRESHOLD = 1.0
+        LEFT_THRESHOLD = 0.6
+        RIGHT_THRESHOLD = 0.6
 
 def get_rgb():
     frames = pipeline.wait_for_frames()
@@ -130,9 +130,9 @@ def obstacle_avoidance():
 
         height, width = depth_data.shape
         # Adjust the width percentages to focus more on the center
-        left_region = depth_data[:, int(width * 0.1):int(width * 0.3)]  # Smaller left region (10%-30%)
-        right_region = depth_data[:, int(width * 0.7):int(width * 0.9)]  # Smaller right region (70%-90%)
-        center_region = depth_data[:, int(width * 0.3):int(width * 0.7)]  # Center region (30%-70%)
+        left_region = depth_data[:, int(width * 0.2):int(width * 0.4)]  # Smaller left region (20%-40%)
+        right_region = depth_data[:, int(width * 0.6):int(width * 0.8)]  # Smaller right region (60%-80%)
+        center_region = depth_data[:, int(width * 0.4):int(width * 0.6)]  # Center region (40%-60%)
 
         def get_filtered_distance(region):
             valid_values = region[region > 0]  # Remove invalid (zero) depth readings
@@ -147,7 +147,7 @@ def obstacle_avoidance():
         print(f"Left: {left_dist:.2f} m, Right: {right_dist:.2f} m, Center: {center_dist:.2f} m")
 
         if center_dist < CENTER_THRESHOLD:
-            print("Obstacle ahead! Stopping!")
+            print("Obstacle ahead! Turning!")
             robot.move(0, -1)
         elif left_dist < LEFT_THRESHOLD:
             print("Obstacle on left! Turning right!")
