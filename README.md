@@ -1,18 +1,26 @@
 # LoCoBot
 A project to get LoCoBot running in 2025 via modified scripts and setup.
 
-## RealSense Stream Viewer
-- **`realsense_stream_viewer.py`**: A Flask-based Python server that interfaces with the RealSense camera, handles streaming of RGB, depth, and overlay images, and provides a control interface for users via a web browser.
-  - It uses `pyrealsense2` to interface with the RealSense camera.
-  - A simple web server built with Flask streams the video feed from the camera.
-  - Control options via the web UI allow users to switch between RGB, depth, and overlay streams, as well as adjust the depth-overlay mix.
-  
-- **Web Interface**: The script serves an HTML interface to allow easy control over the camera stream, including options to adjust the depth-overlay mix. This interface is displayed through a web browser.
+## Setup
+In this repository there is a "setup.py" and "KobukiSetup.sh" file. Both of these files will help with setting up the robot.
 
-### Usage
-1. Run the `realsense_stream_viewer.py` script to start the Flask server.
-2. Open a web browser and navigate to `http://<your-robot-ip>:5000` to access the RealSense video stream controls.
-3. Use the buttons and slider to change the stream type (RGB, Depth, or Overlay) and adjust the overlay mix.
+### Step 1:
+  If you are using a standard _LoCobot_ with a camera, the kobuki, and the mini computer make sure that you ahve ubuntu 20.0.4 installed on the computer and setup SSH.
+  Refer to [Ubuntu SSH Documentation](https://documentation.ubuntu.com/server/how-to/security/openssh-server/index.html) for the setup process. On your main computer use "Visual Studio Code" and the Microsoft Remote Development extension to remotely connect to your robot.   From here you want to move onto Step 2.
+### Step 2:
+  Install the files (run.txt, setup.py, pykobuki.cpp, KobukiSetup.sh, coco.names, and robot_example.py) from our repo. These files will allow you to interact with the robot, and code your own actions for it. Now that they are installed pull them into a folder in
+  Visual Studio Code so they replicate to your robot.
+### Step 3:
+  Run the KobukiSetup.sh file in the robots terminal and let it do its work. Once the KobukiSetup.sh file is done run the setup.py file using the command "sudo python3 setup.py build" and once that is done run the command "sudo python3 setup.pe install" these two commands
+  will set up the pykobuki wrapper that we made so people can code in Python on the robot.
+### Step 4:
+  Test the robot_example.py file to make sure the robot works, this file is a demo made we made that uses object detection to avoid objects. You can also use this file to self drive the robot. 
+  The controls for self drive are:
+    W - Forward
+    A - Turn Left
+    S - Backwards
+    D - Turn Right
+  If everything is working and there arent errors then you can make your own Python file and make your own robot actions.
 
 ## Koboki
 This is the "Roomba" part of the robot. I have been able to read the basic data over serial but not control it yet.
