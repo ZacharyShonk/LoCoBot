@@ -1,5 +1,5 @@
 # LoCoBot
-A project to get LoCoBot running in 2025 via modified scripts and setup.
+A project to get LoCoBot running in 2025 via modified scripts and setup. Created by two highschoolers.
 
 ## Setup
 In this repository there is a "setup.py" and "KobukiSetup.sh" file. Both of these files will help with setting up the robot.
