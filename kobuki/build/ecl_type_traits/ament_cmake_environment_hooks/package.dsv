@@ -1,0 +1,4 @@
+source;share/ecl_type_traits/local_setup.bash
+source;share/ecl_type_traits/local_setup.dsv
+source;share/ecl_type_traits/local_setup.sh
+source;share/ecl_type_traits/local_setup.zsh

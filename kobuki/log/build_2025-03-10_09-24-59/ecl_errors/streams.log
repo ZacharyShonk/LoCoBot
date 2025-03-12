@@ -1,0 +1,49 @@
+[0.300s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_errors': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_lite/ecl_errors -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.324s] Not searching for unused variables given on the command line.
+[0.334s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[0.371s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.621s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[0.635s] -- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+[0.834s] -- Configuring done
+[0.916s] -- Generating done
+[0.919s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_errors
+[1.026s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_errors' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_lite/ecl_errors -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[1.027s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_errors': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_errors -- -j4 -l4
+[1.185s] [ 50%] Built target ecl_errors
+[1.268s] [100%] Built target ecl_errors_example_errors
+[1.294s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_errors' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_errors -- -j4 -l4
+[1.312s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_errors': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_errors
+[1.326s] -- Install configuration: ""
+[1.327s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/environment/library_path.sh
+[1.327s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_errors/environment/library_path.dsv
+[1.332s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_errors
+[1.333s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_errors
+[1.352s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/environment/ament_prefix_path.sh
+[1.372s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_errors/environment/ament_prefix_path.dsv
+[1.372s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/environment/path.sh
+[1.372s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_errors/environment/path.dsv
+[1.372s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/local_setup.bash
+[1.372s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/local_setup.sh
+[1.372s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/local_setup.zsh
+[1.372s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_errors/local_setup.dsv
+[1.372s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_errors/package.dsv
+[1.373s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_errors
+[1.373s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/cmake/ecl_errorsExport.cmake
+[1.373s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_errors/cmake/ecl_errorsExport-noconfig.cmake
+[1.373s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/cmake/ament_cmake_export_targets-extras.cmake
+[1.373s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.373s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/cmake/ament_cmake_export_libraries-extras.cmake
+[1.373s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.373s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/cmake/ecl_errorsConfig.cmake
+[1.374s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/cmake/ecl_errorsConfig-version.cmake
+[1.374s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_errors/package.xml
+[1.374s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/errors.hpp
+[1.374s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/errors/compile_time_assert.hpp
+[1.374s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/errors/flags.hpp
+[1.374s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/errors/handlers.hpp
+[1.374s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/errors/macros.hpp
+[1.374s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/errors/run_time_functions.hpp
+[1.374s] -- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libecl_errors.so.1.1.0
+[1.375s] -- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libecl_errors.so
+[1.375s] -- Up-to-date: /home/locobot/Documents/kobuki/install/lib/ecl_errors/demo_errors
+[1.375s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_errors' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_errors

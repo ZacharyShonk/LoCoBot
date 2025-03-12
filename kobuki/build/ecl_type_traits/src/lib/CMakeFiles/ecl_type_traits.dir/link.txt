@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libecl_type_traits.so.1.2.1 -o libecl_type_traits.so.1.2.1 CMakeFiles/ecl_type_traits.dir/numeric_limits.cpp.o 

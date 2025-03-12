@@ -1,0 +1,21 @@
+[0.857s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_clang_tidy': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_clang_tidy/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/locobot/Documents/kobuki/build/ament_clang_tidy/build install --record /home/locobot/Documents/kobuki/build/ament_clang_tidy/install.log --single-version-externally-managed install_data
+[1.121s] running egg_info
+[1.122s] writing ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[1.123s] writing dependency_links to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[1.124s] writing entry points to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[1.125s] writing requirements to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[1.126s] writing top-level names to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[1.214s] reading manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.224s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.224s] running build
+[1.225s] running build_py
+[1.226s] running install
+[1.227s] running install_lib
+[1.230s] running install_data
+[1.232s] running install_egg_info
+[1.235s] removing '/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_clang_tidy-0.9.8-py3.8.egg-info' (and everything under it)
+[1.248s] Copying ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_clang_tidy-0.9.8-py3.8.egg-info
+[1.250s] running install_scripts
+[1.281s] Installing ament_clang_tidy script to /home/locobot/Documents/kobuki/install/bin
+[1.285s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_clang_tidy/install.log'
+[1.398s] Invoked command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_clang_tidy/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/locobot/Documents/kobuki/build/ament_clang_tidy/build install --record /home/locobot/Documents/kobuki/build/ament_clang_tidy/install.log --single-version-externally-managed install_data

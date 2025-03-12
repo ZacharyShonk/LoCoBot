@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/locobot/Documents/kobuki/src/ecl_lite/ecl_config/src/utilities/detect_posix.cpp
+iostream
+-
+unistd.h
+-
+cstdio
+-
+

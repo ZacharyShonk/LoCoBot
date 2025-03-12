@@ -1,0 +1,27 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_cmake_test: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_lint_cmake
+-- Install configuration: ""
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_lint_cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_lint_cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/environment/path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/environment/path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/local_setup.bash
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/local_setup.sh
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/local_setup.zsh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/local_setup.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/package.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_lint_cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake-extras.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmakeConfig.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmakeConfig-version.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/package.xml
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_lint_cmake.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake

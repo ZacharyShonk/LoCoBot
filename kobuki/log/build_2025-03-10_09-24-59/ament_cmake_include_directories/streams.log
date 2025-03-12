@@ -1,0 +1,31 @@
+[0.080s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_include_directories': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_cmake/ament_cmake_include_directories -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.117s] Not searching for unused variables given on the command line.
+[0.131s] -- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+[0.184s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.666s] -- Configuring done
+[0.666s] -- Generating done
+[0.669s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_include_directories
+[0.687s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_include_directories' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_cmake/ament_cmake_include_directories -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.688s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_include_directories': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_include_directories -- -j4 -l4
+[0.838s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_include_directories' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_include_directories -- -j4 -l4
+[0.842s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_include_directories': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_include_directories
+[1.230s] -- Install configuration: ""
+[1.230s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_include_directories
+[1.231s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_include_directories
+[1.231s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/environment/ament_prefix_path.sh
+[1.231s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/environment/ament_prefix_path.dsv
+[1.231s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/environment/path.sh
+[1.231s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/environment/path.dsv
+[1.231s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/local_setup.bash
+[1.231s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/local_setup.sh
+[1.231s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/local_setup.zsh
+[1.232s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/local_setup.dsv
+[1.232s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/package.dsv
+[1.232s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_include_directories
+[1.232s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/cmake/ament_cmake_include_directories-extras.cmake
+[1.232s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/cmake/ament_cmake_include_directoriesConfig.cmake
+[1.232s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/cmake/ament_cmake_include_directoriesConfig-version.cmake
+[1.232s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/package.xml
+[1.233s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/cmake
+[1.233s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_include_directories/cmake/ament_include_directories_order.cmake
+[1.250s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_include_directories' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_include_directories

@@ -1,0 +1,103 @@
+[0.894s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_time': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_time -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[1.033s] -- The C compiler identification is GNU 9.4.0
+[1.149s] -- The CXX compiler identification is GNU 9.4.0
+[1.165s] -- Check for working C compiler: /usr/bin/cc
+[1.432s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.440s] -- Detecting C compiler ABI info
+[1.539s] -- Detecting C compiler ABI info - done
+[1.559s] -- Detecting C compile features
+[1.562s] -- Detecting C compile features - done
+[1.566s] -- Check for working CXX compiler: /usr/bin/c++
+[1.849s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.849s] -- Detecting CXX compiler ABI info
+[2.062s] -- Detecting CXX compiler ABI info - done
+[2.097s] -- Detecting CXX compile features
+[2.098s] -- Detecting CXX compile features - done
+[2.099s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[2.159s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.159s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.371s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[2.382s] -- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+[2.382s] -- Found ecl_errors: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_errors/cmake)
+[2.390s] -- Found ecl_exceptions: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_exceptions/cmake)
+[2.395s] -- Found ecl_time_lite: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_time_lite/cmake)
+[2.564s] -- Configuring done
+[2.608s] -- Generating done
+[2.616s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_time
+[2.629s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_time -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[2.630s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_time': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_time -- -j4 -l4
+[2.728s] [35m[1mScanning dependencies of target ecl_time[0m
+[2.788s] [  6%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/cpuwatch_rt.cpp.o[0m
+[3.339s] [ 12%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/sleep_pos.cpp.o[0m
+[4.064s] [ 18%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/snooze_pos.cpp.o[0m
+[4.568s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/snooze_win.cpp.o[0m
+[4.728s] [ 31%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/stopwatch.cpp.o[0m
+[5.342s] [ 37%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/timestamp_base.cpp.o[0m
+[5.740s] [ 43%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/timestamp_pos.cpp.o[0m
+[6.335s] [ 50%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/timestamp_win.cpp.o[0m
+[6.445s] [ 56%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/time_data.cpp.o[0m
+[6.972s] [ 62%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/sleep_win.cpp.o[0m
+[7.121s] [ 68%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/frequency.cpp.o[0m
+[7.624s] [ 75%] [32m[1mLinking CXX shared library libecl_time.so[0m
+[7.982s] [ 75%] Built target ecl_time
+[8.024s] [35m[1mScanning dependencies of target ecl_time_example_sleep[0m
+[8.091s] [ 81%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_time_example_sleep.dir/sleep.cpp.o[0m
+[8.701s] [ 87%] [32m[1mLinking CXX executable demo_sleep[0m
+[8.961s] [ 87%] Built target ecl_time_example_sleep
+[8.978s] [35m[1mScanning dependencies of target ecl_time_example_random_number_generator[0m
+[8.996s] [ 93%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_time_example_random_number_generator.dir/random_number_generator.cpp.o[0m
+[9.723s] [100%] [32m[1mLinking CXX executable demo_random_number_generator[0m
+[9.992s] [100%] Built target ecl_time_example_random_number_generator
+[10.050s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_time -- -j4 -l4
+[10.051s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_time': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_time
+[10.076s] -- Install configuration: ""
+[10.076s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/environment/library_path.sh
+[10.077s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/environment/library_path.dsv
+[10.077s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_time
+[10.077s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_time
+[10.077s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/environment/ament_prefix_path.sh
+[10.078s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/environment/ament_prefix_path.dsv
+[10.078s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/environment/path.sh
+[10.078s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/environment/path.dsv
+[10.078s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/local_setup.bash
+[10.096s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/local_setup.sh
+[10.096s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/local_setup.zsh
+[10.096s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/local_setup.dsv
+[10.096s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/package.dsv
+[10.096s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_time
+[10.097s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/cmake/ecl_timeExport.cmake
+[10.097s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/cmake/ecl_timeExport-noconfig.cmake
+[10.097s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/cmake/ament_cmake_export_targets-extras.cmake
+[10.097s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.097s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/cmake/ament_cmake_export_libraries-extras.cmake
+[10.097s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.097s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/cmake/ecl_timeConfig.cmake
+[10.097s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/cmake/ecl_timeConfig-version.cmake
+[10.098s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_time/package.xml
+[10.098s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time.hpp
+[10.098s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/cpuwatch.hpp
+[10.098s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/cpuwatch_rt.hpp
+[10.098s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/duration.hpp
+[10.098s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/frequency.hpp
+[10.098s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/macros.hpp
+[10.098s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/random_number_generator.hpp
+[10.099s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/sleep.hpp
+[10.099s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/sleep_pos.hpp
+[10.099s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/sleep_win.hpp
+[10.099s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/snooze.hpp
+[10.099s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/snooze_pos.hpp
+[10.099s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/snooze_win.hpp
+[10.099s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/stopwatch.hpp
+[10.100s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/time_data.hpp
+[10.100s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/timestamp.hpp
+[10.120s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/timestamp_base.hpp
+[10.120s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/timestamp_pos.hpp
+[10.121s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/time/timestamp_win.hpp
+[10.121s] -- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_time.so.1.2.1
+[10.121s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/libecl_time.so.1.2.1" to ""
+[10.121s] -- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_time.so
+[10.121s] -- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_time/demo_random_number_generator
+[10.121s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_time/demo_random_number_generator" to ""
+[10.121s] -- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_time/demo_sleep
+[10.121s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_time/demo_sleep" to ""
+[10.145s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_time

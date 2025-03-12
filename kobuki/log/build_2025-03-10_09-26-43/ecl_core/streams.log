@@ -1,0 +1,35 @@
+[0.277s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_core': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.303s] Re-run cmake no build system arguments
+[0.304s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[0.338s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.640s] -- Configuring done
+[0.642s] -- Generating done
+[0.642s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_core
+[0.652s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_core' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.653s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_core': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_core -- -j4 -l4
+[0.673s] /usr/bin/cmake -S/home/locobot/Documents/kobuki/src/ecl_core/ecl_core -B/home/locobot/Documents/kobuki/build/ecl_core --check-build-system CMakeFiles/Makefile.cmake 0
+[0.687s] /usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ecl_core/CMakeFiles /home/locobot/Documents/kobuki/build/ecl_core/CMakeFiles/progress.marks
+[0.698s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[0.699s] make[1]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_core'
+[0.699s] make[1]: Nothing to be done for 'all'.
+[0.699s] make[1]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_core'
+[0.700s] /usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ecl_core/CMakeFiles 0
+[0.714s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_core' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_core -- -j4 -l4
+[0.718s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_core': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_core
+[0.727s] -- Install configuration: ""
+[0.728s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_core
+[0.728s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_core
+[0.728s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/environment/ament_prefix_path.sh
+[0.728s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core/environment/ament_prefix_path.dsv
+[0.729s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/environment/path.sh
+[0.729s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core/environment/path.dsv
+[0.729s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/local_setup.bash
+[0.729s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/local_setup.sh
+[0.729s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/local_setup.zsh
+[0.729s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core/local_setup.dsv
+[0.730s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core/package.dsv
+[0.730s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_core
+[0.730s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/cmake/ecl_coreConfig.cmake
+[0.730s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/cmake/ecl_coreConfig-version.cmake
+[0.730s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/package.xml
+[0.733s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_core' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_core

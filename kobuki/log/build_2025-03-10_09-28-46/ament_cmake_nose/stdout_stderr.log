@@ -1,0 +1,25 @@
+-- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_nose
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_nose
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_nose
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/environment/path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/environment/path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/local_setup.bash
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/local_setup.sh
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/local_setup.zsh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/local_setup.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/package.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_nose
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/cmake/ament_cmake_nose-extras.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/cmake/ament_cmake_noseConfig.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/cmake/ament_cmake_noseConfig-version.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/package.xml
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/cmake/ament_find_nosetests.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_nose/cmake/ament_add_nose_test.cmake

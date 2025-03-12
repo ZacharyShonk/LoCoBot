@@ -1,0 +1,14 @@
+{
+    "names": {
+        "sophus": {
+            "cmake-args": ["-DBUILD_TESTS=OFF"]
+        }
+    },
+    "paths": {
+        "src/eigen": {
+            "name": "eigen",
+            "type": "cmake",
+            "cmake-args": ["-DBUILD_TESTING=OFF", "-DEIGEN_TEST_NOQT=ON" ]
+        }
+    },
+}

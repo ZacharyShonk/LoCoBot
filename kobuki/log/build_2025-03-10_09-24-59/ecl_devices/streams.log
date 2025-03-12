@@ -1,0 +1,86 @@
+[0.428s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_devices': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_devices -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.456s] Not searching for unused variables given on the command line.
+[0.470s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[0.502s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.763s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[0.775s] -- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+[0.778s] -- Found ecl_containers: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_containers/cmake)
+[0.849s] -- Found ecl_threads: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_threads/cmake)
+[1.033s] -- Configuring done
+[1.099s] -- Generating done
+[1.105s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_devices
+[1.127s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_devices' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_devices -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[1.153s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_devices': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_devices -- -j4 -l4
+[1.244s] [  6%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/detail/character_buffer.cpp.o[0m
+[1.332s] [ 12%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/detail/socket_exception_handler_pos.cpp.o[0m
+[1.892s] [ 18%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/console.cpp.o[0m
+[2.311s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/ofile_pos.cpp.o[0m
+[2.826s] [ 31%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/ofile_w32.cpp.o[0m
+[2.876s] [ 37%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/serial_pos.cpp.o[0m
+[3.325s] [ 43%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/serial_w32.cpp.o[0m
+[3.398s] [ 50%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/shared_file.cpp.o[0m
+[4.015s] [ 56%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/socket_client_pos.cpp.o[0m
+[4.457s] [ 62%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/socket_server_pos.cpp.o[0m
+[4.741s] [ 68%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/string.cpp.o[0m
+[4.997s] [ 75%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/detail/exception_handler_pos.cpp.o[0m
+[5.307s] [ 81%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/detail/error_handler.cpp.o[0m
+[5.492s] [ 87%] [32m[1mLinking CXX shared library libecl_devices.so[0m
+[5.613s] [ 87%] Built target ecl_devices
+[5.634s] [ 93%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_serial_timeouts.dir/serial_timeouts.cpp.o[0m
+[5.948s] [100%] [32m[1mLinking CXX executable demo_serial_timeouts[0m
+[6.031s] [100%] Built target ecl_demo_serial_timeouts
+[6.043s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_devices' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_devices -- -j4 -l4
+[6.045s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_devices': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_devices
+[6.055s] -- Install configuration: ""
+[6.055s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/environment/library_path.sh
+[6.055s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_devices/environment/library_path.dsv
+[6.056s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_devices
+[6.056s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_devices
+[6.056s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/environment/ament_prefix_path.sh
+[6.056s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_devices/environment/ament_prefix_path.dsv
+[6.056s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/environment/path.sh
+[6.056s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_devices/environment/path.dsv
+[6.056s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/local_setup.bash
+[6.056s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/local_setup.sh
+[6.057s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/local_setup.zsh
+[6.057s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_devices/local_setup.dsv
+[6.057s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_devices/package.dsv
+[6.057s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_devices
+[6.057s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/cmake/ecl_devicesExport.cmake
+[6.057s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_devices/cmake/ecl_devicesExport-noconfig.cmake
+[6.057s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/cmake/ament_cmake_export_targets-extras.cmake
+[6.057s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.058s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/cmake/ament_cmake_export_libraries-extras.cmake
+[6.058s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.058s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/cmake/ecl_devicesConfig.cmake
+[6.058s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/cmake/ecl_devicesConfig-version.cmake
+[6.058s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_devices/package.xml
+[6.058s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices.hpp
+[6.059s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/console.hpp
+[6.059s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/macros.hpp
+[6.059s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/modes.hpp
+[6.059s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/ofile.hpp
+[6.059s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/ofile_pos.hpp
+[6.059s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/ofile_w32.hpp
+[6.059s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/serial.hpp
+[6.059s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/serial_parameters.hpp
+[6.060s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/serial_pos.hpp
+[6.060s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/serial_w32.hpp
+[6.060s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/shared_file.hpp
+[6.060s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/socket.hpp
+[6.060s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/socket_client_pos.hpp
+[6.060s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/socket_connection_status.hpp
+[6.061s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/socket_server_pos.hpp
+[6.061s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/string.hpp
+[6.061s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/traits.hpp
+[6.061s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/detail/character_buffer.hpp
+[6.061s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/detail/error_handler.hpp
+[6.061s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/detail/exception_handler_pos.hpp
+[6.061s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/detail/socket_error_handler_pos.hpp
+[6.062s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/devices/detail/socket_exception_handler_pos.hpp
+[6.062s] -- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_devices.so.1.2.1
+[6.062s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/libecl_devices.so.1.2.1" to ""
+[6.062s] -- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libecl_devices.so
+[6.062s] -- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_devices/demo_serial_timeouts
+[6.062s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_devices/demo_serial_timeouts" to ""
+[6.070s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_devices' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_devices

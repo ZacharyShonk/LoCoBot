@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/locobot/Documents/kobuki/src/kobuki_core/src/demos/velocity_commands.cpp
+iostream
+-
+cstdio
+-
+cmath
+-
+

@@ -1,0 +1,679 @@
+[0.015s] Invoking command in '/home/locobot/Documents/kobuki/build/eigen': /usr/bin/cmake /home/locobot/Documents/kobuki/src/eigen -DBUILD_TESTING=OFF -DBUILD_TESTING=OFF -DEIGEN_TEST_NOQT=ON -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.212s] -- The C compiler identification is GNU 9.4.0
+[0.352s] -- The CXX compiler identification is GNU 9.4.0
+[0.368s] -- Check for working C compiler: /usr/bin/cc
+[0.474s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.474s] -- Detecting C compiler ABI info
+[0.591s] -- Detecting C compiler ABI info - done
+[0.622s] -- Detecting C compile features
+[0.622s] -- Detecting C compile features - done
+[0.625s] -- Check for working CXX compiler: /usr/bin/c++
+[0.749s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.753s] -- Detecting CXX compiler ABI info
+[0.896s] -- Detecting CXX compiler ABI info - done
+[0.931s] -- Detecting CXX compile features
+[0.931s] -- Detecting CXX compile features - done
+[0.941s] -- Performing Test EIGEN_COMPILER_SUPPORT_CPP11
+[1.200s] -- Performing Test EIGEN_COMPILER_SUPPORT_CPP11 - Success
+[1.206s] -- Performing Test COMPILER_SUPPORT_std=cpp03
+[1.493s] -- Performing Test COMPILER_SUPPORT_std=cpp03 - Success
+[1.493s] -- Performing Test standard_math_library_linked_to_automatically
+[1.943s] -- Performing Test standard_math_library_linked_to_automatically - Success
+[1.944s] -- Standard libraries to link to explicitly: none
+[1.950s] -- Performing Test COMPILER_SUPPORT_WERROR
+[2.231s] -- Performing Test COMPILER_SUPPORT_WERROR - Success
+[2.233s] -- Performing Test COMPILER_SUPPORT_pedantic
+[2.363s] -- Performing Test COMPILER_SUPPORT_pedantic - Success
+[2.363s] -- Performing Test COMPILER_SUPPORT_Wall
+[2.495s] -- Performing Test COMPILER_SUPPORT_Wall - Success
+[2.498s] -- Performing Test COMPILER_SUPPORT_Wextra
+[2.715s] -- Performing Test COMPILER_SUPPORT_Wextra - Success
+[2.736s] -- Performing Test COMPILER_SUPPORT_Wundef
+[3.054s] -- Performing Test COMPILER_SUPPORT_Wundef - Success
+[3.056s] -- Performing Test COMPILER_SUPPORT_Wcastalign
+[3.191s] -- Performing Test COMPILER_SUPPORT_Wcastalign - Success
+[3.197s] -- Performing Test COMPILER_SUPPORT_Wcharsubscripts
+[3.449s] -- Performing Test COMPILER_SUPPORT_Wcharsubscripts - Success
+[3.449s] -- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor
+[3.719s] -- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor - Success
+[3.725s] -- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs
+[4.012s] -- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs - Success
+[4.012s] -- Performing Test COMPILER_SUPPORT_Wpointerarith
+[4.216s] -- Performing Test COMPILER_SUPPORT_Wpointerarith - Success
+[4.216s] -- Performing Test COMPILER_SUPPORT_Wwritestrings
+[4.359s] -- Performing Test COMPILER_SUPPORT_Wwritestrings - Success
+[4.360s] -- Performing Test COMPILER_SUPPORT_Wformatsecurity
+[4.539s] -- Performing Test COMPILER_SUPPORT_Wformatsecurity - Success
+[4.549s] -- Performing Test COMPILER_SUPPORT_Wshorten64to32
+[4.631s] -- Performing Test COMPILER_SUPPORT_Wshorten64to32 - Failed
+[4.658s] -- Performing Test COMPILER_SUPPORT_Wlogicalop
+[5.079s] -- Performing Test COMPILER_SUPPORT_Wlogicalop - Success
+[5.086s] -- Performing Test COMPILER_SUPPORT_Wenumconversion
+[5.195s] -- Performing Test COMPILER_SUPPORT_Wenumconversion - Failed
+[5.213s] -- Performing Test COMPILER_SUPPORT_Wcpp11extensions
+[5.291s] -- Performing Test COMPILER_SUPPORT_Wcpp11extensions - Failed
+[5.308s] -- Performing Test COMPILER_SUPPORT_Wdoublepromotion
+[5.640s] -- Performing Test COMPILER_SUPPORT_Wdoublepromotion - Success
+[5.652s] -- Performing Test COMPILER_SUPPORT_Wnopsabi
+[5.913s] -- Performing Test COMPILER_SUPPORT_Wnopsabi - Success
+[5.926s] -- Performing Test COMPILER_SUPPORT_Wnovariadicmacros
+[6.253s] -- Performing Test COMPILER_SUPPORT_Wnovariadicmacros - Success
+[6.253s] -- Performing Test COMPILER_SUPPORT_Wnolonglong
+[6.548s] -- Performing Test COMPILER_SUPPORT_Wnolonglong - Success
+[6.571s] -- Performing Test COMPILER_SUPPORT_fnochecknew
+[6.853s] -- Performing Test COMPILER_SUPPORT_fnochecknew - Success
+[6.868s] -- Performing Test COMPILER_SUPPORT_fnocommon
+[7.043s] -- Performing Test COMPILER_SUPPORT_fnocommon - Success
+[7.046s] -- Performing Test COMPILER_SUPPORT_fstrictaliasing
+[7.189s] -- Performing Test COMPILER_SUPPORT_fstrictaliasing - Success
+[7.189s] -- Performing Test COMPILER_SUPPORT_wd981
+[7.274s] -- Performing Test COMPILER_SUPPORT_wd981 - Failed
+[7.291s] -- Performing Test COMPILER_SUPPORT_wd2304
+[7.383s] -- Performing Test COMPILER_SUPPORT_wd2304 - Failed
+[7.384s] -- Performing Test COMPILER_SUPPORT_STRICTANSI
+[7.467s] -- Performing Test COMPILER_SUPPORT_STRICTANSI - Failed
+[7.519s] -- Performing Test COMPILER_SUPPORT_Qunusedarguments
+[7.572s] -- Performing Test COMPILER_SUPPORT_Qunusedarguments - Failed
+[7.577s] -- Performing Test COMPILER_SUPPORT_ansi
+[7.879s] -- Performing Test COMPILER_SUPPORT_ansi - Success
+[7.912s] -- Performing Test COMPILER_SUPPORT_OPENMP
+[8.317s] -- Performing Test COMPILER_SUPPORT_OPENMP - Success
+[8.881s] CMake Warning (dev) in CMakeLists.txt:
+[8.881s]   A logical block opening on the line
+[8.881s] 
+[8.881s]     /home/locobot/Documents/kobuki/src/eigen/CMakeLists.txt:465 (if)
+[8.882s] 
+[8.903s]   closes on the line
+[8.904s] 
+[8.904s]     /home/locobot/Documents/kobuki/src/eigen/CMakeLists.txt:473 (endif)
+[8.904s] 
+[8.904s]   with mis-matching arguments.
+[8.904s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.904s] 
+[9.465s] -- Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDES CHOLMOD_LIBRARIES) 
+[9.468s] -- Could NOT find UMFPACK (missing: UMFPACK_INCLUDES UMFPACK_LIBRARIES) 
+[9.487s] -- Could NOT find SUPERLU (missing: SUPERLU_INCLUDES SUPERLU_LIBRARIES SUPERLU_VERSION_OK) 
+[9.494s] -- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+[9.499s] -- 
+[9.499s] -- Configured Eigen 3.3.9
+[9.499s] -- 
+[9.500s] -- Some things you can do now:
+[9.500s] -- --------------+--------------------------------------------------------------
+[9.500s] -- Command       |   Description
+[9.500s] -- --------------+--------------------------------------------------------------
+[9.500s] -- make install  | Install Eigen. Headers will be installed to:
+[9.500s] --               |     <CMAKE_INSTALL_PREFIX>/<INCLUDE_INSTALL_DIR>
+[9.500s] --               |   Using the following values:
+[9.500s] --               |     CMAKE_INSTALL_PREFIX: /home/locobot/Documents/kobuki/install
+[9.500s] --               |     INCLUDE_INSTALL_DIR:  include/eigen3
+[9.501s] --               |   Change the install location of Eigen headers using:
+[9.501s] --               |     cmake . -DCMAKE_INSTALL_PREFIX=yourprefix
+[9.501s] --               |   Or:
+[9.501s] --               |     cmake . -DINCLUDE_INSTALL_DIR=yourdir
+[9.501s] -- make doc      | Generate the API documentation, requires Doxygen & LaTeX
+[9.501s] -- make check    | Build and run the unit-tests. Read this page:
+[9.501s] --               |   http://eigen.tuxfamily.org/index.php?title=Tests
+[9.501s] -- make blas     | Build BLAS library (not the same thing as Eigen)
+[9.501s] -- make uninstall| Removes files installed by make install
+[9.502s] -- --------------+--------------------------------------------------------------
+[9.502s] -- 
+[9.517s] -- Configuring done
+[10.498s] -- Generating done
+[10.837s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/eigen
+[10.867s] Invoked command in '/home/locobot/Documents/kobuki/build/eigen' returned '0': /usr/bin/cmake /home/locobot/Documents/kobuki/src/eigen -DBUILD_TESTING=OFF -DBUILD_TESTING=OFF -DEIGEN_TEST_NOQT=ON -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[10.868s] Invoking command in '/home/locobot/Documents/kobuki/build/eigen': /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/eigen -- -j4 -l4
+[11.109s] Invoked command in '/home/locobot/Documents/kobuki/build/eigen' returned '0': /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/eigen -- -j4 -l4
+[11.129s] Invoking command in '/home/locobot/Documents/kobuki/build/eigen': /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/eigen
+[11.148s] -- Install configuration: "Release"
+[11.149s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/signature_of_eigen3_matrix_library
+[11.149s] -- Installing: /home/locobot/Documents/kobuki/install/share/pkgconfig/eigen3.pc
+[11.149s] -- Installing: /home/locobot/Documents/kobuki/install/share/eigen3/cmake/Eigen3Targets.cmake
+[11.149s] -- Installing: /home/locobot/Documents/kobuki/install/share/eigen3/cmake/UseEigen3.cmake
+[11.149s] -- Installing: /home/locobot/Documents/kobuki/install/share/eigen3/cmake/Eigen3Config.cmake
+[11.149s] -- Installing: /home/locobot/Documents/kobuki/install/share/eigen3/cmake/Eigen3ConfigVersion.cmake
+[11.149s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/Cholesky
+[11.149s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/CholmodSupport
+[11.150s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/Core
+[11.150s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/Dense
+[11.150s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/Eigen
+[11.150s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/Eigenvalues
+[11.150s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/Geometry
+[11.150s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/Householder
+[11.150s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/IterativeLinearSolvers
+[11.170s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/Jacobi
+[11.170s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/LU
+[11.170s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/MetisSupport
+[11.170s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/OrderingMethods
+[11.170s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/PaStiXSupport
+[11.170s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/PardisoSupport
+[11.170s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/QR
+[11.170s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/QtAlignedMalloc
+[11.170s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/SPQRSupport
+[11.171s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/SVD
+[11.171s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/Sparse
+[11.171s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/SparseCholesky
+[11.171s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/SparseCore
+[11.171s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/SparseLU
+[11.171s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/SparseQR
+[11.171s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/StdDeque
+[11.171s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/StdList
+[11.172s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/StdVector
+[11.172s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/SuperLUSupport
+[11.172s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/UmfPackSupport
+[11.172s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src
+[11.172s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/CholmodSupport
+[11.172s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/CholmodSupport/CholmodSupport.h
+[11.172s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseQR
+[11.172s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseQR/SparseQR.h
+[11.172s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Cholesky
+[11.173s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Cholesky/LDLT.h
+[11.173s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h
+[11.173s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Cholesky/LLT.h
+[11.173s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/StlSupport
+[11.173s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/StlSupport/StdVector.h
+[11.173s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/StlSupport/StdList.h
+[11.173s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/StlSupport/StdDeque.h
+[11.173s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/StlSupport/details.h
+[11.173s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU
+[11.174s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+[11.174s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+[11.174s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h
+[11.175s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
+[11.175s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h
+[11.175s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+[11.176s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h
+[11.176s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h
+[11.176s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+[11.177s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU.h
+[11.177s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h
+[11.177s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+[11.178s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+[11.178s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
+[11.178s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+[11.179s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h
+[11.179s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
+[11.179s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/misc
+[11.180s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/misc/lapack.h
+[11.180s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/misc/Kernel.h
+[11.181s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/misc/lapacke.h
+[11.182s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/misc/lapacke_mangling.h
+[11.191s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/misc/RealSvd2x2.h
+[11.192s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/misc/blas.h
+[11.192s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/misc/Image.h
+[11.192s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SVD
+[11.193s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SVD/BDCSVD.h
+[11.193s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+[11.194s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SVD/SVDBase.h
+[11.194s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SVD/JacobiSVD.h
+[11.194s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+[11.195s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues
+[11.195s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+[11.195s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+[11.196s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+[11.196s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+[11.196s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+[11.197s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+[11.197s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+[11.197s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+[11.198s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+[11.198s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+[11.199s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+[11.199s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+[11.199s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+[11.200s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+[11.200s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/plugins
+[11.201s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+[11.201s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+[11.201s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+[11.202s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+[11.202s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/plugins/BlockMethods.h
+[11.202s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+[11.203s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+[11.203s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/PardisoSupport
+[11.203s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/PardisoSupport/PardisoSupport.h
+[11.204s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/MetisSupport
+[11.204s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/MetisSupport/MetisSupport.h
+[11.204s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Jacobi
+[11.205s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Jacobi/Jacobi.h
+[11.205s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/QR
+[11.206s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+[11.207s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h
+[11.207s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+[11.208s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+[11.208s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/QR/HouseholderQR.h
+[11.212s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+[11.212s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/IterativeLinearSolvers
+[11.213s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+[11.213s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+[11.214s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+[11.214s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+[11.214s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+[11.215s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+[11.215s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+[11.215s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+[11.216s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/PaStiXSupport
+[11.216s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/PaStiXSupport/PaStiXSupport.h
+[11.216s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Householder
+[11.217s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+[11.217s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
+[11.217s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Householder/Householder.h
+[11.218s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry
+[11.218s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/Scaling.h
+[11.221s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+[11.222s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/RotationBase.h
+[11.222s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+[11.222s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/Translation.h
+[11.223s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/Umeyama.h
+[11.227s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/arch
+[11.235s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
+[11.236s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+[11.236s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/Transform.h
+[11.236s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/Quaternion.h
+[11.236s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+[11.237s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+[11.237s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+[11.237s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+[11.238s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+[11.238s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCholesky
+[11.238s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h
+[11.239s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+[11.239s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SPQRSupport
+[11.239s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+[11.239s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SuperLUSupport
+[11.239s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SuperLUSupport/SuperLUSupport.h
+[11.239s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/UmfPackSupport
+[11.239s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/UmfPackSupport/UmfPackSupport.h
+[11.257s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/LU
+[11.257s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/LU/arch
+[11.257s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
+[11.257s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/LU/InverseImpl.h
+[11.258s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/LU/Determinant.h
+[11.258s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
+[11.258s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/LU/FullPivLU.h
+[11.258s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/LU/PartialPivLU.h
+[11.258s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/OrderingMethods
+[11.258s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/OrderingMethods/Amd.h
+[11.258s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
+[11.259s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
+[11.259s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore
+[11.259s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
+[11.259s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+[11.259s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
+[11.259s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+[11.259s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseRef.h
+[11.260s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+[11.260s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
+[11.260s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+[11.260s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
+[11.260s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
+[11.260s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+[11.260s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+[11.260s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseView.h
+[11.260s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
+[11.261s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseDot.h
+[11.261s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
+[11.261s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
+[11.261s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseMap.h
+[11.261s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
+[11.261s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseVector.h
+[11.261s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+[11.261s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h
+[11.261s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
+[11.262s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+[11.262s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseUtil.h
+[11.262s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
+[11.262s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
+[11.262s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+[11.262s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
+[11.262s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/SparseCore/AmbiVector.h
+[11.262s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core
+[11.262s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Product.h
+[11.263s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/ArrayBase.h
+[11.263s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/ProductEvaluators.h
+[11.263s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+[11.263s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Solve.h
+[11.279s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/CoreIterators.h
+[11.280s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/ReturnByValue.h
+[11.280s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+[11.280s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+[11.280s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/VectorBlock.h
+[11.280s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Map.h
+[11.281s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Assign.h
+[11.282s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+[11.282s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Transpositions.h
+[11.283s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Matrix.h
+[11.286s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+[11.287s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Dot.h
+[11.287s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Swap.h
+[11.287s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Visitor.h
+[11.288s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/StableNorm.h
+[11.288s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/BandMatrix.h
+[11.288s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Stride.h
+[11.288s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/GeneralProduct.h
+[11.288s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/DenseStorage.h
+[11.288s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/MathFunctions.h
+[11.288s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Random.h
+[11.288s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/NumTraits.h
+[11.289s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/MatrixBase.h
+[11.289s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/EigenBase.h
+[11.289s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
+[11.289s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+[11.289s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+[11.289s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Transpose.h
+[11.289s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch
+[11.289s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AVX512
+[11.289s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+[11.290s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
+[11.290s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/Default
+[11.290s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+[11.290s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+[11.290s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
+[11.290s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/ZVector
+[11.290s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+[11.290s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+[11.290s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+[11.291s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/CUDA
+[11.291s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
+[11.291s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+[11.295s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+[11.295s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
+[11.295s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
+[11.296s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
+[11.296s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AltiVec
+[11.296s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+[11.296s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+[11.296s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+[11.296s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AVX
+[11.296s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+[11.296s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+[11.297s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+[11.297s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+[11.297s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/SSE
+[11.297s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+[11.297s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+[11.297s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+[11.297s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+[11.311s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/NEON
+[11.311s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+[11.311s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+[11.312s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+[11.312s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+[11.312s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Ref.h
+[11.312s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+[11.312s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/AssignEvaluator.h
+[11.312s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/IO.h
+[11.312s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/SolveTriangular.h
+[11.312s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/NoAlias.h
+[11.313s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+[11.313s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/DenseBase.h
+[11.313s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Fuzzy.h
+[11.313s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/MapBase.h
+[11.313s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+[11.313s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+[11.313s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/NestByValue.h
+[11.314s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util
+[11.314s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+[11.314s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/Macros.h
+[11.314s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/Constants.h
+[11.314s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/Memory.h
+[11.314s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/Meta.h
+[11.314s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h
+[11.314s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/MKL_support.h
+[11.315s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+[11.315s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+[11.315s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+[11.327s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+[11.328s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/NonMPL2.h
+[11.328s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/util/XprHelper.h
+[11.328s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Replicate.h
+[11.328s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+[11.328s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+[11.328s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Block.h
+[11.328s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/CommaInitializer.h
+[11.329s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Diagonal.h
+[11.329s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Select.h
+[11.329s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Redux.h
+[11.329s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products
+[11.329s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+[11.329s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+[11.329s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+[11.329s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+[11.330s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+[11.330s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+[11.330s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+[11.330s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+[11.330s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+[11.330s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+[11.330s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+[11.331s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+[11.331s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+[11.331s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+[11.331s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+[11.341s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+[11.342s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+[11.342s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+[11.342s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+[11.342s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+[11.342s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+[11.342s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+[11.342s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/CoreEvaluators.h
+[11.343s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+[11.343s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+[11.343s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Reverse.h
+[11.343s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/SolverBase.h
+[11.354s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Array.h
+[11.354s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+[11.354s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/functors
+[11.354s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+[11.354s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+[11.354s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+[11.354s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+[11.355s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+[11.355s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+[11.355s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Assign_MKL.h
+[11.355s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/Inverse.h
+[11.355s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/BooleanRedux.h
+[11.355s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+[11.355s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/AdolcForward
+[11.355s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/AlignedVector3
+[11.356s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/ArpackSupport
+[11.356s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/AutoDiff
+[11.356s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/BVH
+[11.356s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/EulerAngles
+[11.356s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/FFT
+[11.356s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/IterativeSolvers
+[11.356s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/KroneckerProduct
+[11.357s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/LevenbergMarquardt
+[11.357s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/MatrixFunctions
+[11.357s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/MoreVectorization
+[11.357s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/MPRealSupport
+[11.357s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/NonLinearOptimization
+[11.357s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/NumericalDiff
+[11.357s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/OpenGLSupport
+[11.395s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/Polynomials
+[11.399s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/Skyline
+[11.399s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/SparseExtra
+[11.399s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/SpecialFunctions
+[11.400s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/Splines
+[11.400s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src
+[11.400s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/BVH
+[11.400s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/BVH/KdBVH.h
+[11.400s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/BVH/BVAlgorithms.h
+[11.400s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Polynomials
+[11.400s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialSolver.h
+[11.400s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Polynomials/Companion.h
+[11.400s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialUtils.h
+[11.401s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/FFT
+[11.401s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/FFT/ei_kissfft_impl.h
+[11.401s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/FFT/ei_fftw_impl.h
+[11.401s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Eigenvalues
+[11.401s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenSolver.h
+[11.401s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/AutoDiff
+[11.401s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffScalar.h
+[11.401s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffVector.h
+[11.402s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffJacobian.h
+[11.402s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/MatrixFunctions
+[11.402s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+[11.402s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h
+[11.402s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/MatrixFunctions/StemFunction.h
+[11.402s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+[11.402s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h
+[11.402s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h
+[11.403s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/IterativeSolvers
+[11.403s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/IterativeSolvers/DGMRES.h
+[11.403s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/IterativeSolvers/Scaling.h
+[11.403s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+[11.403s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+[11.419s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h
+[11.419s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+[11.420s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/IterativeSolvers/GMRES.h
+[11.420s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Splines
+[11.420s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Splines/SplineFitting.h
+[11.420s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Splines/SplineFwd.h
+[11.420s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Splines/Spline.h
+[11.420s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt
+[11.420s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+[11.420s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+[11.421s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+[11.421s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+[11.421s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+[11.421s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NumericalDiff
+[11.421s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NumericalDiff/NumericalDiff.h
+[11.421s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/MoreVectorization
+[11.421s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/MoreVectorization/MathFunctions.h
+[11.421s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization
+[11.422s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/HybridNonLinearSolver.h
+[11.422s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/rwupdt.h
+[11.422s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h
+[11.422s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/fdjac1.h
+[11.422s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/covar.h
+[11.422s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/dogleg.h
+[11.422s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/chkder.h
+[11.422s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1mpyq.h
+[11.423s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/lmpar.h
+[11.423s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/qrsolv.h
+[11.423s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1updt.h
+[11.423s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Skyline
+[11.423s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Skyline/SkylineStorage.h
+[11.423s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Skyline/SkylineInplaceLU.h
+[11.423s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Skyline/SkylineProduct.h
+[11.424s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrix.h
+[11.424s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrixBase.h
+[11.424s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/Skyline/SkylineUtil.h
+[11.424s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/KroneckerProduct
+[11.424s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h
+[11.424s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SpecialFunctions
+[11.424s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h
+[11.424s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+[11.425s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h
+[11.425s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch
+[11.425s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/CUDA
+[11.425s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/CUDA/CudaSpecialFunctions.h
+[11.425s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h
+[11.425s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h
+[11.425s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/EulerAngles
+[11.439s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerSystem.h
+[11.439s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerAngles.h
+[11.440s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SparseExtra
+[11.440s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SparseExtra/BlockSparseMatrix.h
+[11.440s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SparseExtra/RandomSetter.h
+[11.440s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SparseExtra/BlockOfDynamicSparseMatrix.h
+[11.440s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SparseExtra/DynamicSparseMatrix.h
+[11.440s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SparseExtra/MarketIO.h
+[11.440s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h
+[11.441s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/Tensor
+[11.441s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/TensorSymmetry
+[11.441s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/ThreadPool
+[11.441s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src
+[11.441s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool
+[11.441s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/SimpleThreadPool.h
+[11.441s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/EventCount.h
+[11.441s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadEnvironment.h
+[11.442s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/RunQueue.h
+[11.442s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/NonBlockingThreadPool.h
+[11.442s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadPoolInterface.h
+[11.442s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadLocal.h
+[11.442s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadYield.h
+[11.442s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/util
+[11.442s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h
+[11.442s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Meta.h
+[11.443s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h
+[11.443s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateCXX11Meta.h
+[11.443s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h
+[11.443s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry
+[11.443s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/DynamicSymmetry.h
+[11.455s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/StaticSymmetry.h
+[11.455s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/Symmetry.h
+[11.456s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util
+[11.456s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util/TemplateGroupTheory.h
+[11.456s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor
+[11.456s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSycl.h
+[11.456s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h
+[11.456s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h
+[11.456s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h
+[11.457s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h
+[11.457s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h
+[11.457s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h
+[11.457s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h
+[11.457s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclConvertToDeviceExpression.h
+[11.457s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h
+[11.457s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h
+[11.458s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h
+[11.483s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h
+[11.484s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h
+[11.484s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclTuple.h
+[11.484s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceCuda.h
+[11.484s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorVolumePatch.h
+[11.484s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h
+[11.484s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h
+[11.484s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h
+[11.484s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h
+[11.485s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h
+[11.485s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h
+[11.485s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h
+[11.485s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionCuda.h
+[11.485s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h
+[11.485s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h
+[11.485s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h
+[11.485s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclExtractAccessor.h
+[11.486s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h
+[11.486s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h
+[11.486s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h
+[11.486s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h
+[11.486s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h
+[11.486s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h
+[11.486s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h
+[11.486s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclExtractFunctors.h
+[11.487s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h
+[11.487s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h
+[11.487s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h
+[11.487s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h
+[11.487s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h
+[11.487s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h
+[11.487s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h
+[11.488s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h
+[11.488s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h
+[11.488s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h
+[11.488s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h
+[11.488s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h
+[11.495s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h
+[11.496s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h
+[11.496s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionCuda.h
+[11.496s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h
+[11.496s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h
+[11.496s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclLeafCount.h
+[11.496s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h
+[11.496s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h
+[11.497s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionSycl.h
+[11.497s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclExprConstructor.h
+[11.504s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h
+[11.504s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h
+[11.504s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h
+[11.504s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h
+[11.504s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h
+[11.505s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h
+[11.505s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h
+[11.505s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclPlaceHolderExpr.h
+[11.505s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h
+[11.505s] -- Installing: /home/locobot/Documents/kobuki/install/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorSyclRun.h
+[11.505s] Invoked command in '/home/locobot/Documents/kobuki/build/eigen' returned '0': /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/eigen

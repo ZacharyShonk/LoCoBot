@@ -1,0 +1,29 @@
+Re-run cmake no build system arguments
+-- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_core
+/usr/bin/cmake -S/home/locobot/Documents/kobuki/src/ecl_core/ecl_core -B/home/locobot/Documents/kobuki/build/ecl_core --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ecl_core/CMakeFiles /home/locobot/Documents/kobuki/build/ecl_core/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_core'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_core'
+/usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ecl_core/CMakeFiles 0
+-- Install configuration: ""
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_core
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_core
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/environment/path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core/environment/path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/local_setup.bash
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/local_setup.sh
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/local_setup.zsh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core/local_setup.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core/package.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_core
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/cmake/ecl_coreConfig.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/cmake/ecl_coreConfig-version.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core/package.xml

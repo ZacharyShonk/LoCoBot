@@ -1,0 +1,180 @@
+[0.222s] Invoking command in '/home/locobot/Documents/kobuki/build/kobuki_core': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/kobuki_core -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.230s] Not searching for unused variables given on the command line.
+[0.233s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[0.251s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.447s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[0.454s] -- Found ecl_command_line: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_command_line/cmake)
+[0.456s] -- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+[0.458s] -- Found ecl_console: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_console/cmake)
+[0.461s] -- Found ecl_converters: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_converters/cmake)
+[0.492s] -- Found ecl_devices: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_devices/cmake)
+[0.550s] -- Found ecl_geometry: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake)
+[0.579s] -- Found ecl_mobile_robot: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_mobile_robot/cmake)
+[0.588s] -- Found ecl_sigslots: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_sigslots/cmake)
+[0.718s] -- Configuring done
+[0.763s] -- Generating done
+[0.771s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/kobuki_core
+[0.780s] Invoked command in '/home/locobot/Documents/kobuki/build/kobuki_core' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/kobuki_core -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.781s] Invoking command in '/home/locobot/Documents/kobuki/build/kobuki_core': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/kobuki_core -- -j4 -l4
+[0.879s] [  3%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/battery.cpp.o[0m
+[1.336s] [  6%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/diff_drive.cpp.o[0m
+[3.775s] [  9%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive.cpp.o[0m
+[6.185s] [ 12%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive_debug.cpp.o[0m
+[8.202s] [ 15%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive_states.cpp.o[0m
+[10.082s] [ 18%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/event_manager.cpp.o[0m
+[12.192s] [ 21%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/firmware.cpp.o[0m
+[12.923s] [ 25%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/kobuki.cpp.o[0m
+[18.549s] [ 28%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/logging.cpp.o[0m
+[18.873s] [ 31%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/packet_finder.cpp.o[0m
+[19.894s] [ 34%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/__/__/version_info.cpp.o[0m
+[20.188s] [ 37%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/core_sensors.cpp.o[0m
+[20.636s] [ 40%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/command.cpp.o[0m
+[23.333s] [ 43%] [32m[1mLinking CXX shared library libkobuki_core.so[0m
+[23.762s] [ 43%] Built target kobuki_core
+[23.837s] [ 46%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_raw_data_stream.dir/raw_data_stream.cpp.o[0m
+[23.857s] [ 50%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_custom_logging.dir/custom_logging.cpp.o[0m
+[25.945s] [ 53%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_data_stream.dir/data_stream.cpp.o[0m
+[27.093s] [ 56%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_buttons.dir/buttons.cpp.o[0m
+[31.242s] [ 59%] [32m[1mLinking CXX executable demo_custom_logging[0m
+[31.349s] [ 62%] [32m[1mLinking CXX executable demo_raw_data_stream[0m
+[31.665s] [ 62%] Built target kobuki_core_demo_custom_logging
+[31.746s] [ 62%] Built target kobuki_core_demo_raw_data_stream
+[32.251s] [ 65%] [32m[1mLinking CXX executable demo_data_stream[0m
+[32.439s] [ 65%] Built target kobuki_core_demo_data_stream
+[33.645s] [ 68%] [32m[1mLinking CXX executable demo_buttons[0m
+[33.784s] [ 68%] Built target kobuki_core_demo_buttons
+[33.812s] [ 71%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_velocity_commands.dir/velocity_commands.cpp.o[0m
+[34.131s] [ 75%] [32m[1mLinking CXX executable demo_velocity_commands[0m
+[34.239s] [ 75%] Built target kobuki_core_demo_velocity_commands
+[34.282s] [ 78%] [32mBuilding CXX object src/tools/CMakeFiles/kobuki_core_tool_simple_keyop.dir/simple_keyop.cpp.o[0m
+[37.901s] [ 81%] [32m[1mLinking CXX executable kobuki-simple-keyop[0m
+[38.058s] [ 81%] Built target kobuki_core_tool_simple_keyop
+[38.097s] [ 84%] [32mBuilding CXX object src/tools/CMakeFiles/kobuki_core_tool_version_info.dir/version_info.cpp.o[0m
+[41.913s] [ 87%] [32m[1mLinking CXX executable kobuki-version-info[0m
+[42.077s] [ 87%] Built target kobuki_core_tool_version_info
+[42.118s] [ 90%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_chirp.dir/chirp.cpp.o[0m
+[45.971s] [ 93%] [32m[1mLinking CXX executable demo_chirp[0m
+[46.114s] [ 93%] Built target kobuki_core_demo_chirp
+[46.161s] [ 96%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_simple_loop.dir/simple_loop.cpp.o[0m
+[49.950s] [100%] [32m[1mLinking CXX executable demo_simple_loop[0m
+[50.150s] [100%] Built target kobuki_core_demo_simple_loop
+[50.167s] Invoked command in '/home/locobot/Documents/kobuki/build/kobuki_core' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/kobuki_core -- -j4 -l4
+[50.170s] Invoking command in '/home/locobot/Documents/kobuki/build/kobuki_core': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/kobuki_core
+[50.186s] -- Install configuration: ""
+[50.186s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include
+[50.186s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core
+[50.186s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/logging.hpp
+[50.186s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/version_info.hpp
+[50.187s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets
+[50.187s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/unique_device_id.hpp
+[50.187s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/core_sensors.hpp
+[50.189s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/three_axis_gyro.hpp
+[50.189s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/cliff.hpp
+[50.189s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/eeprom.hpp
+[50.189s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/inertia.hpp
+[50.189s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/hardware.hpp
+[50.189s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/controller_info.hpp
+[50.189s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/current.hpp
+[50.189s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/gp_input.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/firmware.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/dock_ir.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packet_handler
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packet_handler/payload_base.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packet_handler/packet_finder.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packet_handler/payload_headers.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/command.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/macros.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/event_manager.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/kobuki.hpp
+[50.190s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules
+[50.191s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/diff_drive.hpp
+[50.191s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/digital_output.hpp
+[50.191s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/acceleration_limiter.hpp
+[50.191s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/battery.hpp
+[50.191s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/led_array.hpp
+[50.191s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/sound.hpp
+[50.191s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules.hpp
+[50.191s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets.hpp
+[50.191s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/dock_drive.hpp
+[50.192s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/parameters.hpp
+[50.192s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/CMakeLists.txt
+[50.192s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/environment/library_path.sh
+[50.192s] -- Installing: /home/locobot/Documents/kobuki/install/share/kobuki_core/environment/library_path.dsv
+[50.192s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/kobuki_core
+[50.192s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/kobuki_core
+[50.192s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/environment/ament_prefix_path.sh
+[50.192s] -- Installing: /home/locobot/Documents/kobuki/install/share/kobuki_core/environment/ament_prefix_path.dsv
+[50.192s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/environment/path.sh
+[50.192s] -- Installing: /home/locobot/Documents/kobuki/install/share/kobuki_core/environment/path.dsv
+[50.192s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/local_setup.bash
+[50.193s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/local_setup.sh
+[50.193s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/local_setup.zsh
+[50.193s] -- Installing: /home/locobot/Documents/kobuki/install/share/kobuki_core/local_setup.dsv
+[50.193s] -- Installing: /home/locobot/Documents/kobuki/install/share/kobuki_core/package.dsv
+[50.193s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/kobuki_core
+[50.193s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/cmake/kobuki_coreExport.cmake
+[50.193s] -- Installing: /home/locobot/Documents/kobuki/install/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
+[50.193s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_targets-extras.cmake
+[50.193s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_libraries-extras.cmake
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/cmake/kobuki_coreConfig.cmake
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/cmake/kobuki_coreConfig-version.cmake
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/kobuki_core/package.xml
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/logging.hpp
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/version_info.hpp
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets
+[50.194s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/unique_device_id.hpp
+[50.195s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/core_sensors.hpp
+[50.195s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/three_axis_gyro.hpp
+[50.195s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/cliff.hpp
+[50.195s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/eeprom.hpp
+[50.195s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/inertia.hpp
+[50.195s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/hardware.hpp
+[50.195s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/controller_info.hpp
+[50.195s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/current.hpp
+[50.195s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/gp_input.hpp
+[50.196s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/firmware.hpp
+[50.196s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets/dock_ir.hpp
+[50.196s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packet_handler
+[50.196s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packet_handler/payload_base.hpp
+[50.196s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packet_handler/packet_finder.hpp
+[50.196s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packet_handler/payload_headers.hpp
+[50.196s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/command.hpp
+[50.196s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/macros.hpp
+[50.197s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/event_manager.hpp
+[50.197s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/kobuki.hpp
+[50.197s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules
+[50.197s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/diff_drive.hpp
+[50.197s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/digital_output.hpp
+[50.197s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/acceleration_limiter.hpp
+[50.198s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/battery.hpp
+[50.198s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/led_array.hpp
+[50.198s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules/sound.hpp
+[50.198s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/modules.hpp
+[50.198s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/packets.hpp
+[50.198s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/dock_drive.hpp
+[50.198s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/kobuki_core/parameters.hpp
+[50.198s] -- Installing: /home/locobot/Documents/kobuki/install/lib/libkobuki_core.so.1.3.1
+[50.199s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/libkobuki_core.so.1.3.1" to ""
+[50.199s] -- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libkobuki_core.so
+[50.199s] -- Installing: /home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_chirp
+[50.199s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_chirp" to ""
+[50.199s] -- Installing: /home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_custom_logging
+[50.199s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_custom_logging" to ""
+[50.199s] -- Installing: /home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_buttons
+[50.199s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_buttons" to ""
+[50.199s] -- Installing: /home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_raw_data_stream
+[50.200s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_raw_data_stream" to ""
+[50.200s] -- Installing: /home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_data_stream
+[50.201s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_data_stream" to ""
+[50.202s] -- Installing: /home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_velocity_commands
+[50.202s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_velocity_commands" to ""
+[50.203s] -- Installing: /home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_simple_loop
+[50.204s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/kobuki_core/demo_simple_loop" to ""
+[50.205s] -- Installing: /home/locobot/Documents/kobuki/install/bin/kobuki-version-info
+[50.206s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/kobuki-version-info" to ""
+[50.206s] -- Installing: /home/locobot/Documents/kobuki/install/bin/kobuki-simple-keyop
+[50.208s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/kobuki-simple-keyop" to ""
+[50.219s] Invoked command in '/home/locobot/Documents/kobuki/build/kobuki_core' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/kobuki_core

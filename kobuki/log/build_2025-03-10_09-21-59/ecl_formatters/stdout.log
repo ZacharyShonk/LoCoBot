@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+-- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+-- Found ecl_converters: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_converters/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_formatters
+[35m[1mScanning dependencies of target ecl_formatters[0m
+[ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_formatters.dir/strings.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libecl_formatters.so[0m
+[ 50%] Built target ecl_formatters
+[35m[1mScanning dependencies of target ecl_demo_formatters[0m
+[ 75%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_formatters.dir/formatters.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo_formatters[0m
+[100%] Built target ecl_demo_formatters
+-- Install configuration: ""
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/library_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/library_path.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_formatters
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_formatters
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/ament_prefix_path.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/environment/path.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/local_setup.bash
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/local_setup.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/local_setup.zsh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/local_setup.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/package.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_formatters
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ecl_formattersExport.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ecl_formattersExport-noconfig.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ecl_formattersConfig.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake/ecl_formattersConfig-version.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_formatters/package.xml
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/formatters.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/formatters/common.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/formatters/floats.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/formatters/macros.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/formatters/number.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/formatters/strings.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_formatters.so.1.2.1
+-- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/libecl_formatters.so.1.2.1" to ""
+-- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_formatters.so
+-- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_formatters/demo_formatters
+-- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_formatters/demo_formatters" to ""

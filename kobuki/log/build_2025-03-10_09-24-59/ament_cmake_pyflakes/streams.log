@@ -1,0 +1,33 @@
+[0.108s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_pyflakes': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_lint/ament_cmake_pyflakes -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.145s] Not searching for unused variables given on the command line.
+[0.146s] -- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+[0.166s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.364s] -- Found ament_cmake_test: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake)
+[0.538s] -- Configuring done
+[0.538s] -- Generating done
+[0.538s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_pyflakes
+[0.581s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_lint/ament_cmake_pyflakes -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.582s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_pyflakes': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_pyflakes -- -j4 -l4
+[0.702s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_pyflakes -- -j4 -l4
+[0.704s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_pyflakes': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_pyflakes
+[0.733s] -- Install configuration: ""
+[0.733s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_pyflakes
+[0.733s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_pyflakes
+[0.734s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/environment/ament_prefix_path.sh
+[0.734s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/environment/ament_prefix_path.dsv
+[0.734s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/environment/path.sh
+[0.734s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/environment/path.dsv
+[0.734s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/local_setup.bash
+[0.734s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/local_setup.sh
+[0.734s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/local_setup.zsh
+[0.734s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/local_setup.dsv
+[0.734s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/package.dsv
+[0.734s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_pyflakes
+[0.734s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/cmake/ament_cmake_pyflakes-extras.cmake
+[0.735s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/cmake/ament_cmake_pyflakesConfig.cmake
+[0.735s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/cmake/ament_cmake_pyflakesConfig-version.cmake
+[0.735s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/package.xml
+[0.735s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/cmake
+[0.735s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/cmake/ament_pyflakes.cmake
+[0.735s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_pyflakes/cmake/ament_cmake_pyflakes_lint_hook.cmake
+[0.752s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_pyflakes

@@ -1,0 +1,96 @@
+[1.346s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_package': PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_package/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/locobot/Documents/kobuki/build/ament_package/build install --record /home/locobot/Documents/kobuki/build/ament_package/install.log --single-version-externally-managed install_data
+[1.777s] running egg_info
+[1.777s] creating ../../build/ament_package/ament_package.egg-info
+[1.777s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[1.777s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[1.777s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[1.777s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.891s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.894s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.894s] running build
+[1.894s] running build_py
+[1.894s] creating /home/locobot/Documents/kobuki/build/ament_package/build
+[1.895s] creating /home/locobot/Documents/kobuki/build/ament_package/build/lib
+[1.895s] creating /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package
+[1.895s] copying ament_package/templates.py -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package
+[1.898s] copying ament_package/__init__.py -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package
+[1.899s] creating /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template
+[1.903s] creating /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.903s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.903s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.903s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.903s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.904s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.904s] copying ament_package/template/environment_hook/library_path.sh -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.904s] copying ament_package/template/environment_hook/path.bat -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.904s] copying ament_package/template/environment_hook/path.sh -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.906s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.907s] creating /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.907s] copying ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.907s] copying ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.907s] copying ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.909s] copying ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.909s] copying ament_package/template/isolated_prefix_level/local_setup.bash -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.909s] creating /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[1.909s] copying ament_package/template/package_level/local_setup.sh.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[1.910s] copying ament_package/template/package_level/local_setup.bat.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[1.920s] copying ament_package/template/package_level/local_setup.zsh.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[1.928s] copying ament_package/template/package_level/local_setup.bash.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[1.929s] creating /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.957s] copying ament_package/template/prefix_level/setup.sh.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.957s] copying ament_package/template/prefix_level/setup.zsh -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.957s] copying ament_package/template/prefix_level/local_setup.sh.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.957s] copying ament_package/template/prefix_level/_local_setup_util.py -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.957s] copying ament_package/template/prefix_level/setup.bash -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.957s] copying ament_package/template/prefix_level/local_setup.bat.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.957s] copying ament_package/template/prefix_level/local_setup.zsh -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.957s] copying ament_package/template/prefix_level/local_setup.bash -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.958s] copying ament_package/template/prefix_level/setup.bat.in -> /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.958s] running install
+[1.958s] running install_lib
+[1.958s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package
+[1.958s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/templates.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package
+[1.958s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template
+[1.958s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.958s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.958s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.959s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.959s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.959s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bash -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[1.959s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.959s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.959s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.959s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.959s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.959s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.960s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.960s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.960s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.960s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[1.960s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.960s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.960s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.960s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.960s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.961s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.961s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.961s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.961s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.961s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[1.962s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[1.962s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[1.962s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[1.962s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[1.963s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[1.963s] copying /home/locobot/Documents/kobuki/build/ament_package/build/lib/ament_package/__init__.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package
+[1.963s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/templates.py to templates.cpython-38.pyc
+[1.964s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level/_order_isolated_packages.py to _order_isolated_packages.cpython-38.pyc
+[1.964s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-38.pyc
+[1.964s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package/__init__.py to __init__.cpython-38.pyc
+[1.964s] running install_data
+[1.964s] copying package.xml -> /home/locobot/Documents/kobuki/install/share/ament_package
+[1.964s] copying resource/ament_package -> /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages
+[1.964s] running install_egg_info
+[1.964s] Copying ../../build/ament_package/ament_package.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_package-0.9.5-py3.8.egg-info
+[1.972s] running install_scripts
+[1.983s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_package/install.log'

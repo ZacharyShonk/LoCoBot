@@ -1,0 +1,73 @@
+[1.007s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_linear_algebra': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_linear_algebra -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[1.161s] -- The C compiler identification is GNU 9.4.0
+[1.292s] -- The CXX compiler identification is GNU 9.4.0
+[1.292s] -- Check for working C compiler: /usr/bin/cc
+[1.589s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.590s] -- Detecting C compiler ABI info
+[1.786s] -- Detecting C compiler ABI info - done
+[1.828s] -- Detecting C compile features
+[1.829s] -- Detecting C compile features - done
+[1.833s] -- Check for working CXX compiler: /usr/bin/c++
+[2.169s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.177s] -- Detecting CXX compiler ABI info
+[2.487s] -- Detecting CXX compiler ABI info - done
+[2.517s] -- Detecting CXX compile features
+[2.528s] -- Detecting CXX compile features - done
+[2.528s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[2.611s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.612s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.879s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[2.893s] -- Found ecl_eigen: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_eigen/cmake)
+[2.906s] -- Found ecl_exceptions: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_exceptions/cmake)
+[2.930s] -- Found ecl_formatters: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake)
+[2.959s] -- Found ecl_math: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_math/cmake)
+[3.104s] -- Configuring done
+[3.126s] -- Generating done
+[3.131s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_linear_algebra
+[3.141s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_linear_algebra' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_linear_algebra -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[3.142s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_linear_algebra': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_linear_algebra -- -j4 -l4
+[3.226s] [35m[1mScanning dependencies of target ecl_linear_algebra[0m
+[3.404s] [ 33%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_linear_algebra.dir/sophus_helpers.cpp.o[0m
+[7.063s] [ 66%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_linear_algebra.dir/sophus_interpolators.cpp.o[0m
+[14.288s] [100%] [32m[1mLinking CXX shared library libecl_linear_algebra.so[0m
+[15.044s] [100%] Built target ecl_linear_algebra
+[15.110s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_linear_algebra' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_linear_algebra -- -j4 -l4
+[15.115s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_linear_algebra': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_linear_algebra
+[15.180s] -- Install configuration: ""
+[15.180s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/environment/library_path.sh
+[15.180s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/environment/library_path.dsv
+[15.180s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_linear_algebra
+[15.180s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_linear_algebra
+[15.180s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/environment/ament_prefix_path.sh
+[15.180s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/environment/ament_prefix_path.dsv
+[15.180s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/environment/path.sh
+[15.181s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/environment/path.dsv
+[15.181s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/local_setup.bash
+[15.181s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/local_setup.sh
+[15.181s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/local_setup.zsh
+[15.181s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/local_setup.dsv
+[15.184s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/package.dsv
+[15.184s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_linear_algebra
+[15.184s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake/ecl_linear_algebraExport.cmake
+[15.184s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake/ecl_linear_algebraExport-noconfig.cmake
+[15.184s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake/ament_cmake_export_targets-extras.cmake
+[15.184s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.185s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake/ament_cmake_export_libraries-extras.cmake
+[15.185s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.204s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake/ecl_linear_algebraConfig.cmake
+[15.204s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake/ecl_linear_algebraConfig-version.cmake
+[15.204s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/package.xml
+[15.205s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra.hpp
+[15.206s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra/eigen.hpp
+[15.220s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra/sophus.hpp
+[15.220s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra/eigen/formatters.hpp
+[15.220s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra/eigen/plugin.hpp
+[15.220s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra/eigen/unsupported/nonlinear_optimization.hpp
+[15.220s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra/eigen/unsupported/numerical_diff.hpp
+[15.220s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra/sophus/formatters.hpp
+[15.220s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra/sophus/helpers.hpp
+[15.220s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/linear_algebra/sophus/interpolators.hpp
+[15.220s] -- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_linear_algebra.so.1.2.1
+[15.238s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/libecl_linear_algebra.so.1.2.1" to ""
+[15.239s] -- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_linear_algebra.so
+[15.259s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_linear_algebra' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_linear_algebra

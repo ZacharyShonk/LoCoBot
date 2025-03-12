@@ -1,0 +1,54 @@
+[0.301s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_manipulators': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_manipulators -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.332s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[0.360s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.563s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[0.583s] -- Found ecl_exceptions: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_exceptions/cmake)
+[0.599s] -- Found ecl_formatters: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_formatters/cmake)
+[0.624s] -- Found ecl_geometry: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake)
+[0.867s] -- Configuring done
+[0.877s] -- Generating done
+[0.878s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_manipulators
+[0.898s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_manipulators' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_manipulators -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.900s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_manipulators': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_manipulators -- -j4 -l4
+[1.147s] [ 33%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_manipulators.dir/trajectory.cpp.o[0m
+[9.575s] [ 66%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_manipulators.dir/waypoint.cpp.o[0m
+[10.284s] [100%] [32m[1mLinking CXX shared library libecl_manipulators.so[0m
+[10.467s] [100%] Built target ecl_manipulators
+[10.489s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_manipulators' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_manipulators -- -j4 -l4
+[10.491s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_manipulators': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_manipulators
+[10.507s] -- Install configuration: "RelWithDebInfo"
+[10.508s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/scripts
+[10.509s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/scripts/Makefile
+[10.509s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/scripts/linear.x11
+[10.510s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/scripts/tension.x11
+[10.511s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/environment/library_path.sh
+[10.512s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/environment/library_path.dsv
+[10.515s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_manipulators
+[10.516s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_manipulators
+[10.517s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/environment/ament_prefix_path.sh
+[10.518s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/environment/ament_prefix_path.dsv
+[10.521s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/environment/path.sh
+[10.522s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/environment/path.dsv
+[10.524s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/local_setup.bash
+[10.525s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/local_setup.sh
+[10.525s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/local_setup.zsh
+[10.526s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/local_setup.dsv
+[10.527s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/package.dsv
+[10.529s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_manipulators
+[10.529s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/cmake/ecl_manipulatorsExport.cmake
+[10.530s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/cmake/ecl_manipulatorsExport-relwithdebinfo.cmake
+[10.532s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/cmake/ament_cmake_export_targets-extras.cmake
+[10.532s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.533s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/cmake/ament_cmake_export_libraries-extras.cmake
+[10.534s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.534s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/cmake/ecl_manipulatorsConfig.cmake
+[10.535s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/cmake/ecl_manipulatorsConfig-version.cmake
+[10.535s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_manipulators/package.xml
+[10.536s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/manipulators.hpp
+[10.537s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/manipulators/trajectory.hpp
+[10.538s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/manipulators/types.hpp
+[10.538s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/manipulators/waypoint.hpp
+[10.539s] -- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_manipulators.so.1.2.1
+[10.552s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/libecl_manipulators.so.1.2.1" to ""
+[10.552s] -- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libecl_manipulators.so
+[10.569s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_manipulators' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_manipulators

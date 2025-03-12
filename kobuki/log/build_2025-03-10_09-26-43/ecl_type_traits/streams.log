@@ -1,0 +1,71 @@
+[0.841s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_type_traits': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_type_traits -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.899s] Re-run cmake no build system arguments
+[0.919s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[0.970s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.319s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[1.325s] -- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+[1.329s] -- Found ecl_mpl: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_mpl/cmake)
+[1.503s] -- Configuring done
+[1.523s] -- Generating done
+[1.527s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_type_traits
+[1.535s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_type_traits' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_type_traits -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[1.536s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_type_traits': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_type_traits -- -j4 -l4
+[1.561s] /usr/bin/cmake -S/home/locobot/Documents/kobuki/src/ecl_core/ecl_type_traits -B/home/locobot/Documents/kobuki/build/ecl_type_traits --check-build-system CMakeFiles/Makefile.cmake 0
+[1.580s] /usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ecl_type_traits/CMakeFiles /home/locobot/Documents/kobuki/build/ecl_type_traits/CMakeFiles/progress.marks
+[1.598s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.600s] make[1]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.600s] /usr/bin/make -f src/lib/CMakeFiles/ecl_type_traits.dir/build.make src/lib/CMakeFiles/ecl_type_traits.dir/depend
+[1.607s] make[2]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.607s] cd /home/locobot/Documents/kobuki/build/ecl_type_traits && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/locobot/Documents/kobuki/src/ecl_core/ecl_type_traits /home/locobot/Documents/kobuki/src/ecl_core/ecl_type_traits/src/lib /home/locobot/Documents/kobuki/build/ecl_type_traits /home/locobot/Documents/kobuki/build/ecl_type_traits/src/lib /home/locobot/Documents/kobuki/build/ecl_type_traits/src/lib/CMakeFiles/ecl_type_traits.dir/DependInfo.cmake --color=
+[1.622s] make[2]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.622s] /usr/bin/make -f src/lib/CMakeFiles/ecl_type_traits.dir/build.make src/lib/CMakeFiles/ecl_type_traits.dir/build
+[1.623s] make[2]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.624s] make[2]: Nothing to be done for 'src/lib/CMakeFiles/ecl_type_traits.dir/build'.
+[1.624s] make[2]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.635s] [ 50%] Built target ecl_type_traits
+[1.636s] /usr/bin/make -f src/utils/CMakeFiles/ecl_detect_sizes.dir/build.make src/utils/CMakeFiles/ecl_detect_sizes.dir/depend
+[1.638s] make[2]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.638s] cd /home/locobot/Documents/kobuki/build/ecl_type_traits && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/locobot/Documents/kobuki/src/ecl_core/ecl_type_traits /home/locobot/Documents/kobuki/src/ecl_core/ecl_type_traits/src/utils /home/locobot/Documents/kobuki/build/ecl_type_traits /home/locobot/Documents/kobuki/build/ecl_type_traits/src/utils /home/locobot/Documents/kobuki/build/ecl_type_traits/src/utils/CMakeFiles/ecl_detect_sizes.dir/DependInfo.cmake --color=
+[1.651s] make[2]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.651s] /usr/bin/make -f src/utils/CMakeFiles/ecl_detect_sizes.dir/build.make src/utils/CMakeFiles/ecl_detect_sizes.dir/build
+[1.654s] make[2]: Entering directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.655s] make[2]: Nothing to be done for 'src/utils/CMakeFiles/ecl_detect_sizes.dir/build'.
+[1.655s] make[2]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.675s] [100%] Built target ecl_detect_sizes
+[1.675s] make[1]: Leaving directory '/home/locobot/Documents/kobuki/build/ecl_type_traits'
+[1.675s] /usr/bin/cmake -E cmake_progress_start /home/locobot/Documents/kobuki/build/ecl_type_traits/CMakeFiles 0
+[1.705s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_type_traits' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_type_traits -- -j4 -l4
+[1.717s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_type_traits': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_type_traits
+[1.732s] -- Install configuration: ""
+[1.733s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/environment/library_path.sh
+[1.733s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/environment/library_path.dsv
+[1.735s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_type_traits
+[1.735s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_type_traits
+[1.735s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/environment/ament_prefix_path.sh
+[1.739s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/environment/ament_prefix_path.dsv
+[1.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/environment/path.sh
+[1.739s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/environment/path.dsv
+[1.739s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/local_setup.bash
+[1.740s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/local_setup.sh
+[1.740s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/local_setup.zsh
+[1.740s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/local_setup.dsv
+[1.740s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/package.dsv
+[1.740s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_type_traits
+[1.741s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/cmake/ecl_type_traitsExport.cmake
+[1.741s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/cmake/ecl_type_traitsExport-noconfig.cmake
+[1.741s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/cmake/ament_cmake_export_targets-extras.cmake
+[1.741s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.741s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/cmake/ament_cmake_export_libraries-extras.cmake
+[1.741s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.742s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/cmake/ecl_type_traitsConfig.cmake
+[1.742s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/cmake/ecl_type_traitsConfig-version.cmake
+[1.742s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_type_traits/package.xml
+[1.742s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/type_traits.hpp
+[1.742s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/type_traits/fundamental_types.hpp
+[1.742s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/type_traits/macros.hpp
+[1.743s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/type_traits/numeric_limits.hpp
+[1.743s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/type_traits/traits.hpp
+[1.743s] -- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libecl_type_traits.so.1.2.1
+[1.743s] -- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libecl_type_traits.so
+[1.743s] -- Up-to-date: /home/locobot/Documents/kobuki/install/bin/ecl_detect_sizes
+[1.755s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_type_traits' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_type_traits

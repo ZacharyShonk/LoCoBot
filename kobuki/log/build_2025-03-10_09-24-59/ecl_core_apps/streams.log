@@ -1,0 +1,123 @@
+[0.176s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_core_apps': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_core_apps -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.190s] Not searching for unused variables given on the command line.
+[0.198s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[0.220s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.385s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[0.395s] -- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+[0.398s] -- Found ecl_linear_algebra: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake)
+[0.457s] -- Found ecl_command_line: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_command_line/cmake)
+[0.460s] -- Found ecl_containers: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_containers/cmake)
+[0.476s] -- Found ecl_devices: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_devices/cmake)
+[0.512s] -- Found ecl_geometry: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake)
+[0.525s] -- Found ecl_ipc: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_ipc/cmake)
+[0.535s] -- Found ecl_sigslots: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_sigslots/cmake)
+[0.540s] -- Found ecl_streams: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_streams/cmake)
+[0.663s] -- Configuring done
+[0.727s] -- Generating done
+[0.755s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_core_apps
+[0.761s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_core_apps' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_core_apps -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.764s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_core_apps': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_core_apps -- -j4 -l4
+[0.821s] [  2%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_snooze.dir/snooze.cpp.o[0m
+[1.246s] [  5%] [32m[1mLinking CXX executable ecl_bench_snooze[0m
+[1.359s] [  5%] Built target ecl_bench_snooze
+[1.389s] [  8%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_exceptions.dir/exceptions.cpp.o[0m
+[1.734s] [ 11%] [32m[1mLinking CXX executable ecl_bench_exceptions[0m
+[1.861s] [ 11%] Built target ecl_bench_exceptions
+[1.888s] [ 14%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_streams.dir/streams.cpp.o[0m
+[2.539s] [ 17%] [32m[1mLinking CXX executable ecl_bench_streams[0m
+[2.650s] [ 17%] Built target ecl_bench_streams
+[2.690s] [ 20%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_eigen3_transforms.dir/eigen3_transforms.cpp.o[0m
+[11.375s] [ 23%] [32m[1mLinking CXX executable ecl_bench_eigen3_transforms[0m
+[11.637s] [ 23%] Built target ecl_bench_eigen3_transforms
+[11.674s] [ 26%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_eigen3_inverse.dir/eigen3_inverse.cpp.o[0m
+[17.057s] [ 29%] [32m[1mLinking CXX executable ecl_bench_eigen3_inverse[0m
+[17.246s] [ 29%] Built target ecl_bench_eigen3_inverse
+[17.281s] [ 32%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_eigen3_decompositions.dir/eigen3_decompositions.cpp.o[0m
+[19.290s] [ 35%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_containers.dir/containers.cpp.o[0m
+[19.983s] [ 38%] [32m[1mLinking CXX executable ecl_bench_containers[0m
+[20.137s] [ 38%] Built target ecl_bench_containers
+[21.259s] [ 41%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_flops.dir/flops.cpp.o[0m
+[23.307s] [ 44%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_files.dir/files.cpp.o[0m
+[24.097s] [ 47%] [32m[1mLinking CXX executable ecl_bench_flops[0m
+[24.418s] [ 47%] Built target ecl_bench_flops
+[25.554s] [ 50%] [32m[1mLinking CXX executable ecl_bench_files[0m
+[25.813s] [ 50%] Built target ecl_bench_files
+[34.091s] [ 52%] [32m[1mLinking CXX executable ecl_bench_eigen3_decompositions[0m
+[34.512s] [ 52%] Built target ecl_bench_eigen3_decompositions
+[34.540s] [ 55%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_socket_server.dir/socket_server.cpp.o[0m
+[35.642s] [ 58%] [32m[1mLinking CXX executable ecl_socket_server[0m
+[35.757s] [ 58%] Built target ecl_socket_server
+[35.787s] [ 61%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_serial.dir/serial.cpp.o[0m
+[37.226s] [ 64%] [32m[1mLinking CXX executable ecl_serial[0m
+[37.378s] [ 64%] Built target ecl_serial
+[37.399s] [ 67%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_process_statistics.dir/process_statistics.cpp.o[0m
+[37.668s] [ 70%] [32m[1mLinking CXX executable bin/ecl_process_statistics[0m
+[37.759s] [ 70%] Built target ecl_process_statistics
+[37.790s] [ 73%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_quaternion2yaw.dir/quaternion2yaw.cpp.o[0m
+[39.993s] [ 76%] [32m[1mLinking CXX executable bin/ecl_quaternion2yaw[0m
+[40.151s] [ 76%] Built target ecl_quaternion2yaw
+[40.178s] [ 79%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_yaw2quaternion.dir/yaw2quaternion.cpp.o[0m
+[43.440s] [ 82%] [32m[1mLinking CXX executable bin/ecl_yaw2quaternion[0m
+[43.571s] [ 82%] Built target ecl_yaw2quaternion
+[43.602s] [ 85%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_socket_client.dir/socket_client.cpp.o[0m
+[44.869s] [ 88%] [32m[1mLinking CXX executable ecl_socket_client[0m
+[44.998s] [ 88%] Built target ecl_socket_client
+[45.026s] [ 91%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_hex.dir/hex.cpp.o[0m
+[45.029s] [ 94%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_string_conversions.dir/string_conversions.cpp.o[0m
+[45.658s] [ 97%] [32m[1mLinking CXX executable ecl_bench_string_conversions[0m
+[45.806s] [ 97%] Built target ecl_bench_string_conversions
+[46.430s] [100%] [32m[1mLinking CXX executable ecl_hex[0m
+[46.573s] [100%] Built target ecl_hex
+[46.587s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_core_apps' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_core_apps -- -j4 -l4
+[46.589s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_core_apps': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_core_apps
+[46.595s] -- Install configuration: ""
+[46.596s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_core_apps
+[46.596s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_core_apps
+[46.596s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.sh
+[46.597s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.dsv
+[46.597s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/environment/path.sh
+[46.597s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/environment/path.dsv
+[46.597s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/local_setup.bash
+[46.597s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/local_setup.sh
+[46.597s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/local_setup.zsh
+[46.597s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/local_setup.dsv
+[46.597s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/package.dsv
+[46.598s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_core_apps
+[46.598s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig.cmake
+[46.598s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig-version.cmake
+[46.598s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_core_apps/package.xml
+[46.598s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_containers
+[46.599s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_containers" to ""
+[46.599s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_files
+[46.606s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_files" to ""
+[46.607s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_flops
+[46.607s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_flops" to ""
+[46.607s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_exceptions
+[46.607s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_exceptions" to ""
+[46.607s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_snooze
+[46.607s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_snooze" to ""
+[46.607s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_streams
+[46.607s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_streams" to ""
+[46.607s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_string_conversions
+[46.607s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_string_conversions" to ""
+[46.608s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_eigen3_inverse
+[46.609s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_eigen3_inverse" to ""
+[46.610s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_eigen3_decompositions
+[46.615s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_eigen3_decompositions" to ""
+[46.616s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_bench_eigen3_transforms
+[46.620s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_bench_eigen3_transforms" to ""
+[46.621s] -- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_core_apps/ecl_hex
+[46.622s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_core_apps/ecl_hex" to ""
+[46.622s] -- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_core_apps/ecl_serial
+[46.623s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_core_apps/ecl_serial" to ""
+[46.624s] -- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_core_apps/ecl_socket_client
+[46.625s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_core_apps/ecl_socket_client" to ""
+[46.625s] -- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_core_apps/ecl_socket_server
+[46.626s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_core_apps/ecl_socket_server" to ""
+[46.627s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_process_statistics
+[46.627s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_process_statistics" to ""
+[46.630s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_quaternion2yaw
+[46.631s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_quaternion2yaw" to ""
+[46.631s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_yaw2quaternion
+[46.631s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/bin/ecl_yaw2quaternion" to ""
+[46.633s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_core_apps' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/locobot/Documents/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/locobot/Documents/kobuki/install/lib/pkgconfig PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_core_apps

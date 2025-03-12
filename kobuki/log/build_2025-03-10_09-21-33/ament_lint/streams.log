@@ -1,0 +1,32 @@
+[1.374s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_lint': PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_lint/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/locobot/Documents/kobuki/build/ament_lint/build install --record /home/locobot/Documents/kobuki/build/ament_lint/install.log --single-version-externally-managed install_data
+[1.755s] running egg_info
+[1.757s] creating ../../../build/ament_lint/ament_lint.egg-info
+[1.757s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.758s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.758s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.758s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.759s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.760s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.887s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.890s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.890s] running build
+[1.890s] running build_py
+[1.890s] creating /home/locobot/Documents/kobuki/build/ament_lint/build
+[1.891s] creating /home/locobot/Documents/kobuki/build/ament_lint/build/lib
+[1.891s] creating /home/locobot/Documents/kobuki/build/ament_lint/build/lib/ament_lint
+[1.891s] copying ament_lint/__init__.py -> /home/locobot/Documents/kobuki/build/ament_lint/build/lib/ament_lint
+[1.893s] copying ament_lint/pytest_marker.py -> /home/locobot/Documents/kobuki/build/ament_lint/build/lib/ament_lint
+[1.893s] running install
+[1.893s] running install_lib
+[1.894s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint
+[1.955s] copying /home/locobot/Documents/kobuki/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint
+[1.955s] copying /home/locobot/Documents/kobuki/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint
+[1.956s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint/__init__.py to __init__.cpython-38.pyc
+[1.956s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-38.pyc
+[1.957s] running install_data
+[1.957s] copying package.xml -> /home/locobot/Documents/kobuki/install/share/ament_lint
+[1.957s] copying resource/ament_lint -> /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages
+[1.957s] running install_egg_info
+[1.966s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint-0.9.8-py3.8.egg-info
+[1.966s] running install_scripts
+[2.007s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_lint/install.log'

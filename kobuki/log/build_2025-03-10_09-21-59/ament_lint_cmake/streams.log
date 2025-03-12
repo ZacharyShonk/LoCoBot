@@ -1,0 +1,37 @@
+[1.462s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_lint_cmake': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_lint_cmake/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint_cmake build --build-base /home/locobot/Documents/kobuki/build/ament_lint_cmake/build install --record /home/locobot/Documents/kobuki/build/ament_lint_cmake/install.log --single-version-externally-managed install_data
+[1.901s] running egg_info
+[1.902s] creating ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info
+[1.903s] writing ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/PKG-INFO
+[1.904s] writing dependency_links to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/dependency_links.txt
+[1.904s] writing entry points to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/entry_points.txt
+[1.905s] writing requirements to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/requires.txt
+[1.905s] writing top-level names to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/top_level.txt
+[1.906s] writing manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[2.015s] reading manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[2.015s] writing manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[2.016s] running build
+[2.016s] running build_py
+[2.016s] creating /home/locobot/Documents/kobuki/build/ament_lint_cmake/build
+[2.016s] creating /home/locobot/Documents/kobuki/build/ament_lint_cmake/build/lib
+[2.016s] creating /home/locobot/Documents/kobuki/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[2.016s] copying ament_lint_cmake/cmakelint.py -> /home/locobot/Documents/kobuki/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[2.016s] copying ament_lint_cmake/__init__.py -> /home/locobot/Documents/kobuki/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[2.016s] copying ament_lint_cmake/main.py -> /home/locobot/Documents/kobuki/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[2.017s] running install
+[2.017s] running install_lib
+[2.017s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake
+[2.017s] copying /home/locobot/Documents/kobuki/build/ament_lint_cmake/build/lib/ament_lint_cmake/cmakelint.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake
+[2.017s] copying /home/locobot/Documents/kobuki/build/ament_lint_cmake/build/lib/ament_lint_cmake/__init__.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake
+[2.017s] copying /home/locobot/Documents/kobuki/build/ament_lint_cmake/build/lib/ament_lint_cmake/main.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake
+[2.017s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake/cmakelint.py to cmakelint.cpython-38.pyc
+[2.031s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake/__init__.py to __init__.cpython-38.pyc
+[2.031s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake/main.py to main.cpython-38.pyc
+[2.031s] running install_data
+[2.031s] copying package.xml -> /home/locobot/Documents/kobuki/install/share/ament_lint_cmake
+[2.032s] copying resource/ament_lint_cmake -> /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages
+[2.032s] running install_egg_info
+[2.032s] Copying ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake-0.9.8-py3.8.egg-info
+[2.033s] running install_scripts
+[2.068s] Installing ament_lint_cmake script to /home/locobot/Documents/kobuki/install/bin
+[2.068s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_lint_cmake/install.log'
+[2.122s] Invoked command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_lint_cmake' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_lint_cmake/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint_cmake build --build-base /home/locobot/Documents/kobuki/build/ament_lint_cmake/build install --record /home/locobot/Documents/kobuki/build/ament_lint_cmake/install.log --single-version-externally-managed install_data

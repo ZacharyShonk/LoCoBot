@@ -1,0 +1,4 @@
+source;share/ecl_math/local_setup.bash
+source;share/ecl_math/local_setup.dsv
+source;share/ecl_math/local_setup.sh
+source;share/ecl_math/local_setup.zsh

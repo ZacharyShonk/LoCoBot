@@ -1,0 +1,87 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+-- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+-- Found ecl_containers: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_containers/cmake)
+-- Found ecl_linear_algebra: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_linear_algebra/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_geometry
+[35m[1mScanning dependencies of target ecl_geometry[0m
+[  7%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/angle.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/linear_segment.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/odometry_helper.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/pascals_triangle.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/polynomial.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/polynomial_blueprints.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/pose2d.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/smooth_linear_spline.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/tension_function.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/tension_spline.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/tension_spline_blueprints.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/cubic_spline_blueprints.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/cubic_spline.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libecl_geometry.so[0m
+[100%] Built target ecl_geometry
+-- Install configuration: ""
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/environment/library_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/environment/library_path.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_geometry
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_geometry
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/environment/ament_prefix_path.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/environment/path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/environment/path.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/local_setup.bash
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/local_setup.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/local_setup.zsh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/local_setup.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/package.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_geometry
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake/ecl_geometryExport.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake/ecl_geometryExport-noconfig.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake/ecl_geometryConfig.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/cmake/ecl_geometryConfig-version.cmake
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_geometry/package.xml
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/angle.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/cartesian_point.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/cubic_spline.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/function_math.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/homogeneous_point.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/legacy_pose2d.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/legacy_pose3d.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/linear_segment.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/macros.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/odometry.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/odometry_helper.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/odometry_typedefs.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/pascals_triangle.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/polynomial.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/pose2d.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/smooth_linear_spline.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/spline_function.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/tension_function.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/include/ecl/geometry/tension_spline.hpp
+-- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_geometry.so.1.2.1
+-- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/libecl_geometry.so.1.2.1" to ""
+-- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_geometry.so

@@ -1,0 +1,39 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_build
+-- Install configuration: ""
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_build
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_build
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_build/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/environment/path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_build/environment/path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/local_setup.bash
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/local_setup.sh
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/local_setup.zsh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_build/local_setup.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ecl_build/package.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_build
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/cmake/ecl_platform_detection.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/cmake/ecl_package.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/cmake/ecl_find_sse.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/cmake/ecl_build_utilities.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/cmake/ecl_cxx.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/cmake/cotire.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/cmake/ecl_buildConfig.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/cmake/ecl_buildConfig-version.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_build/package.xml
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/templates
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/templates/uninstall.cmake.in
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/ecl_cxx.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/cotire.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/ecl_platform_detection.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/ecl_package.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/ecl_find_sse.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/tests
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/tests/is_char_signed.cpp
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/cmake/ecl_build_utilities.cmake

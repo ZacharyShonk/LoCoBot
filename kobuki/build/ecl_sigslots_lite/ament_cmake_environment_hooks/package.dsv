@@ -1,0 +1,4 @@
+source;share/ecl_sigslots_lite/local_setup.bash
+source;share/ecl_sigslots_lite/local_setup.dsv
+source;share/ecl_sigslots_lite/local_setup.sh
+source;share/ecl_sigslots_lite/local_setup.zsh

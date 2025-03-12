@@ -1,0 +1,20 @@
+[1.171s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_lint': PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_lint/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/locobot/Documents/kobuki/build/ament_lint/build install --record /home/locobot/Documents/kobuki/build/ament_lint/install.log --single-version-externally-managed install_data
+[1.387s] running egg_info
+[1.388s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.388s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.388s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.388s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.389s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.443s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.444s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.444s] running build
+[1.444s] running build_py
+[1.445s] running install
+[1.446s] running install_lib
+[1.448s] running install_data
+[1.449s] running install_egg_info
+[1.451s] removing '/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint-0.9.8-py3.8.egg-info' (and everything under it)
+[1.479s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_lint-0.9.8-py3.8.egg-info
+[1.479s] running install_scripts
+[1.495s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_lint/install.log'
+[1.543s] Invoked command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_lint/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/locobot/Documents/kobuki/build/ament_lint/build install --record /home/locobot/Documents/kobuki/build/ament_lint/install.log --single-version-externally-managed install_data

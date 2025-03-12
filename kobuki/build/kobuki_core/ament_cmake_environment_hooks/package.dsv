@@ -1,0 +1,4 @@
+source;share/kobuki_core/local_setup.bash
+source;share/kobuki_core/local_setup.dsv
+source;share/kobuki_core/local_setup.sh
+source;share/kobuki_core/local_setup.zsh

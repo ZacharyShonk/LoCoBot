@@ -1,0 +1,19 @@
+[0.893s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_cmake_ros/domain_coordinator': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/domain_coordinator/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/locobot/Documents/kobuki/build/domain_coordinator/build install --record /home/locobot/Documents/kobuki/build/domain_coordinator/install.log --single-version-externally-managed install_data
+[1.118s] running egg_info
+[1.120s] writing ../../../build/domain_coordinator/domain_coordinator.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../../build/domain_coordinator/domain_coordinator.egg-info/dependency_links.txt
+[1.120s] writing requirements to ../../../build/domain_coordinator/domain_coordinator.egg-info/requires.txt
+[1.120s] writing top-level names to ../../../build/domain_coordinator/domain_coordinator.egg-info/top_level.txt
+[1.184s] reading manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[1.185s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[1.185s] running build
+[1.186s] running build_py
+[1.187s] running install
+[1.187s] running install_lib
+[1.188s] running install_data
+[1.189s] running install_egg_info
+[1.189s] removing '/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/domain_coordinator-0.9.2-py3.8.egg-info' (and everything under it)
+[1.190s] Copying ../../../build/domain_coordinator/domain_coordinator.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/domain_coordinator-0.9.2-py3.8.egg-info
+[1.191s] running install_scripts
+[1.225s] writing list of installed files to '/home/locobot/Documents/kobuki/build/domain_coordinator/install.log'
+[1.292s] Invoked command in '/home/locobot/Documents/kobuki/src/ament_cmake_ros/domain_coordinator' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/domain_coordinator/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/locobot/Documents/kobuki/build/domain_coordinator/build install --record /home/locobot/Documents/kobuki/build/domain_coordinator/install.log --single-version-externally-managed install_data

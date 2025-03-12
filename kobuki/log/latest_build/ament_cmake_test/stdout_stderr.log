@@ -1,0 +1,32 @@
+-- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_cmake_python: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_python/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_test
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/environment/pythonpath.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/environment/pythonpath.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cmake_test
+-- Up-to-date: /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cmake_test/__init__.py
+Listing '/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_cmake_test'...
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_test
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_test
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/environment/ament_prefix_path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/environment/path.sh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/environment/path.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/local_setup.bash
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/local_setup.sh
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/local_setup.zsh
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/local_setup.dsv
+-- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/package.dsv
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_test
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake/ament_cmake_testConfig-version.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/package.xml
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake/run_test.py
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake/ament_add_test_label.cmake
+-- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_test/cmake/ament_add_test.cmake

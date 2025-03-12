@@ -1,0 +1,171 @@
+[0.671s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_config': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_lite/ecl_config -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.823s] -- The C compiler identification is GNU 9.4.0
+[0.909s] -- The CXX compiler identification is GNU 9.4.0
+[0.909s] -- Check for working C compiler: /usr/bin/cc
+[1.052s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.052s] -- Detecting C compiler ABI info
+[1.172s] -- Detecting C compiler ABI info - done
+[1.193s] -- Detecting C compile features
+[1.193s] -- Detecting C compile features - done
+[1.194s] -- Check for working CXX compiler: /usr/bin/c++
+[1.393s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.394s] -- Detecting CXX compiler ABI info
+[1.681s] -- Detecting CXX compiler ABI info - done
+[1.706s] -- Detecting CXX compile features
+[1.708s] -- Detecting CXX compile features - done
+[1.709s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[1.737s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.737s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.021s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[2.039s] -- Looking for _POSIX_VERSION
+[2.286s] -- Looking for _POSIX_VERSION - found
+[2.287s] -- Looking for realpath in rt
+[2.540s] -- Looking for realpath in rt - found
+[2.541s] -- Looking for clock_nanosleep in rt
+[2.932s] -- Looking for clock_nanosleep in rt - found
+[2.932s] -- Looking for clock_gettime in rt
+[3.230s] -- Looking for clock_gettime in rt - found
+[3.231s] -- Looking for pthread_mutex_timedlock in pthread
+[3.503s] -- Looking for pthread_mutex_timedlock in pthread - found
+[3.528s] -- Looking for nanosleep in pthread
+[3.760s] -- Looking for nanosleep in pthread - found
+[3.760s] -- Looking for shm_open in rt
+[4.006s] -- Looking for shm_open in rt - found
+[4.006s] -- Looking for sched_setscheduler in pthread
+[4.275s] -- Looking for sched_setscheduler in pthread - found
+[4.275s] -- Looking for sem_timedwait in pthread
+[4.450s] -- Looking for sem_timedwait in pthread - found
+[4.450s] -- Looking for sem_init in pthread
+[4.671s] -- Looking for sem_init in pthread - found
+[4.672s] -- Looking for CLOCK_MONOTONIC
+[4.996s] -- Looking for CLOCK_MONOTONIC - found
+[5.001s] -- Looking for CLOCK_PROCESS_CPUTIME_ID
+[5.308s] -- Looking for CLOCK_PROCESS_CPUTIME_ID - found
+[5.310s] -- Looking for pthread.h
+[5.695s] -- Looking for pthread.h - found
+[5.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.012s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.012s] -- Looking for pthread_create in pthreads
+[6.178s] -- Looking for pthread_create in pthreads - not found
+[6.188s] -- Looking for pthread_create in pthread
+[6.593s] -- Looking for pthread_create in pthread - found
+[6.595s] -- Found Threads: TRUE  
+[6.595s] -- Looking for sys/types.h
+[6.869s] -- Looking for sys/types.h - found
+[6.869s] -- Looking for stdint.h
+[7.131s] -- Looking for stdint.h - found
+[7.132s] -- Looking for stddef.h
+[7.289s] -- Looking for stddef.h - found
+[7.289s] -- Check size of char
+[7.576s] -- Check size of char - done
+[7.577s] -- Check size of short
+[7.815s] -- Check size of short - done
+[7.818s] -- Check size of int
+[7.992s] -- Check size of int - done
+[7.993s] -- Check size of long
+[8.214s] -- Check size of long - done
+[8.214s] -- Check size of long long
+[8.430s] -- Check size of long long - done
+[8.433s] -- Check size of float
+[8.786s] -- Check size of float - done
+[8.786s] -- Check size of double
+[9.063s] -- Check size of double - done
+[9.064s] -- Check size of long double
+[9.263s] -- Check size of long double - done
+[9.263s] -- Check if the system is big endian
+[9.264s] -- Searching 16 bit integer
+[9.264s] -- Check size of unsigned short
+[9.420s] -- Check size of unsigned short - done
+[9.420s] -- Using unsigned short
+[9.594s] -- Check if the system is big endian - little endian
+[9.607s] -- -------------------------------------------------------------------
+[9.607s] -- Platform Summary
+[9.607s] -- -------------------------------------------------------------------
+[9.608s] -- 
+[9.608s] -- System type.....................posix
+[9.608s] -- Operating System................Linux-5.15.0-134-generic
+[9.608s] -- Timer model.....................real-time
+[9.608s] -- Thread model....................posix
+[9.608s] -- Size of char....................1
+[9.608s] -- Size of short...................2
+[9.608s] -- Size of int.....................4
+[9.608s] -- Size of long....................8
+[9.609s] -- Size of long long...............8
+[9.609s] -- Size of float...................4
+[9.609s] -- Size of double..................8
+[9.609s] -- Size of long double.............16
+[9.609s] -- Size of pointer.................64-bit
+[9.609s] -- Endianness......................little-endian
+[9.609s] -- 
+[9.609s] -- -------------------------------------------------------------------
+[9.609s] -- Posix Specifications
+[9.610s] -- -------------------------------------------------------------------
+[9.610s] -- 
+[9.610s] -- Clock selection.................yes
+[9.610s] -- Monotonic clock.................yes
+[9.610s] -- Priority scheduling.............yes
+[9.610s] -- Semaphores......................yes
+[9.610s] -- Shared memory objects...........yes
+[9.610s] -- Timers..........................yes
+[9.610s] -- Timeouts........................yes
+[9.610s] --  - clock_gettime................yes
+[9.611s] --  - clock_nanosleep..............yes
+[9.611s] --  - nanosleep....................yes
+[9.611s] --  - pthread_mutex_timedlock......yes
+[9.611s] --  - sched_setscheduler...........yes
+[9.611s] --  - sem_init.....................yes
+[9.619s] --  - sem_timedwait................yes
+[9.619s] --  - shm_open.....................yes
+[9.619s] -- 
+[9.620s] -- -------------------------------------------------------------------
+[9.620s] -- Build Environment
+[9.620s] -- -------------------------------------------------------------------
+[9.620s] -- 
+[9.620s] -- Compiler......................../usr/bin/c++
+[9.620s] --  - version......................9.4.0
+[9.620s] -- 
+[9.793s] -- Configuring done
+[9.824s] -- Generating done
+[9.825s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_config
+[9.837s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_config' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_lite/ecl_config -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[9.838s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_config': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_config -- -j4 -l4
+[9.955s] [35m[1mScanning dependencies of target ecl_detect_posix[0m
+[9.984s] [ 25%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_posix.dir/detect_posix.cpp.o[0m
+[10.428s] [ 50%] [32m[1mLinking CXX executable bin/ecl_detect_posix[0m
+[10.543s] [ 50%] Built target ecl_detect_posix
+[10.556s] [35m[1mScanning dependencies of target ecl_detect_endian[0m
+[10.570s] [ 75%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_endian.dir/detect_endian.cpp.o[0m
+[10.961s] [100%] [32m[1mLinking CXX executable bin/ecl_detect_endian[0m
+[11.090s] [100%] Built target ecl_detect_endian
+[11.108s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_config' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_config -- -j4 -l4
+[11.109s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_config': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_config
+[11.120s] -- Install configuration: ""
+[11.121s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_config
+[11.121s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_config
+[11.121s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/environment/ament_prefix_path.sh
+[11.124s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/environment/ament_prefix_path.dsv
+[11.124s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/environment/path.sh
+[11.124s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/environment/path.dsv
+[11.125s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/local_setup.bash
+[11.126s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/local_setup.sh
+[11.126s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/local_setup.zsh
+[11.127s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/local_setup.dsv
+[11.127s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/package.dsv
+[11.127s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_config
+[11.127s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/cmake/ecl_configExport.cmake
+[11.127s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/cmake/ament_cmake_export_targets-extras.cmake
+[11.127s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.127s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/cmake/ecl_configConfig.cmake
+[11.127s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/cmake/ecl_configConfig-version.cmake
+[11.128s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_config/package.xml
+[11.128s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/config.hpp
+[11.128s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/config/ecl.hpp
+[11.128s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/config/char_sign.hpp
+[11.128s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/config/ecl_unknown.hpp
+[11.128s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/config/endianness.hpp
+[11.128s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/config/macros.hpp
+[11.128s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/config/portable_types.hpp
+[11.128s] -- Installing: /home/locobot/Documents/kobuki/install/include/ecl/config/windows.hpp
+[11.129s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_detect_endian
+[11.129s] -- Installing: /home/locobot/Documents/kobuki/install/bin/ecl_detect_posix
+[11.130s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_config' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_config

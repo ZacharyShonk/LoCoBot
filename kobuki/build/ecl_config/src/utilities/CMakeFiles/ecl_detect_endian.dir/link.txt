@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/ecl_detect_endian.dir/detect_endian.cpp.o  -o bin/ecl_detect_endian 

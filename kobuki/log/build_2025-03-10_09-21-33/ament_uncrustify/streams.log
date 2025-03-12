@@ -1,0 +1,37 @@
+[1.475s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_uncrustify': PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_uncrustify/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/locobot/Documents/kobuki/build/ament_uncrustify/build install --record /home/locobot/Documents/kobuki/build/ament_uncrustify/install.log --single-version-externally-managed install_data
+[2.012s] running egg_info
+[2.012s] creating ../../../build/ament_uncrustify/ament_uncrustify.egg-info
+[2.012s] writing ../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[2.012s] writing dependency_links to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[2.012s] writing entry points to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[2.013s] writing requirements to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[2.013s] writing top-level names to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[2.013s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[2.107s] reading manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[2.109s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[2.110s] running build
+[2.110s] running build_py
+[2.110s] creating /home/locobot/Documents/kobuki/build/ament_uncrustify/build
+[2.110s] creating /home/locobot/Documents/kobuki/build/ament_uncrustify/build/lib
+[2.110s] creating /home/locobot/Documents/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify
+[2.110s] copying ament_uncrustify/__init__.py -> /home/locobot/Documents/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify
+[2.110s] copying ament_uncrustify/main.py -> /home/locobot/Documents/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify
+[2.111s] creating /home/locobot/Documents/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[2.111s] copying ament_uncrustify/configuration/ament_code_style.cfg -> /home/locobot/Documents/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[2.111s] running install
+[2.111s] running install_lib
+[2.112s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify
+[2.112s] copying /home/locobot/Documents/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/__init__.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify
+[2.112s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify/configuration
+[2.113s] copying /home/locobot/Documents/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style.cfg -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify/configuration
+[2.113s] copying /home/locobot/Documents/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/main.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify
+[2.114s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify/__init__.py to __init__.cpython-38.pyc
+[2.115s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify/main.py to main.cpython-38.pyc
+[2.120s] running install_data
+[2.120s] copying package.xml -> /home/locobot/Documents/kobuki/install/share/ament_uncrustify
+[2.120s] copying resource/ament_uncrustify -> /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages
+[2.120s] running install_egg_info
+[2.123s] Copying ../../../build/ament_uncrustify/ament_uncrustify.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_uncrustify-0.9.8-py3.8.egg-info
+[2.124s] running install_scripts
+[2.151s] Installing ament_uncrustify script to /home/locobot/Documents/kobuki/install/bin
+[2.152s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_uncrustify/install.log'

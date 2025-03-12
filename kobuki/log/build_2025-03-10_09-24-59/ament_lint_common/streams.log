@@ -1,0 +1,30 @@
+[0.163s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_lint_common': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_lint/ament_lint_common -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.192s] Not searching for unused variables given on the command line.
+[0.194s] -- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+[0.248s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.544s] -- Found ament_cmake_export_dependencies: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_export_dependencies/cmake)
+[0.670s] -- Configuring done
+[0.673s] -- Generating done
+[0.676s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_lint_common
+[0.679s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_lint_common' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_lint/ament_lint_common -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.683s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_lint_common': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_lint_common -- -j4 -l4
+[1.051s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_lint_common' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_lint_common -- -j4 -l4
+[1.053s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_lint_common': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_lint_common
+[1.073s] -- Install configuration: ""
+[1.073s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_lint_common
+[1.073s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_lint_common
+[1.073s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_lint_common/environment/ament_prefix_path.sh
+[1.074s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_lint_common/environment/ament_prefix_path.dsv
+[1.074s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_lint_common/environment/path.sh
+[1.074s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_lint_common/environment/path.dsv
+[1.074s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_lint_common/local_setup.bash
+[1.074s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_lint_common/local_setup.sh
+[1.074s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_lint_common/local_setup.zsh
+[1.075s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_lint_common/local_setup.dsv
+[1.075s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_lint_common/package.dsv
+[1.075s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_lint_common
+[1.075s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.076s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_lint_common/cmake/ament_lint_commonConfig.cmake
+[1.076s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_lint_common/cmake/ament_lint_commonConfig-version.cmake
+[1.076s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_lint_common/package.xml
+[1.095s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_lint_common' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_lint_common

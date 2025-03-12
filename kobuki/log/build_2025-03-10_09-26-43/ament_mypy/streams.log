@@ -1,0 +1,21 @@
+[1.086s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_mypy/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/locobot/Documents/kobuki/build/ament_mypy/build install --record /home/locobot/Documents/kobuki/build/ament_mypy/install.log --single-version-externally-managed install_data
+[1.315s] running egg_info
+[1.319s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[1.320s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[1.321s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[1.322s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[1.323s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[1.353s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.354s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.355s] running build
+[1.355s] running build_py
+[1.361s] running install
+[1.361s] running install_lib
+[1.361s] running install_data
+[1.362s] running install_egg_info
+[1.362s] removing '/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_mypy-0.9.8-py3.8.egg-info' (and everything under it)
+[1.362s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_mypy-0.9.8-py3.8.egg-info
+[1.374s] running install_scripts
+[1.399s] Installing ament_mypy script to /home/locobot/Documents/kobuki/install/bin
+[1.400s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_mypy/install.log'
+[1.440s] Invoked command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_mypy/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/locobot/Documents/kobuki/build/ament_mypy/build install --record /home/locobot/Documents/kobuki/build/ament_mypy/install.log --single-version-externally-managed install_data

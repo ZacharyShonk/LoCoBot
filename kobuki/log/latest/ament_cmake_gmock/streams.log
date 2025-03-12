@@ -1,0 +1,31 @@
+[0.101s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_gmock': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_cmake/ament_cmake_gmock -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.121s] -- Found ament_cmake_core: 0.9.12 (/home/locobot/Documents/kobuki/install/share/ament_cmake_core/cmake)
+[0.147s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.504s] -- Configuring done
+[0.504s] -- Generating done
+[0.504s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ament_cmake_gmock
+[0.509s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_gmock' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ament_cmake/ament_cmake_gmock -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.510s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_gmock': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_gmock -- -j4 -l4
+[0.634s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_gmock' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ament_cmake_gmock -- -j4 -l4
+[0.638s] Invoking command in '/home/locobot/Documents/kobuki/build/ament_cmake_gmock': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_gmock
+[0.655s] -- Install configuration: "RelWithDebInfo"
+[0.657s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gmock
+[0.657s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gmock
+[0.658s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/environment/ament_prefix_path.sh
+[0.659s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/environment/ament_prefix_path.dsv
+[0.660s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/environment/path.sh
+[0.661s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/environment/path.dsv
+[0.662s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/local_setup.bash
+[0.662s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/local_setup.sh
+[0.663s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/local_setup.zsh
+[0.668s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/local_setup.dsv
+[0.669s] -- Installing: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/package.dsv
+[0.670s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_gmock
+[0.671s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/cmake/ament_cmake_gmock-extras.cmake
+[0.672s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/cmake/ament_cmake_gmockConfig.cmake
+[0.673s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/cmake/ament_cmake_gmockConfig-version.cmake
+[0.674s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/package.xml
+[0.674s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/cmake
+[0.675s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake
+[0.676s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_cmake_gmock/cmake/ament_find_gmock.cmake
+[0.677s] Invoked command in '/home/locobot/Documents/kobuki/build/ament_cmake_gmock' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ament_cmake_gmock

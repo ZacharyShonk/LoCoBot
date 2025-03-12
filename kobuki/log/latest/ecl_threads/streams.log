@@ -1,0 +1,78 @@
+[0.209s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_threads': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_threads -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.236s] -- Found ament_cmake_ros: 0.9.2 (/home/locobot/Documents/kobuki/install/share/ament_cmake_ros/cmake)
+[0.265s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.498s] -- Found ecl_build: 1.0.3 (/home/locobot/Documents/kobuki/install/share/ecl_build/cmake)
+[0.515s] -- Found ecl_config: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_config/cmake)
+[0.518s] -- Found ecl_errors: 1.1.0 (/home/locobot/Documents/kobuki/install/share/ecl_errors/cmake)
+[0.523s] -- Found ecl_concepts: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_concepts/cmake)
+[0.535s] -- Found ecl_exceptions: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_exceptions/cmake)
+[0.540s] -- Found ecl_time: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_time/cmake)
+[0.552s] -- Found ecl_utilities: 1.2.1 (/home/locobot/Documents/kobuki/install/share/ecl_utilities/cmake)
+[0.688s] -- Configuring done
+[0.714s] -- Generating done
+[0.726s] -- Build files have been written to: /home/locobot/Documents/kobuki/build/ecl_threads
+[0.740s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_threads' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/locobot/Documents/kobuki/src/ecl_core/ecl_threads -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/locobot/Documents/kobuki/install
+[0.741s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_threads': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_threads -- -j4 -l4
+[0.813s] [  9%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/mutex_pos.cpp.o[0m
+[1.320s] [ 18%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/priority_win.cpp.o[0m
+[1.350s] [ 27%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/thread_pos.cpp.o[0m
+[1.986s] [ 36%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/thread_win.cpp.o[0m
+[2.016s] [ 45%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/priority_pos.cpp.o[0m
+[2.801s] [ 54%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/mutex_w32.cpp.o[0m
+[2.862s] [ 63%] [32m[1mLinking CXX shared library libecl_threads.so[0m
+[2.961s] [ 63%] Built target ecl_threads
+[2.991s] [ 72%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_mutex.dir/mutex.cpp.o[0m
+[3.600s] [ 81%] [32m[1mLinking CXX executable demo_mutex[0m
+[3.695s] [ 81%] Built target ecl_demo_mutex
+[3.716s] [ 90%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_thread.dir/thread.cpp.o[0m
+[4.730s] [100%] [32m[1mLinking CXX executable demo_thread[0m
+[4.855s] [100%] Built target ecl_demo_thread
+[4.877s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_threads' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/locobot/Documents/kobuki/build/ecl_threads -- -j4 -l4
+[4.879s] Invoking command in '/home/locobot/Documents/kobuki/build/ecl_threads': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_threads
+[4.889s] -- Install configuration: "RelWithDebInfo"
+[4.895s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/environment/library_path.sh
+[4.895s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_threads/environment/library_path.dsv
+[4.896s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_threads
+[4.896s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_threads
+[4.896s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/environment/ament_prefix_path.sh
+[4.896s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_threads/environment/ament_prefix_path.dsv
+[4.896s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/environment/path.sh
+[4.896s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_threads/environment/path.dsv
+[4.896s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/local_setup.bash
+[4.896s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/local_setup.sh
+[4.896s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/local_setup.zsh
+[4.897s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_threads/local_setup.dsv
+[4.897s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_threads/package.dsv
+[4.897s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages/ecl_threads
+[4.897s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/cmake/ecl_threadsExport.cmake
+[4.897s] -- Installing: /home/locobot/Documents/kobuki/install/share/ecl_threads/cmake/ecl_threadsExport-relwithdebinfo.cmake
+[4.897s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/cmake/ecl_threads-extras.cmake
+[4.897s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_targets-extras.cmake
+[4.897s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.897s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_libraries-extras.cmake
+[4.898s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.898s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/cmake/ecl_threadsConfig.cmake
+[4.898s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/cmake/ecl_threadsConfig-version.cmake
+[4.898s] -- Up-to-date: /home/locobot/Documents/kobuki/install/share/ecl_threads/package.xml
+[4.898s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads.hpp
+[4.898s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/macros.hpp
+[4.899s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/mutex.hpp
+[4.899s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/mutex_pos.hpp
+[4.899s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/mutex_w32.hpp
+[4.899s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/priority.hpp
+[4.899s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/priority_common.hpp
+[4.899s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/priority_pos.hpp
+[4.899s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/priority_win.hpp
+[4.899s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/thread.hpp
+[4.899s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/thread_exceptions_pos.hpp
+[4.900s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/thread_pos.hpp
+[4.900s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/thread_win.hpp
+[4.900s] -- Up-to-date: /home/locobot/Documents/kobuki/install/include/ecl/threads/threadable.hpp
+[4.900s] -- Installing: /home/locobot/Documents/kobuki/install/lib/libecl_threads.so.1.2.1
+[4.900s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/libecl_threads.so.1.2.1" to ""
+[4.900s] -- Up-to-date: /home/locobot/Documents/kobuki/install/lib/libecl_threads.so
+[4.901s] -- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_threads/demo_thread
+[4.901s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_threads/demo_thread" to ""
+[4.901s] -- Installing: /home/locobot/Documents/kobuki/install/lib/ecl_threads/demo_mutex
+[4.901s] -- Set runtime path of "/home/locobot/Documents/kobuki/install/lib/ecl_threads/demo_mutex" to ""
+[4.915s] Invoked command in '/home/locobot/Documents/kobuki/build/ecl_threads' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install LD_LIBRARY_PATH=/home/locobot/Documents/kobuki/install/lib PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/locobot/Documents/kobuki/build/ecl_threads

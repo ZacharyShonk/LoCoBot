@@ -1,0 +1,34 @@
+[1.838s] Invoking command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_pyflakes': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_pyflakes/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/locobot/Documents/kobuki/build/ament_pyflakes/build install --record /home/locobot/Documents/kobuki/build/ament_pyflakes/install.log --single-version-externally-managed install_data
+[2.432s] running egg_info
+[2.433s] creating ../../../build/ament_pyflakes/ament_pyflakes.egg-info
+[2.434s] writing ../../../build/ament_pyflakes/ament_pyflakes.egg-info/PKG-INFO
+[2.434s] writing dependency_links to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/dependency_links.txt
+[2.434s] writing entry points to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/entry_points.txt
+[2.434s] writing requirements to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/requires.txt
+[2.434s] writing top-level names to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/top_level.txt
+[2.434s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.574s] reading manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.575s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.575s] running build
+[2.575s] running build_py
+[2.575s] creating /home/locobot/Documents/kobuki/build/ament_pyflakes/build
+[2.575s] creating /home/locobot/Documents/kobuki/build/ament_pyflakes/build/lib
+[2.576s] creating /home/locobot/Documents/kobuki/build/ament_pyflakes/build/lib/ament_pyflakes
+[2.576s] copying ament_pyflakes/__init__.py -> /home/locobot/Documents/kobuki/build/ament_pyflakes/build/lib/ament_pyflakes
+[2.576s] copying ament_pyflakes/main.py -> /home/locobot/Documents/kobuki/build/ament_pyflakes/build/lib/ament_pyflakes
+[2.577s] running install
+[2.577s] running install_lib
+[2.578s] creating /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_pyflakes
+[2.578s] copying /home/locobot/Documents/kobuki/build/ament_pyflakes/build/lib/ament_pyflakes/__init__.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_pyflakes
+[2.579s] copying /home/locobot/Documents/kobuki/build/ament_pyflakes/build/lib/ament_pyflakes/main.py -> /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_pyflakes
+[2.581s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_pyflakes/__init__.py to __init__.cpython-38.pyc
+[2.581s] byte-compiling /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_pyflakes/main.py to main.cpython-38.pyc
+[2.584s] running install_data
+[2.584s] copying package.xml -> /home/locobot/Documents/kobuki/install/share/ament_pyflakes
+[2.584s] copying resource/ament_pyflakes -> /home/locobot/Documents/kobuki/install/share/ament_index/resource_index/packages
+[2.584s] running install_egg_info
+[2.586s] Copying ../../../build/ament_pyflakes/ament_pyflakes.egg-info to /home/locobot/Documents/kobuki/install/lib/python3.8/site-packages/ament_pyflakes-0.9.8-py3.8.egg-info
+[2.588s] running install_scripts
+[2.636s] Installing ament_pyflakes script to /home/locobot/Documents/kobuki/install/bin
+[2.636s] writing list of installed files to '/home/locobot/Documents/kobuki/build/ament_pyflakes/install.log'
+[2.714s] Invoked command in '/home/locobot/Documents/kobuki/src/ament_lint/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/locobot/Documents/kobuki/install CMAKE_PREFIX_PATH=/home/locobot/Documents/kobuki/install PATH=/home/locobot/Documents/kobuki/install/bin:${PATH} PYTHONPATH=/home/locobot/Documents/kobuki/build/ament_pyflakes/prefix_override:/home/locobot/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages:/home/locobot/Documents/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/locobot/Documents/kobuki/build/ament_pyflakes/build install --record /home/locobot/Documents/kobuki/build/ament_pyflakes/install.log --single-version-externally-managed install_data
