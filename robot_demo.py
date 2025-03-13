@@ -6,6 +6,7 @@ import time
 import threading
 import pykobuki
 import os
+import random
 
 app = Flask(__name__)
 
@@ -39,6 +40,8 @@ ROBOT_SPEED = 1/4
 
 # Movement control toggle (default OFF)
 movement_enabled = False  
+
+stuck_direction = "Left"
 
 def adjust_thresholds_for_speed():
     global LEFT_THRESHOLD, RIGHT_THRESHOLD, CENTER_THRESHOLD
@@ -115,7 +118,7 @@ def get_depth():
     return depth_encoded
 
 def obstacle_avoidance():
-    global movement_enabled, ROBOT_SPEED
+    global movement_enabled, ROBOT_SPEED, stuck_direction
     while True:
         adjust_thresholds_for_speed()  # Adjust thresholds based on speed
 
@@ -148,7 +151,18 @@ def obstacle_avoidance():
 
         if center_dist < CENTER_THRESHOLD:
             print("Obstacle ahead! Turning!")
-            robot.move(0, -1)
+            if stuck_direction == "left":
+                robot.move(0, 1)
+            elif stuck_direction == "right":
+                robot.move(0, -1)
+            else:
+                stuck_direction = random.choice(["left", "right"])
+                if stuck_direction == "left":
+                    robot.move(0, 1)
+                elif stuck_direction == "right":
+                    robot.move(0, -1)
+                else:
+                    print("An act of god has happened")
         elif left_dist < LEFT_THRESHOLD:
             print("Obstacle on left! Turning right!")
             robot.move(ROBOT_SPEED, -1)
@@ -158,8 +172,103 @@ def obstacle_avoidance():
         else:
             print("Path clear! Moving forward!")
             robot.move(ROBOT_SPEED, 0)
+            stuck_direction = "skibidi"
 
         time.sleep(0.1)
+
+def follow_left_wall(target_distance=0.9):
+    global movement_enabled, ROBOT_SPEED
+
+    while True:
+        adjust_thresholds_for_speed()  # Adjust obstacle thresholds dynamically
+
+        if not movement_enabled:
+            robot.move(0, 0)
+            time.sleep(0.1)
+            continue
+
+        frames = pipeline.wait_for_frames()
+        depth_frame = frames.get_depth_frame()
+        depth_data = np.asanyarray(depth_frame.get_data()) / 1000.0  # Convert mm to meters
+
+        height, width = depth_data.shape
+
+        def get_filtered_distance(region):
+            valid_values = region[region > 0]  # Remove invalid (zero) depth readings
+            if valid_values.size == 0:
+                return float('inf')  # No valid depth, assume open space
+            return np.percentile(valid_values, 10)  # Use 10th percentile to filter noise
+
+        # Compute distances for left, right, and center
+        left_dist = get_filtered_distance(depth_data[:, :width // 3])
+        right_dist = get_filtered_distance(depth_data[:, -width // 3:])
+        center_dist = get_filtered_distance(depth_data[:, width // 3: 2 * width // 3])
+
+        print(f"Left: {left_dist:.2f}m, Center: {center_dist:.2f}m, Right: {right_dist:.2f}m")
+
+        if center_dist < CENTER_THRESHOLD:
+            # Obstacle ahead! Turn right
+            print("Obstacle ahead! Turning right.")
+            robot.move(0, -1)
+        elif left_dist > target_distance + 0.1:
+            # Too far from the left wall, turn left
+            print("Too far from wall! Turning left.")
+            robot.move(ROBOT_SPEED, 1)
+        elif left_dist < target_distance - 0.1:
+            # Too close to the left wall, turn right slightly
+            print("Too close to wall! Adjusting right.")
+            robot.move(ROBOT_SPEED, -0.5)
+        else:
+            # Maintain distance and move forward
+            print("Following left wall.")
+            robot.move(ROBOT_SPEED, 0)
+
+        time.sleep(0.1)
+
+
+# def obstacle_avoidance():
+#     global movement_enabled, ROBOT_SPEED
+
+#     while True:
+#         adjust_thresholds_for_speed()  # Adjust thresholds based on speed
+
+#         if not movement_enabled:
+#             robot.move(0, 0)
+#             time.sleep(0.1)
+#             continue
+
+#         frames = pipeline.wait_for_frames()
+#         depth_frame = frames.get_depth_frame()
+#         depth_data = np.asanyarray(depth_frame.get_data()) / 1000.0  # Convert mm to meters
+
+#         height, width = depth_data.shape
+#         num_sections = 5  # Split screen into 5 sections
+#         section_width = width // num_sections
+
+#         open_sections = []
+
+#         def get_filtered_distance(region):
+#             valid_values = region[region > 0]  # Remove invalid (zero) depth readings
+#             if valid_values.size == 0:
+#                 return float('inf')  # No valid depth, assume open space
+#             return np.mean(valid_values)  # Use mean to determine openness
+
+#         for i in range(num_sections):
+#             section = depth_data[:, i * section_width:(i + 1) * section_width]
+#             avg_dist = get_filtered_distance(section)
+#             open_sections.append((avg_dist, i))
+
+#         # Find the section with the maximum depth (most open space)
+#         best_section = max(open_sections, key=lambda x: x[0])[1]
+
+#         # Calculate turn direction based on section index
+#         turn_direction = (best_section - (num_sections // 2)) / (num_sections // 2)
+
+#         print(f"Turning towards open section: {best_section}, Direction: {turn_direction:.2f}")
+
+#         robot.move(ROBOT_SPEED, turn_direction)  # Turn towards open space
+
+#         time.sleep(0.1)
 
 @app.route('/toggle_movement')
 def toggle_movement():
@@ -171,7 +280,7 @@ def toggle_movement():
 def video_feed():
     def stream_video():
         while True:
-            frame = get_rgb().tobytes()
+            frame = get_depth().tobytes()
             yield (b'--frame\r\nContent-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
     return Response(stream_video(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
@@ -263,4 +372,5 @@ flask_thread.start()
 
 robot = pykobuki.Kobuki("/dev/kobuki")
 
-obstacle_avoidance()
+# obstacle_avoidance()
+follow_left_wall()
