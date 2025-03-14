@@ -1,3 +1,0 @@
-source;share/ecl_formatters/environment/ament_prefix_path.sh
-source;share/ecl_formatters/environment/library_path.sh
-source;share/ecl_formatters/environment/path.sh

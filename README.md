@@ -1,5 +1,5 @@
 # LoCoBot
-A project to get LoCoBot running in 2025 via modified scripts and setup. Created by two highschoolers.
+A project to get LoCoBot running in 2025 via modified scripts and setup.
 
 ## Setup
 In this repository there is a "setup.py" and "KobukiSetup.sh" file. Both of these files will help with setting up the robot.
@@ -14,7 +14,7 @@ In this repository there is a "setup.py" and "KobukiSetup.sh" file. Both of thes
   Run the KobukiSetup.sh file in the robots terminal and let it do its work. Once the KobukiSetup.sh file is done run the setup.py file using the command "sudo python3 setup.py build" and once that is done run the command "sudo python3 setup.pe install" these two commands
   will set up the pykobuki wrapper that we made so people can code in Python on the robot.
 ### Step 4:
-  Test the robot_example.py file to make sure the robot works, this file is a demo made we made that uses object detection to avoid objects. You can also use this file to self drive the robot. 
+  Test the robot_demo.py file to make sure the robot works, this file is a demo made we made that uses object detection to avoid objects. You can also use this file to self drive the robot. 
   The controls for self drive are:
     W - Forward
     A - Turn Left

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libecl_exceptions.so.1.2.1 -o libecl_exceptions.so.1.2.1 CMakeFiles/ecl_exceptions.dir/standard_exception.cpp.o  -Wl,-rpath,/home/locobot/Documents/kobuki/install/lib: /home/locobot/Documents/kobuki/install/lib/libecl_errors.so.1.1.0 
