@@ -1,1 +1,0 @@
-/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/ecl_demo_constructors.dir/constructors.cpp.o  -o demo_constructors  -Wl,-rpath,/home/locobot/Documents/kobuki/install/lib: /home/locobot/Documents/kobuki/install/lib/libecl_type_traits.so.1.2.1 
