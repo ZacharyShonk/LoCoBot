@@ -45,30 +45,6 @@ public:
         std::this_thread::sleep_for(std::chrono::duration<double>(seconds));
     }
     
-    // Turn left by a specified number of degrees.
-    void turn_left(double degrees) {
-        constexpr double angular_speed = 0.5; // rad/s (default turning speed)
-        double radians = degrees * (M_PI / 180.0);
-        double duration = radians / angular_speed;
-        // Command turn: positive angular velocity for left turn.
-        kobuki_->setBaseControl(0.0, angular_speed);
-        sleep(duration);
-        // Stop turning.
-        kobuki_->setBaseControl(0.0, 0.0);
-    }
-    
-    // Turn right by a specified number of degrees.
-    void turn_right(double degrees) {
-        constexpr double angular_speed = 0.5; // rad/s (default turning speed)
-        double radians = degrees * (M_PI / 180.0);
-        double duration = radians / angular_speed;
-        // Command turn: negative angular velocity for right turn.
-        kobuki_->setBaseControl(0.0, -angular_speed);
-        sleep(duration);
-        // Stop turning.
-        kobuki_->setBaseControl(0.0, 0.0);
-    }
-    
     // Helper function to format floating-point numbers to two decimal places.
     std::string format_float(double value) const {
         std::ostringstream oss;
@@ -118,8 +94,6 @@ PYBIND11_MODULE(pykobuki, m) {
              "Command the robot to move with specified linear and angular velocities.")
         .def("sleep", &PyKobuki::sleep,
              "Sleep for a given number of seconds.")
-        .def("turn_left", &PyKobuki::turn_left,
-             "Turn the robot left by a specified number of degrees.")
         .def("read_sensor_data", &PyKobuki::read_sensor_data,
              "Read sensor data (e.g., bumpers, wheel drop, cliff sensors, etc.) from the robot.")
         .def("shutdown", &PyKobuki::shutdown,
