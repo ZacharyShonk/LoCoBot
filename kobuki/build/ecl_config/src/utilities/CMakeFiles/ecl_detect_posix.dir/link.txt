@@ -1,1 +1,0 @@
-/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/ecl_detect_posix.dir/detect_posix.cpp.o  -o bin/ecl_detect_posix 
