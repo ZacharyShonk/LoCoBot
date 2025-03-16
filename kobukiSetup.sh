@@ -74,7 +74,7 @@ fi
 
 # This needs improvement but it works so wtv. I know this is never going to be updated
 read -p "Do you want to add LD_LIBRARY_PATH exports to your bashrc file? These are needed to work properly. [y/N] " install_exports
-if [[ "$install_udev" =~ ^[Yy]$ ]]; then
+if [[ "$install_exports" =~ ^[Yy]$ ]]; then
     # LD_LIBRARY_PATH entries
     LD_PATH_1='export LD_LIBRARY_PATH="$WORKSPACE_DIR/build/kobuki_core/src/driver:$LD_LIBRARY_PATH"'
     LD_PATH_2='export LD_LIBRARY_PATH="$WORKSPACE_DIR/install/lib:$LD_LIBRARY_PATH"'
@@ -102,5 +102,3 @@ echo "To take Kobuki for a test drive, run:"
 echo "  source ./install/setup.bash && kobuki-simple-keyop"
 
 # install pybind, and other shit
-# export LD_LIBRARY_PATH=/home/locobot/micro-software/kobuki/build/kobuki_core/src/driver:$LD_LIBRARY_PATH
-# export LD_LIBRARY_PATH=/home/locobot/micro-software/kobuki/install/lib:$LD_LIBRARY_PATH
