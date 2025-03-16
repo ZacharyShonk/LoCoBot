@@ -225,51 +225,6 @@ def follow_left_wall(target_distance=0.9):
 
         time.sleep(0.1)
 
-
-# def obstacle_avoidance():
-#     global movement_enabled, ROBOT_SPEED
-
-#     while True:
-#         adjust_thresholds_for_speed()  # Adjust thresholds based on speed
-
-#         if not movement_enabled:
-#             robot.move(0, 0)
-#             time.sleep(0.1)
-#             continue
-
-#         frames = pipeline.wait_for_frames()
-#         depth_frame = frames.get_depth_frame()
-#         depth_data = np.asanyarray(depth_frame.get_data()) / 1000.0  # Convert mm to meters
-
-#         height, width = depth_data.shape
-#         num_sections = 5  # Split screen into 5 sections
-#         section_width = width // num_sections
-
-#         open_sections = []
-
-#         def get_filtered_distance(region):
-#             valid_values = region[region > 0]  # Remove invalid (zero) depth readings
-#             if valid_values.size == 0:
-#                 return float('inf')  # No valid depth, assume open space
-#             return np.mean(valid_values)  # Use mean to determine openness
-
-#         for i in range(num_sections):
-#             section = depth_data[:, i * section_width:(i + 1) * section_width]
-#             avg_dist = get_filtered_distance(section)
-#             open_sections.append((avg_dist, i))
-
-#         # Find the section with the maximum depth (most open space)
-#         best_section = max(open_sections, key=lambda x: x[0])[1]
-
-#         # Calculate turn direction based on section index
-#         turn_direction = (best_section - (num_sections // 2)) / (num_sections // 2)
-
-#         print(f"Turning towards open section: {best_section}, Direction: {turn_direction:.2f}")
-
-#         robot.move(ROBOT_SPEED, turn_direction)  # Turn towards open space
-
-#         time.sleep(0.1)
-
 @app.route('/toggle_movement')
 def toggle_movement():
     global movement_enabled
