@@ -1,5 +1,5 @@
 # LoCoBot
-A project to get LoCoBot running in 2025 using modified scripts and setup procedures.
+A project to run LoCoBot in 2025 using pure Python with minimal C++.
 
 ## Setup
 This repository contains `setup.py` and `KobukiSetup.sh`, which assist in setting up the robot.
