@@ -1,65 +1,35 @@
 from WidowX_Arm_Module import WidowX200Arm
 import time
 
-ROBOT_SPEED = 0.2
-
+# Startup the arm (default device: "/dev/ttyUSB1")
 arm = WidowX200Arm(dev_port="/dev/ttyUSB1", baud_rate=1000000)
 
-WORKSPACE_LIMITS = arm.WORKSPACE_LIMITS
-JOINT_LIMITS = arm.JOINT_LIMITS
+# Set the speed of all the motors - wont effect commands the change the speed
+# Higher number - slower (0, 1023)
+arm.set_all_speed(800)
 
-def MoveArm(x, y, z, pitch, roll, speed):
-    perc_x = x
-    perc_y = y
-    perc_z = z
-
-    target_x = WORKSPACE_LIMITS['x'][0] + (perc_x / 100.0) * (WORKSPACE_LIMITS['x'][1] - WORKSPACE_LIMITS['x'][0])
-    target_y = WORKSPACE_LIMITS['y'][0] + (perc_y / 100.0) * (WORKSPACE_LIMITS['y'][1] - WORKSPACE_LIMITS['y'][0])
-    target_z = WORKSPACE_LIMITS['z'][0] + (perc_z / 100.0) * (WORKSPACE_LIMITS['z'][1] - WORKSPACE_LIMITS['z'][0])
-
-    print(f"Computed target coordinates: x={target_x:.3f}, y={target_y:.3f}, z={target_z:.3f}")
-
-    ik_solution = arm.inverse_kinematics(target_x, target_y, target_z, pitch, roll)
-
-    if ik_solution is None:
-        print("No valid IK solution for the given target.")
-    else:
-        print("Computed joint angles (degrees):")
-        for joint, angle in zip(["waist", "shoulder", "elbow", "wrist_angle", "wrist_rotate"], ik_solution):
-            print(f"  {joint}: {angle:.2f}")
-
-        for joint, angle in zip(["waist", "shoulder", "elbow", "wrist_angle", "wrist_rotate"], ik_solution):
-            arm.move_joint(joint, angle, speed)
-
-def Gripper(Position):
-    if Position >= JOINT_LIMITS["gripper"][1]:
-        Position = JOINT_LIMITS["gripper"][1]
-    elif Position <= JOINT_LIMITS["gripper"][0]:
-        Position = JOINT_LIMITS["gripper"][0]
-    else:
-        Position = Position
-    arm.move_joint("gripper", Position, 800)
-
-time.sleep(2)
-
-arm.Zero()
+# Tucks the arm under the camera
+arm.Tuck()
 
 time.sleep(1)
 
-MoveArm(100, 50, 100, 0, 0, 500)
-time.sleep(0.2)
-MoveArm(80, 100, 50, 30, 0, 1000)
-time.sleep(0.4)
-MoveArm(90, 100, 40, 30, 0, 1000)
-time.sleep(0.3)
-MoveArm(100, 50, 100, 0, 0, 500)
-time.sleep(0.4)
-MoveArm(100, 50, 100, 0, 0, 500)
-time.sleep(0.4)
-MoveArm(100, 0, 100, 0, 0, 500)
-time.sleep(0.2)
-MoveArm(80, 100, 50, 30, 0, 1000)
-time.sleep(0.4)
-MoveArm(90, 50, 40, 30, 0, 1000)
+# Uses % of max position to move the arm in X(Forwards/Backwards), Y(Base Turn Left/Right)
+#Z(Up/Down), Pitch(Gripper Up/Down), Roll (Gripper Roll), Speed(0, 1023 Higher - slower)
+arm.MoveArm(True, 100,50, 30, 0, 0, 800)
 
+time.sleep(1)
 
+# Zeros the arm to all of the servos default values
+arm.Zero()
+
+time.sleep(0.5)
+
+arm.MoveArm(False, 0.3,80, 0.3, 0, 0, 800)
+
+time.sleep(1)
+
+# Moves the joint to position 0, based on joint name
+arm.move_joint("waist", 0, 500)
+
+# Sets the gripper to a position stated or clamps to limit if passed limit
+arm.Gripper(-41)

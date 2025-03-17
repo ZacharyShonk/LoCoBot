@@ -81,6 +81,18 @@ class WidowX200Arm:
     def position_to_degrees(self, position):
         return (position * self.POSITION_TO_DEGREE) - 180
 
+    def set_all_speed(self, speed):
+        for joint_name, joint_id in self.JOINT_IDS.items():
+            if isinstance(joint_id, tuple):  
+                for id in joint_id:
+                    self.packet_handler.write4ByteTxRx(
+                        self.port_handler, id, self.ADDR_GOAL_VELOCITY, int(speed)
+                    )
+            else:
+                self.packet_handler.write4ByteTxRx(
+                    self.port_handler, joint_id, self.ADDR_GOAL_VELOCITY, int(speed)
+                )
+
     def set_speed(self, servo_id, speed):
         self.packet_handler.write4ByteTxRx(self.port_handler, servo_id, self.ADDR_GOAL_VELOCITY, int(speed))
 
@@ -90,26 +102,31 @@ class WidowX200Arm:
     def move_joint(self, joint, degrees, speed):
         if joint in self.JOINT_LIMITS:
             min_deg, max_deg = self.JOINT_LIMITS[joint]
-            if min_deg <= degrees <= max_deg:
-                position = self.degrees_to_position(degrees)
-                speed = max(0, min(speed, 1023))
 
-                if isinstance(self.JOINT_IDS[joint], tuple):
-                    mirror_position = self.DYNAMIXEL_MAX - position
-                    for servo_id in self.JOINT_IDS[joint]:
-                        self.set_speed(servo_id, speed)
-                        if servo_id == self.JOINT_IDS[joint][0]:
-                            self.set_position(servo_id, position)
-                        else:
-                            self.set_position(servo_id, mirror_position)
-                else:
-                    servo_id = self.JOINT_IDS[joint]
+            if degrees < min_deg:
+                degrees = min_deg
+                print(f"Warning: Clamped {joint} to {min_deg}° (out of range).")
+            elif degrees > max_deg:
+                degrees = max_deg
+                print(f"Warning: Clamped {joint} to {max_deg}° (out of range).")
+
+            position = self.degrees_to_position(degrees)
+            speed = max(0, min(speed, 1023))
+
+            if isinstance(self.JOINT_IDS[joint], tuple):
+                mirror_position = self.DYNAMIXEL_MAX - position
+                for servo_id in self.JOINT_IDS[joint]:
                     self.set_speed(servo_id, speed)
-                    self.set_position(servo_id, position)
-
-                print(f"Joint {joint} moving to {degrees}° at speed {speed}.")
+                    if servo_id == self.JOINT_IDS[joint][0]:
+                        self.set_position(servo_id, position)
+                    else:
+                        self.set_position(servo_id, mirror_position)
             else:
-                print(f"Error: Joint {joint} position {degrees}° out of range ({min_deg}° to {max_deg}°).")
+                servo_id = self.JOINT_IDS[joint]
+                self.set_speed(servo_id, speed)
+                self.set_position(servo_id, position)
+
+            print(f"Joint {joint} moving to {degrees}° at speed {speed}.")
         else:
             print(f"Error: No limits defined for joint {joint}.")
 
@@ -119,38 +136,21 @@ class WidowX200Arm:
         else:
             position, _, _ = self.packet_handler.read2ByteTxRx(self.port_handler, self.JOINT_IDS[joint], self.ADDR_PRESENT_POSITION)
         return self.position_to_degrees(position)
-
-    def wait_for_movement(self, servo_id, target_position, tolerance=10):
-        while True:
-            current_position, _, _ = self.packet_handler.read4ByteTxRx(self.port_handler, servo_id, self.ADDR_PRESENT_POSITION)
-            if abs(current_position - target_position) <= tolerance:
-                break
-            time.sleep(0.1)
-
-    def cycle_joint(self, joint, min_deg, max_deg, start_speed=100, end_speed=1023, cycles=20):
-        for cycle in range(cycles):
-            current_speed = int(start_speed + ((end_speed - start_speed) * (cycle / (cycles - 1))))
-            min_pos = self.degrees_to_position(min_deg)
-            max_pos = self.degrees_to_position(max_deg)
-            servo_ids = self.JOINT_IDS[joint]
-            if isinstance(servo_ids, tuple):
-                for servo_id in servo_ids:
-                    self.packet_handler.write4ByteTxRx(self.port_handler, servo_id, self.ADDR_GOAL_VELOCITY, current_speed)
-                self.packet_handler.write4ByteTxRx(self.port_handler, servo_ids[0], self.ADDR_GOAL_POSITION, min_pos)
-                self.packet_handler.write4ByteTxRx(self.port_handler, servo_ids[1], self.ADDR_GOAL_POSITION, self.DYNAMIXEL_MAX - min_pos)
-                self.wait_for_movement(servo_ids[0], min_pos)
+    
+    def read_all_joint_positions(self):
+        for joint_name, joint_id in self.JOINT_IDS.items():
+            if isinstance(joint_id, tuple):  
+                for id in joint_id:
+                    position = self.read_joint_position(joint_name)
+                    print(f"{joint_name} (ID: {id}): {position} degrees")
             else:
-                self.packet_handler.write4ByteTxRx(self.port_handler, servo_ids, self.ADDR_GOAL_VELOCITY, current_speed)
-                self.packet_handler.write4ByteTxRx(self.port_handler, servo_ids, self.ADDR_GOAL_POSITION, min_pos)
-                self.wait_for_movement(servo_ids, min_pos)
-            self.packet_handler.write4ByteTxRx(self.port_handler, servo_ids, self.ADDR_GOAL_POSITION, max_pos)
-            self.wait_for_movement(servo_ids, max_pos)
+                position = self.read_joint_position(joint_name)
+                print(f"{joint_name}: {position} degrees")
 
     def Zero(self):
         for joint in ["waist", "shoulder", "elbow", "wrist_angle", "wrist_rotate"]:
             self.move_joint(joint, 0, 1000)
 
-    # Inverse Kinematics Solver
     def inverse_kinematics(self, x, y, z, pitch_deg, roll_deg=0):
         pitch = math.radians(pitch_deg)
         roll  = math.radians(roll_deg)
@@ -196,3 +196,49 @@ class WidowX200Arm:
 
         print(f"Inverse Kinematics Solution: q1={q1_deg}, q2={q2_deg}, q3={q3_deg}, q4={q4_deg}, q5={q5_deg}")
         return q1_deg, q2_deg, q3_deg, q4_deg, q5_deg
+    
+    def MoveArm(self, use_percent, x, y, z, pitch, roll, speed):
+
+
+        if use_percent:
+            target_x = self.WORKSPACE_LIMITS['x'][0] + (x / 100.0) * (self.WORKSPACE_LIMITS['x'][1] - self.WORKSPACE_LIMITS['x'][0])
+            target_y = self.WORKSPACE_LIMITS['y'][0] + (y / 100.0) * (self.WORKSPACE_LIMITS['y'][1] - self.WORKSPACE_LIMITS['y'][0])
+            target_z = self.WORKSPACE_LIMITS['z'][0] + (z / 100.0) * (self.WORKSPACE_LIMITS['z'][1] - self.WORKSPACE_LIMITS['z'][0])
+        else:
+            target_x = x
+            target_y = self.WORKSPACE_LIMITS['y'][0] + (y / 100.0) * (self.WORKSPACE_LIMITS['y'][1] - self.WORKSPACE_LIMITS['y'][0])
+            target_z = z
+
+        print(f"Computed target coordinates: x={target_x:.3f}, y={target_y:.3f}, z={target_z:.3f}")
+
+        ik_solution = self.inverse_kinematics(target_x, target_y, target_z, pitch, roll)
+
+        if ik_solution is None:
+            print("No valid IK solution for the given target.")
+        else:
+            print("Computed joint angles (degrees):")
+            for joint, angle in zip(["waist", "shoulder", "elbow", "wrist_angle", "wrist_rotate"], ik_solution):
+                print(f"  {joint}: {angle:.2f}")
+
+            for joint, angle in zip(["waist", "shoulder", "elbow", "wrist_angle", "wrist_rotate"], ik_solution):
+                self.move_joint(joint, angle, speed)
+
+    def Gripper(self, Position):
+        if Position >= self.JOINT_LIMITS["gripper"][1]:
+            Position = self.JOINT_LIMITS["gripper"][1]
+        elif Position <= self.JOINT_LIMITS["gripper"][0]:
+            Position = self.JOINT_LIMITS["gripper"][0]
+        else:
+            Position = Position
+        self.move_joint("gripper", Position, 800)
+
+    def Tuck(self):
+        self.Zero()
+        time.sleep(2)
+
+        self.move_joint("waist", -1.8021978021977816, 1000)
+        time.sleep(0.6)
+        self.move_joint("shoulder", -76.7032967032967, 1000)
+        self.move_joint("elbow", 96.74725274725279, 1000)
+        self.move_joint("wrist_angle", 30.373626373626394, 1000)
+        self.move_joint("wrist_rotate", 0, 1000)
