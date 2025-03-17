@@ -12,12 +12,15 @@ import time
 # Startup the arm (default device: "/dev/ttyUSB1")
 arm = WidowX200Arm(dev_port="/dev/ttyUSB1", baud_rate=1000000)
 
+#Turns on the Arm Servos
+arm.enable()
+
 # Set the speed of all the motors - wont effect commands the change the speed
 # Higher number - slower (0, 1023)
 arm.set_all_speed(800)
 
 # Tucks the arm under the camera
-arm.Tuck()
+arm.Tuck() 
 
 time.sleep(1)
 
@@ -32,7 +35,7 @@ arm.Zero()
 
 time.sleep(0.5)
 
-arm.MoveArm(False, 0.3,80, 0.3, 0, 0, 800)
+arm.MoveArm(False, 0.3,80, 0.3, 0, 0, 800) 
 
 time.sleep(1)
 
@@ -41,6 +44,15 @@ arm.move_joint("waist", 0, 500)
 
 # Sets the gripper to a position stated or clamps to limit if passed limit
 arm.Gripper(-41)
+
+time.sleep(0.3)
+
+arm.Tuck()
+
+time.sleep(0.5)
+
+# Shutsdown the arm
+arm.shutdown()
 ```
 
 ## API Reference
@@ -54,6 +66,11 @@ Initializes a connection to the Arm.
 - `dev_port`: Path to the serial port where the robot is connected (default: `"/dev/ttyUSB1"`).
 
 #### Methods
+
+```python
+variable.enable()
+```
+Turns on the arms servos
 
 ```python
 variable.MoveArm(use_percent: bool,x: float,y: float, z: float, pitch: int, roll: int, speed: int)
@@ -90,3 +107,8 @@ variable.Gripper(position: float)
 ```
 Moves the gripper inwards and outwards based on position given
 - `position`: the position of the gripper to be moved to (limits found in module)
+
+```python
+variable.shutdown()
+```
+Turns off the servos on the arm (only do this when it is in a safe position, or it can risk damaging the arm.)

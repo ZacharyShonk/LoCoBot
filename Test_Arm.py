@@ -4,6 +4,9 @@ import time
 # Startup the arm (default device: "/dev/ttyUSB1")
 arm = WidowX200Arm(dev_port="/dev/ttyUSB1", baud_rate=1000000)
 
+#Turns on the Arm Servos
+arm.enable()
+
 # Set the speed of all the motors - wont effect commands the change the speed
 # Higher number - slower (0, 1023)
 arm.set_all_speed(800)
@@ -33,3 +36,11 @@ arm.move_joint("waist", 0, 500)
 
 # Sets the gripper to a position stated or clamps to limit if passed limit
 arm.Gripper(-41)
+
+time.sleep(0.3)
+
+arm.Tuck()
+
+time.sleep(1)
+
+arm.shutdown()

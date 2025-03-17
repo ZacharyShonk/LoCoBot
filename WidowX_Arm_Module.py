@@ -64,17 +64,6 @@ class WidowX200Arm:
             exit()
         print(f"Serial port opened at {self.BAUD_RATE} bps.")
 
-        for joint, ids in self.JOINT_IDS.items():
-            if isinstance(ids, tuple):
-                for servo_id in ids:
-                    if servo_id == 3:
-                        self.packet_handler.write1ByteTxRx(self.port_handler, servo_id, self.ADDR_TORQUE_ENABLE, self.TORQUE_DISABLE)
-                    else:
-                        self.packet_handler.write1ByteTxRx(self.port_handler, servo_id, self.ADDR_TORQUE_ENABLE, self.TORQUE_ENABLE)
-            else:
-                self.packet_handler.write1ByteTxRx(self.port_handler, ids, self.ADDR_TORQUE_ENABLE, self.TORQUE_ENABLE)
-        print("Arm joints are enabled.")
-
     def degrees_to_position(self, degrees):
         return int((degrees + 180) * self.DEGREE_TO_POSITION)
 
@@ -242,3 +231,25 @@ class WidowX200Arm:
         self.move_joint("elbow", 96.74725274725279, 1000)
         self.move_joint("wrist_angle", 30.373626373626394, 1000)
         self.move_joint("wrist_rotate", 0, 1000)
+
+    def shutdown(self):
+        for joint, ids in self.JOINT_IDS.items():
+            if isinstance(ids, tuple):
+                for servo_id in ids:
+                    if servo_id == 3:
+                        self.packet_handler.write1ByteTxRx(self.port_handler, servo_id, self.ADDR_TORQUE_ENABLE, self.TORQUE_DISABLE)
+                    else:
+                        self.packet_handler.write1ByteTxRx(self.port_handler, servo_id, self.ADDR_TORQUE_ENABLE, self.TORQUE_DISABLE)
+            else:
+                self.packet_handler.write1ByteTxRx(self.port_handler, ids, self.ADDR_TORQUE_ENABLE, self.TORQUE_DISABLE)
+
+    def enable(self):
+        for joint, ids in self.JOINT_IDS.items():
+            if isinstance(ids, tuple):
+                for servo_id in ids:
+                    if servo_id == 3:
+                        self.packet_handler.write1ByteTxRx(self.port_handler, servo_id, self.ADDR_TORQUE_ENABLE, self.TORQUE_DISABLE)
+                    else:
+                        self.packet_handler.write1ByteTxRx(self.port_handler, servo_id, self.ADDR_TORQUE_ENABLE, self.TORQUE_ENABLE)
+            else:
+                self.packet_handler.write1ByteTxRx(self.port_handler, ids, self.ADDR_TORQUE_ENABLE, self.TORQUE_ENABLE)
