@@ -9,8 +9,7 @@
 3. [Usage](#usage)
 4. [Examples](#examples)
 5. [Documentation](#documentation)
-6. [Contributing](#contributing)
-7. [License](#license)
+6. [License](#license)
 
 ---
 
