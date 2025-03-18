@@ -7,9 +7,8 @@
 1. [Overview](#overview)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Examples](#examples)
-5. [Documentation](#documentation)
-6. [License](#license)
+4. [Documentation](#documentation)
+5. [License](#license)
 
 ---
 
