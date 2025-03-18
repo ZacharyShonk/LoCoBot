@@ -19,8 +19,17 @@ install_dependencies() {
         pip3 install colcon-common-extensions
     fi
 
+    # Check if `python3.8-venv` is installed
+    if ! dpkg -l | grep -q python3.8-venv; then
+        echo "'python3.8-venv' is not installed. Installing..."
+        sudo apt-get update
+        sudo apt-get install -y python3.8-venv
+    fi
+
     echo "Installing pybind11..."
     sudo pip3 install pybind11
+    echo "Installing setuptools..."
+    pip3 install setuptools
 }
 
 install_dependencies
@@ -76,8 +85,8 @@ fi
 read -p "Do you want to add LD_LIBRARY_PATH exports to your bashrc file? These are needed to work properly. [y/N] " install_exports
 if [[ "$install_exports" =~ ^[Yy]$ ]]; then
     # LD_LIBRARY_PATH entries
-    LD_PATH_1='export LD_LIBRARY_PATH="$WORKSPACE_DIR/build/kobuki_core/src/driver:$LD_LIBRARY_PATH"'
-    LD_PATH_2='export LD_LIBRARY_PATH="$WORKSPACE_DIR/install/lib:$LD_LIBRARY_PATH"'
+    LD_PATH_1="export LD_LIBRARY_PATH=\"\$WORKSPACE_DIR/build/kobuki_core/src/driver:\$LD_LIBRARY_PATH\""
+    LD_PATH_2="export LD_LIBRARY_PATH=\"\$WORKSPACE_DIR/install/lib:\$LD_LIBRARY_PATH\""
 
     # Function to append to .bashrc if not already present
     add_to_bashrc() {
@@ -93,7 +102,7 @@ if [[ "$install_exports" =~ ^[Yy]$ ]]; then
     source "$BASHRC"
 fi
 
-echo "Setup is complete."
+echo "Setup is complete. cd into the kobuki folder"
 echo ""
 echo "To check Kobuki version info, run:"
 echo "  source ./install/setup.bash && kobuki-version-info"

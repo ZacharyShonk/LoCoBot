@@ -51,16 +51,16 @@ Commands the robot to move with specified velocities.
 read_sensor_data() -> dict
 ```
 Retrieves sensor data from the robot and returns it as a dictionary containing:
-- `time_stamp`: Timestamp of the data
-- `bumper`: Bumper sensor status
-- `wheel_drop`: Wheel drop sensor status
-- `cliff`: Cliff sensor status
-- `left_encoder`, `right_encoder`: Wheel encoders
-- `left_pwm`, `right_pwm`: Motor PWM values
-- `buttons`: Button press states
-- `charger`: Charging status
-- `battery`: Battery voltage (formatted to two decimal places)
-- `over_current`: Overcurrent status
+ - `time_stamp`: Timestamp of the data
+ - `bumper_left`, `bumper_center`, `bumper_right`: Individual bumper sensor statuses
+ - `wheel_drop_left`, `wheel_drop_right`: Wheel drop sensor statuses
+ - `cliff_left`, `cliff_center`, `cliff_right`: Cliff sensor statuses
+ - `left_encoder`, `right_encoder`: Wheel encoders (counts)
+ - `left_pwm`, `right_pwm`: Motor PWM values
+ - `button0`, `button1`, `button2`: Button press states
+ - `charger_state`: Charging status (integer, 0 = not charging, 1 = charging)
+ - `battery_voltage`: Battery voltage (formatted to two decimal places)
+ - `overcurrent_left`, `overcurrent_right`: Overcurrent statuses for left and right motors
 
 ```python
 shutdown()
