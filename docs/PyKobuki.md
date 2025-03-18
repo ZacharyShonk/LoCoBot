@@ -71,17 +71,17 @@ Stops the robot and disables it.
 Explore the following examples to get started with Kobuki:
 
 - **Dynamic Path Following with Bumper and Cliff Sensors**: Implement dynamic path following while avoiding obstacles using bumper and cliff sensors.
-   - [View Python Script](examples/pykobuki/dynamic_path_following_with_bumper_and_cliff_sensors.py)
-   - [Read Explanation](examples/pykobuki/dynamic_path_following_with_bumper_and_cliff_sensors.md)
+   - [View Python Script](/examples/pykobuki/dynamic_path_following_with_bumper_and_cliff_sensors.py)
+   - [Read Explanation](/examples/pykobuki/dynamic_path_following_with_bumper_and_cliff_sensors.md)
 
 - **Continuous Movement with Obstacle Avoidance**: Move continuously while avoiding obstacles using sensor data.
-   - [View Python Script](examples/pykobuki/continuous_movement_with_obstacle_avoidance.py)
-   - [Read Explanation](examples/pykobuki/continuous_movement_with_obstacle_avoidance.md)
+   - [View Python Script](/examples/pykobuki/continuous_movement_with_obstacle_avoidance.py)
+   - [Read Explanation](/examples/pykobuki/continuous_movement_with_obstacle_avoidance.md)
 
 - **Random Movement with Obstacle Avoidance**: Perform random movement while avoiding obstacles and cliffs.
-   - [View Python Script](examples/pykobuki/random_movement_with_obstacle_avoidance.py)
-   - [Read Explanation](examples/pykobuki/random_movement_with_obstacle_avoidance.md)
+   - [View Python Script](/examples/pykobuki/random_movement_with_obstacle_avoidance.py)
+   - [Read Explanation](/examples/pykobuki/random_movement_with_obstacle_avoidance.md)
 
 - **Timed Rotation with Bumper Check**: Perform a timed rotation while checking for bumpers and reacting accordingly.
-   - [View Python Script](examples/pykobuki/timed_rotation_with_bumper_check.py)
-   - [Read Explanation](examples/pykobuki/timed_rotation_with_bumper_check.md)
+   - [View Python Script](/examples/pykobuki/timed_rotation_with_bumper_check.py)
+   - [Read Explanation](/examples/pykobuki/timed_rotation_with_bumper_check.md)
