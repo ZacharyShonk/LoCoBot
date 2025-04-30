@@ -1,6 +1,6 @@
 # **LoCoBot**
 
-*A project to run LoCoBot in 2025 using pure Python with minimal C++.*
+*A project to run LoCoBot in 2025 using Python*
 
 ## **Table of Contents**
 
